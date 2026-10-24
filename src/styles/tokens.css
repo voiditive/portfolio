@@ -1,0 +1,49 @@
+/* Colours and fonts taken from the Canva design "drew's portfolio". */
+:root {
+	--red: #df2200;
+	--ink: #1e1e1e;
+	--ink-soft: #242424;
+	--white: #ffffff;
+	--paper: #fafafa;
+	--nav-height: 56px;
+
+	--font-spartan: 'League Spartan Variable', 'League Spartan', sans-serif;
+	--font-arimo: 'Arimo', Arial, sans-serif;
+	--font-montserrat: 'Montserrat Variable', 'Montserrat', sans-serif;
+
+	/* One Canva pixel at the current page width (Canva pages are 1366 wide).
+	   cqw, not vw: vw includes the scrollbar and would cause horizontal scroll. */
+	--u: calc(min(100cqw, 1600px) / 1366);
+}
+
+/* Desktop rules live under @media (min-width: 1024px); below that, blocks stack. */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: var(--nav-height);
+}
+
+body {
+	margin: 0;
+	background: var(--white);
+	color: var(--ink);
+	font-family: var(--font-spartan);
+	font-size: 16px;
+	line-height: 1.4;
+}
+
+main {
+	container-type: inline-size;
+	display: block;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
