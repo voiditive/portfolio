@@ -134,3 +134,34 @@ test.describe('at the Canva width every frame keeps its Canva height', () => {
 		});
 	}
 });
+
+test.describe('/ishda', () => {
+	test('has its title, objective and timeline, and continues to /yume', async ({ page }) => {
+		await page.goto('/ishda');
+		await expect(page.getByRole('heading', { level: 1 })).toHaveText('ISHDA');
+		const list = await headings(page);
+		expect(inOrder(list, ['ISHDA', 'OBJECTIVE', 'CREATIVE & FUN PROGRESS']), list.join(' | ')).toBe(true);
+		const main = page.locator('main');
+		await expect(main).toContainText('start');
+		await expect(main).toContainText('finish');
+		// The closing banner belongs to the last page only.
+		await expect(main).not.toContainText('THANK YOU');
+		await page.getByRole('link', { name: 'CLICK ME TO CONTINUE' }).click();
+		await expect(page).toHaveURL(/\/yume$/);
+	});
+});
+
+test.describe('/yume', () => {
+	test('ends the portfolio with the closing banner and no continue link', async ({ page }) => {
+		await page.goto('/yume');
+		await expect(page.getByRole('heading', { level: 1 })).toHaveText('YUMEPH');
+		const list = await headings(page);
+		expect(inOrder(list, ['YUMEPH', 'OUTCOME', 'THANK YOU :)', 'FOR TAKING TIME TO EXPLORE MY WORK!']), list.join(' | ')).toBe(true);
+		await expect(page.getByRole('link', { name: 'CLICK ME TO CONTINUE' })).toHaveCount(0);
+		// The banner is the last frame on the page.
+		const last = page.locator('main section.cs').last();
+		await expect(last).toContainText('THANK YOU :)');
+		// Canva's giant decorative 3 sits under a white shape: nothing of it shows.
+		await expect(page.locator('main .t.decor')).toHaveCount(0);
+	});
+});

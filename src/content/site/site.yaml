@@ -1208,3 +1208,159 @@ sections:
         w: 9.5
         h: 20.1
         decor: true
+closing:
+  background: ../../assets/images/yume/decor-08.webp
+  color: "#df2200"
+  height: 768
+  blocks:
+    - kind: text
+      label: TO THE ONE REVIEWING
+      text: TO THE ONE REVIEWING
+      as: h2
+      x: 383.3
+      y: 128.1
+      w: 599.5
+      h: 70.7
+      style:
+        font: arimo
+        size: 59.3
+        weight: 700
+        color: "#ffffff"
+        align: center
+        lh: 0.8
+        ls: -0.1
+    - kind: text
+      label: THANK YOU :)
+      text: THANK YOU :)
+      as: h2
+      x: 222.4
+      y: 163.6
+      w: 921.1
+      h: 193.8
+      style:
+        font: arimo
+        size: 161.9
+        weight: 700
+        color: "#ffffff"
+        align: center
+        lh: 0.8
+        ls: -0.1
+    - kind: text
+      label: FOR TAKING TIME TO EXPLORE MY WORK!
+      text: |-
+        FOR TAKING TIME TO EXPLORE 
+        MY WORK!
+      as: h2
+      x: 209
+      y: 499.6
+      w: 948
+      h: 145.1
+      style:
+        font: arimo
+        size: 72.8
+        weight: 400
+        color: "#ffffff"
+        align: center
+        lh: 0.8
+        ls: -0.1
+    - kind: image
+      label: Image 32
+      image: ../../assets/images/yume/34-MAHW4jk7bI0.webp
+      alt: YumePH clothing – image 32
+      x: 98
+      y: 134.1
+      w: 564.4
+      h: 564.4
+    - kind: image
+      label: Image 33
+      image: ../../assets/images/yume/37-MAHW4irt9do.webp
+      alt: YumePH clothing – image 33
+      x: 415.3
+      y: 225.7
+      w: 333.7
+      h: 333.7
+    - kind: image
+      label: Image 34
+      image: ../../assets/images/yume/35-MAHW4h2aUzY.webp
+      alt: YumePH clothing – image 34
+      x: 507.8
+      y: 188.2
+      w: 433.1
+      h: 433.1
+    - kind: image
+      label: Image 35
+      image: ../../assets/images/yume/36-MAHW4o0v5QY.webp
+      alt: YumePH clothing – image 35
+      x: 743.1
+      y: 216.1
+      w: 377.3
+      h: 377.3
+    - kind: text
+      label: THIS DESIGN PORTFOLIO INCLUDES THE DESIGNS
+      text: |-
+        THIS DESIGN PORTFOLIO INCLUDES
+        THE DESIGNS
+      as: p
+      x: 364.1
+      y: 666.6
+      w: 218.1
+      h: 61
+      style:
+        font: arimo
+        size: 19.9
+        weight: 400
+        color: "#ffffff"
+        align: start
+        lh: 1
+        ls: -0.06
+    - kind: text
+      label: +
+      text: +
+      as: p
+      x: 662.1
+      y: 644.7
+      w: 41.8
+      h: 103.5
+      style:
+        font: arimo
+        size: 86.3
+        weight: 400
+        color: "#ffffff"
+        align: center
+        lh: 0.8
+        ls: -0.1
+    - kind: text
+      label: YOU HAVE REACHED THE END OF MY PORTFOLIO
+      text: YOU HAVE REACHED THE END OF MY PORTFOLIO
+      as: p
+      x: 88.3
+      y: 24.9
+      w: 594.7
+      h: 26.6
+      style:
+        font: spartan
+        size: 22.9
+        weight: 400
+        color: "#ffffff"
+        align: start
+        lh: 1
+        ls: -0.06
+    - kind: text
+      label: THE PROCESSES OVER THE PAST YEARS
+      text: |-
+        THE PROCESSES
+        OVER THE PAST
+        YEARS
+      as: p
+      x: 842.6
+      y: 666.6
+      w: 156.8
+      h: 61
+      style:
+        font: arimo
+        size: 19.9
+        weight: 400
+        color: "#ffffff"
+        align: start
+        lh: 1
+        ls: -0.06

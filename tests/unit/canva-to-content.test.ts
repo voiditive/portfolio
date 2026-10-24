@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest';
-import { fontKey, headingTags, linkFor, mapLink, runsToText } from '../../scripts/canva-to-content.mjs';
+import { fontKey, headingTags, splitClosing, linkFor, mapLink, runsToText } from '../../scripts/canva-to-content.mjs';
 
 const run = (text: string, extra: Record<string, unknown> = {}) => ({
 	text,
@@ -87,5 +87,20 @@ describe('headingTags', () => {
 
 	test('lowercase labels, symbols and decorative giant glyphs are never headings', () => {
 		expect(headingTags([t('sample videos', 57.5, 10), t('+', 86.3, 20), t('A', 900, 0, true), t('MY ROLE', 91, 30)], 'first')).toEqual(['p', 'p', 'p', 'h1']);
+	});
+});
+
+describe('splitClosing', () => {
+	test('the frame that thanks the reader leaves the page and becomes the site closing banner', () => {
+		const frame = (text: string) => ({ blocks: [{ kind: 'text', text }] });
+		const { sections, closing } = splitClosing([frame('YUMEPH'), frame('OUTCOME'), frame('THANK YOU :)')]);
+		expect(sections.map((s) => s.blocks[0].text)).toEqual(['YUMEPH', 'OUTCOME']);
+		expect(closing?.blocks[0].text).toBe('THANK YOU :)');
+	});
+
+	test('pages without one keep every frame', () => {
+		const { sections, closing } = splitClosing([{ blocks: [{ kind: 'text', text: 'ISHDA' }] }]);
+		expect(sections).toHaveLength(1);
+		expect(closing).toBeUndefined();
 	});
 });

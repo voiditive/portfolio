@@ -49,6 +49,8 @@ const site = defineCollection({
 			phone: z.string(),
 			cvUrl: z.string().url(),
 			sections: z.array(sectionSchema(image)),
+			/** The thank-you frame shown after the last page in the chain. */
+			closing: sectionSchema(image).optional(),
 		}),
 });
 

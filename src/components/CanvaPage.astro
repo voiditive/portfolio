@@ -1,5 +1,6 @@
 ---
 // A page built from Canva frames, with "next" links resolved from the nav order.
+// The last page in the chain ends with the site's closing banner.
 // Pages whose content has no continue link of their own (new projects) get one.
 import { getCollection, getEntry, type CollectionEntry } from 'astro:content';
 import { navItems, nextPage } from '../lib/nav';
@@ -22,6 +23,8 @@ const items = navItems(
 	illustrations!.data,
 );
 const next = nextPage(current, items);
+// The thank-you banner ends whichever page is last in the chain.
+const closing = next ? undefined : (await getEntry('site', 'site'))!.data.closing;
 // Canva pages carry their own continue / back-up links (the last page only back-up).
 const hasOwnContinue = sections.some((s) =>
 	s.blocks.some((b) => b.link === 'next' || (b.kind === 'text' && /\]\((next|#top)\)/.test(b.text))),
@@ -30,3 +33,4 @@ const hasOwnContinue = sections.some((s) =>
 
 {sections.map((section, i) => <CanvaSection section={section} next={next?.href} eager={i === 0} />)}
 {!hasOwnContinue && <ContinueLink next={next} />}
+{closing && <CanvaSection section={closing} />}

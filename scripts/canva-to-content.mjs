@@ -71,9 +71,10 @@ const PAGES = [
 ];
 
 // Home page cards: Canva did not link them, the site does.
-// Leftover copies of the Pip-Boy cover text on the WIDW page, white on white in Canva:
-// invisible there, but phones recolour text for contrast and would show them.
-const HIDDEN_IDS = new Set(['LBY33RmZksky0kyv', 'LBQVJYCNlvRTBKt0', 'LBySB7DsFpsdQ5Gg', 'LBSDWWRYLGhXSLRD']);
+// Text Canva shows nothing of: leftover copies of the Pip-Boy cover text on the WIDW
+// page (white on white; phones recolour text for contrast and would show them), and
+// YumePH's giant decorative 3 (under a white shape, which the background layer bakes in).
+const HIDDEN_IDS = new Set(['LBY33RmZksky0kyv', 'LBQVJYCNlvRTBKt0', 'LBySB7DsFpsdQ5Gg', 'LBSDWWRYLGhXSLRD', 'LBCqh73WL7XcxDtL']);
 
 const LINKS_BY_ID = {
 	LB2NDGQMDsBH8jZM: '/pipboy',
@@ -205,6 +206,16 @@ function buildSections(data, crops, alt, slug) {
 	return sections;
 }
 
+/**
+ * The frame that thanks the reader (Canva's last frame of the last project) becomes the
+ * site's closing banner, shown after whichever page ends the chain.
+ */
+export function splitClosing(sections) {
+	const i = sections.findIndex((s) => s.blocks.some((b) => b.kind === 'text' && b.text.includes('THANK YOU')));
+	if (i === -1) return { sections, closing: undefined };
+	return { sections: sections.filter((_, j) => j !== i), closing: sections[i] };
+}
+
 function write(file, body) {
 	fs.mkdirSync(path.dirname(file), { recursive: true });
 	fs.writeFileSync(file, body);
@@ -215,10 +226,13 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
 	const crops = JSON.parse(fs.readFileSync(path.join(root, 'scripts/crops.json'), 'utf8'));
 	const yaml = (obj) => YAML.stringify(obj, { lineWidth: 0 });
 	const cardCrop = (slug) => crops.find((c) => c.canvaId === CARD_IDS[slug]).out;
-	for (const p of PAGES) {
+	const built = PAGES.map((p) => {
 		const data = JSON.parse(fs.readFileSync(path.join(root, `design/canva/${p.file}.json`), 'utf8'));
 		const pageCrops = crops.filter((c) => c.page === p.page && c.canvaId);
-		const sections = buildSections(data, pageCrops, p.alt, p.slug);
+		return { p, ...splitClosing(buildSections(data, pageCrops, p.alt, p.slug)) };
+	});
+	const closing = built.find((b) => b.closing)?.closing;
+	for (const { p, sections } of built) {
 		if (p.slug === 'home') {
 			// The second Canva frame is "about me": the nav links to /#about.
 			sections[1] = { anchor: 'about', ...sections[1] };
@@ -228,6 +242,7 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
 				phone: '+63 939 357 3880',
 				cvUrl: 'https://drive.google.com/file/d/17BG8bozSRukMAXM4ZNurV2sGvoGaW5i2/view?usp=sharing',
 				sections,
+				closing,
 			};
 			write(path.join(root, 'src/content/site/site.yaml'), yaml(site));
 		} else if (p.slug === 'illustrations') {
