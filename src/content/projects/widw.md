@@ -11,38 +11,6 @@ sections:
     color: "#ffffff"
     height: 768
     blocks:
-      - kind: text
-        label: PIPBOY
-        text: PIPBOY
-        as: p
-        x: 625.6
-        y: 225.7
-        w: 114.7
-        h: 35.9
-        style:
-          font: montserrat
-          size: 30.3
-          weight: 700
-          color: "#ffffff"
-          align: end
-          lh: 1
-          ls: -0.06
-      - kind: text
-        label: MULTIFUNCIONAL CLOCK
-        text: MULTIFUNCIONAL CLOCK
-        as: p
-        x: 591.1
-        y: 254.8
-        w: 209.1
-        h: 18.5
-        style:
-          font: montserrat
-          size: 15.8
-          weight: 400
-          color: "#ffffff"
-          align: start
-          lh: 1.2
-          ls: 0
       - kind: image
         label: Image 1
         image: ../../assets/images/widw/02-MAG3o8QZnBU.webp
@@ -1039,12 +1007,16 @@ sections:
           align: start
           lh: 1
           ls: -0.06
+  - background: ../../assets/images/widw/decor-12.webp
+    color: "#df2200"
+    height: 768
+    blocks:
       - kind: text
         label: "!!"
         text: "!!"
         as: p
         x: -99.9
-        y: 532.5
+        y: -235.5
         w: 707.6
         h: 1318.2
         rot: 8.2
@@ -1057,10 +1029,6 @@ sections:
           lh: 0.84
           ls: -0.076
         decor: true
-  - background: ../../assets/images/widw/decor-12.webp
-    color: "#df2200"
-    height: 768
-    blocks:
       - kind: text
         label: THE TEAM THAT MADE IT HAPPEN
         text: THE  TEAM THAT MADE IT HAPPEN
@@ -1077,38 +1045,6 @@ sections:
           align: start
           lh: 0.84
           ls: -0.076
-      - kind: text
-        label: PIPBOY
-        text: PIPBOY
-        as: p
-        x: 625.6
-        y: 225.7
-        w: 114.7
-        h: 35.9
-        style:
-          font: montserrat
-          size: 30.3
-          weight: 700
-          color: "#ffffff"
-          align: end
-          lh: 1
-          ls: -0.06
-      - kind: text
-        label: MULTIFUNCIONAL CLOCK
-        text: MULTIFUNCIONAL CLOCK
-        as: p
-        x: 591.1
-        y: 254.8
-        w: 209.1
-        h: 18.5
-        style:
-          font: montserrat
-          size: 15.8
-          weight: 400
-          color: "#ffffff"
-          align: start
-          lh: 1.2
-          ls: 0
       - kind: text
         label: LEANDER PORNEA
         text: LEANDER PORNEA

@@ -71,6 +71,10 @@ const PAGES = [
 ];
 
 // Home page cards: Canva did not link them, the site does.
+// Leftover copies of the Pip-Boy cover text on the WIDW page, white on white in Canva:
+// invisible there, but phones recolour text for contrast and would show them.
+const HIDDEN_IDS = new Set(['LBY33RmZksky0kyv', 'LBQVJYCNlvRTBKt0', 'LBySB7DsFpsdQ5Gg', 'LBSDWWRYLGhXSLRD']);
+
 const LINKS_BY_ID = {
 	LB2NDGQMDsBH8jZM: '/pipboy',
 	LBKcsXtCrNNhLrfq: '/widw',
@@ -115,7 +119,7 @@ export function headingTags(blocks, h1 = 'first') {
 }
 
 function buildSections(data, crops, alt, slug) {
-	const textEls = data.elements.filter((e) => e.runs && e.runs.some((r) => r.text.trim()));
+	const textEls = data.elements.filter((e) => e.runs && e.runs.some((r) => r.text.trim()) && !HIDDEN_IDS.has(e.id));
 	const tags = headingTags(
 		textEls.map((e) => {
 			const size = r1(Math.max(...e.runs.map((r) => r.size ?? 0)));
@@ -140,6 +144,7 @@ function buildSections(data, crops, alt, slug) {
 	};
 	const items = [];
 	for (const e of data.elements) {
+		if (HIDDEN_IDS.has(e.id)) continue;
 		if (e.runs && e.runs.some((r) => r.text.trim())) items.push({ e, kind: 'text' });
 		else if (e.media && cropById.has(e.id)) items.push({ e, kind: e.media.kind === 'video' ? 'video' : 'image' });
 	}
@@ -150,7 +155,8 @@ function buildSections(data, crops, alt, slug) {
 			const first = e.runs.find((r) => r.text.trim());
 			const size = r1(Math.max(...e.runs.map((r) => r.size ?? 0)));
 			const decor = size > 400;
-			const section = sectionOf(e.top);
+			// A giant decorative glyph belongs to the frame its middle is in, where it shows.
+			const section = sectionOf(decor ? e.top + e.h / 2 : e.top);
 			const as = tagById.get(e.id);
 			const block = {
 				kind: 'text',

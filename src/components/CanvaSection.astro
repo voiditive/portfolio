@@ -209,7 +209,8 @@ const visible = section.background !== undefined || blocks.some((b) => b.kind ==
 	/* Desktop: the Canva frame, scaled by --u (one Canva pixel). */
 	@media (min-width: 1024px) {
 		.cs {
-			overflow-x: clip;
+			/* Canva clips each frame: decorative glyphs never spill into the next one. */
+			overflow: clip;
 		}
 
 		.cs-inner {
@@ -249,6 +250,14 @@ const visible = section.background !== undefined || blocks.some((b) => b.kind ==
 			padding-inline-end: calc(-1 * var(--ls));
 			transform: translate(var(--tx), calc(var(--dy) * var(--size) * var(--u))) rotate(var(--rot))
 				scaleX(calc(1 / var(--k)));
+		}
+
+		/* Giant decorative glyphs spill past their frame in Canva: they never grow it. */
+		.t.decor {
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 0;
 		}
 
 		.t.keep {

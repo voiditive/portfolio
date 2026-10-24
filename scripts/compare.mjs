@@ -20,6 +20,12 @@ const browser = await chromium.launch();
 const tab = await browser.newPage({ viewport: { width: WIDTH, height: 768 } });
 await tab.goto(new URL(route, baseUrl).href, { waitUntil: 'networkidle' });
 await tab.evaluate(() => document.fonts.ready);
+// A full-page screenshot doesn't scroll, so lazy images far down would stay blank.
+await tab.evaluate(async () => {
+	const images = [...document.images];
+	for (const img of images) img.loading = 'eager';
+	await Promise.all(images.map((img) => img.decode().catch(() => {})));
+});
 const shot = await tab.screenshot({ fullPage: true });
 await browser.close();
 

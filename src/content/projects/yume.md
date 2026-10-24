@@ -12,24 +12,6 @@ sections:
     height: 768
     blocks:
       - kind: text
-        label: "3"
-        text: "3"
-        as: p
-        x: 766.4
-        y: 674.5
-        w: 707.6
-        h: 1318.2
-        rot: -11.4
-        style:
-          font: arimo
-          size: 1101.8
-          weight: 400
-          color: "#242424"
-          align: start
-          lh: 0.84
-          ls: -0.076
-        decor: true
-      - kind: text
         label: CLICK TO GO BACK UP
         text: "[CLICK TO GO BACK UP](#top)"
         as: p
@@ -98,6 +80,24 @@ sections:
     color: "#ffffff"
     height: 768
     blocks:
+      - kind: text
+        label: "3"
+        text: "3"
+        as: p
+        x: 766.4
+        y: -93.5
+        w: 707.6
+        h: 1318.2
+        rot: -11.4
+        style:
+          font: arimo
+          size: 1101.8
+          weight: 400
+          color: "#242424"
+          align: start
+          lh: 0.84
+          ls: -0.076
+        decor: true
       - kind: image
         label: Image 2
         image: ../../assets/images/yume/03-MAHW4sh93ws.webp

@@ -82,3 +82,55 @@ test.describe('/pipboy', () => {
 		expect(Math.min(...sizes)).toBeGreaterThanOrEqual(16);
 	});
 });
+
+test.describe('/widw', () => {
+	test('has its title, role, outcome and team', async ({ page }) => {
+		await page.goto('/widw');
+		const main = page.locator('main');
+		await expect(page.getByRole('heading', { level: 1 })).toHaveText('WORLD INDUSTRIAL DESIGN WEEK 2026');
+		const list = await headings(page);
+		expect(inOrder(list, ['MY ROLE', 'THE OUTCOME']), list.join(' | ')).toBe(true);
+		for (const point of ['Creative Direction', 'Publications Management', 'Team Collaboration']) await expect(main).toContainText(point);
+		// Canva's team frame lists ten people (the plan said 11; the design has 10).
+		const team = main.locator('section.cs').filter({ hasText: 'THE TEAM THAT MADE IT HAPPEN' });
+		const names = await team.locator('p').allInnerTexts();
+		const people = names.filter((n) => /^[A-Z][A-Z ]+$/.test(n.trim()) && !/PUBLICATIONS|CO-CREATIVE|CLICK/.test(n));
+		expect(people[0]).toBe('LEANDER PORNEA');
+		expect(people).toHaveLength(10);
+		await expect(main.locator('a[href^="https://wdo.org/"]')).toHaveCount(1);
+	});
+
+	test('continues to /illustrations', async ({ page }) => {
+		await page.goto('/widw');
+		await page.getByRole('link', { name: 'CLICK ME TO CONTINUE' }).click();
+		await expect(page).toHaveURL(/\/illustrations$/);
+	});
+
+	test('leftover Pip-Boy text hidden in the Canva page stays out', async ({ page }) => {
+		await page.setViewportSize({ width: 375, height: 812 });
+		await page.goto('/widw');
+		await expect(page.locator('main')).not.toContainText('MULTIFUNCIONAL');
+	});
+});
+
+test.describe('at the Canva width every frame keeps its Canva height', () => {
+	for (const route of ['/', '/pipboy', '/widw', '/illustrations', '/ishda', '/yume']) {
+		test(route, async ({ page }) => {
+			test.skip(page.viewportSize()!.width !== 1366, 'measured at the Canva width');
+			await page.goto(route);
+			await page.evaluate(() => document.fonts.ready);
+			const off = await page.evaluate(() =>
+				[...document.querySelectorAll('main section.cs')]
+					.map((s, i) => ({ i, canva: parseFloat(getComputedStyle(s).getPropertyValue('--h')), site: s.getBoundingClientRect().height }))
+					.filter((r) => Math.abs(r.site - r.canva) > 2),
+			);
+			expect(off).toEqual([]);
+			// Nothing spills past the last frame either: the page is as tall as the Canva export.
+			const { page: height, frames } = await page.evaluate(() => ({
+				page: document.documentElement.scrollHeight,
+				frames: [...document.querySelectorAll('main section.cs')].reduce((sum, s) => sum + parseFloat(getComputedStyle(s).getPropertyValue('--h')), 0),
+			}));
+			if (frames > 0) expect(Math.abs(height - (56 + frames))).toBeLessThanOrEqual(2);
+		});
+	}
+});

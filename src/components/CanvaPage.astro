@@ -22,8 +22,9 @@ const items = navItems(
 	illustrations!.data,
 );
 const next = nextPage(current, items);
+// Canva pages carry their own continue / back-up links (the last page only back-up).
 const hasOwnContinue = sections.some((s) =>
-	s.blocks.some((b) => b.link === 'next' || (b.kind === 'text' && b.text.includes('](next)'))),
+	s.blocks.some((b) => b.link === 'next' || (b.kind === 'text' && /\]\((next|#top)\)/.test(b.text))),
 );
 ---
 
