@@ -1,0 +1,2756 @@
+{
+ "title": "widw",
+ "height": 9216,
+ "sections": [
+  {
+   "id": "PBvLSyNzFHjp9NCH",
+   "top": 0,
+   "h": 768,
+   "bg": "#ffffff"
+  },
+  {
+   "id": "PBdsKh1QTV3Wrsz8",
+   "top": 768,
+   "h": 768,
+   "bg": "#ffffff"
+  },
+  {
+   "id": "PBcsH2q1PlJYY7KG",
+   "top": 1536,
+   "h": 768,
+   "bg": "#ffffff"
+  },
+  {
+   "id": "PBsm2yLj8dhYglYL",
+   "top": 2304,
+   "h": 768,
+   "bg": "#ffffff"
+  },
+  {
+   "id": "PBfhG0xwkGfbd4G4",
+   "top": 3072,
+   "h": 768,
+   "bg": "#ffffff"
+  },
+  {
+   "id": "PBkrxpNgBRj4dFMB",
+   "top": 3840,
+   "h": 768,
+   "bg": "#ffffff"
+  },
+  {
+   "id": "PBjlDYhtKZpLHZpJ",
+   "top": 4608,
+   "h": 768,
+   "bg": "#ffffff"
+  },
+  {
+   "id": "PBZLFgDqmVtTF5jj",
+   "top": 5376,
+   "h": 768,
+   "bg": "#ffffff"
+  },
+  {
+   "id": "PBqDrMlKWG9pyppn",
+   "top": 6144,
+   "h": 768,
+   "bg": "#ffffff"
+  },
+  {
+   "id": "PBPQhNsjFRTQ78sm",
+   "top": 6912,
+   "h": 768,
+   "bg": "#ffffff"
+  },
+  {
+   "id": "PBTDfSQKbhHBpft0",
+   "top": 7680,
+   "h": 768,
+   "bg": "#ffffff"
+  },
+  {
+   "id": "PBCjKVqM76bBDZDB",
+   "top": 8448,
+   "h": 768,
+   "bg": "#df2200"
+  }
+ ],
+ "elements": [
+  {
+   "id": "LBY33RmZksky0kyv",
+   "type": "text",
+   "top": 225.7,
+   "left": 625.6,
+   "w": 114.7,
+   "h": 35.9,
+   "runs": [
+    {
+     "text": "PIPBOY",
+     "size": 30.3,
+     "weight": "bold",
+     "color": "#ffffff",
+     "align": "end",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBQVJYCNlvRTBKt0",
+   "type": "text",
+   "top": 254.8,
+   "left": 591.1,
+   "w": 209.1,
+   "h": 18.5,
+   "runs": [
+    {
+     "text": "MULTIFUNCIONAL CLOCK",
+     "size": 15.8,
+     "weight": "normal",
+     "color": "#ffffff",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBkqXkqT5LfSphMM",
+   "type": "rect",
+   "top": 275.3,
+   "left": 472.6,
+   "w": 420.8,
+   "h": 265.3,
+   "media": {
+    "kind": "image",
+    "id": "MAG3o8QZnBU"
+   }
+  },
+  {
+   "id": "LBqnfFMPxg666TVq",
+   "type": "text",
+   "top": 227.5,
+   "left": 412.7,
+   "w": 554.8,
+   "h": 36.1,
+   "runs": [
+    {
+     "text": "WORLD INDUSTRIAL DESIGN WEEK",
+     "size": 30.3,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "center",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LB2hqWp4clP1wHKC",
+   "type": "text",
+   "top": 263.6,
+   "left": 548.3,
+   "w": 498.8,
+   "h": 18.5,
+   "runs": [
+    {
+     "text": "CREATIVE LEAD/PUBLICATIONS HEAD",
+     "size": 15.8,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBDvt1LQkJMPfzRL",
+   "type": "text",
+   "top": 12.2,
+   "left": 1137.9,
+   "w": 235.1,
+   "h": 23,
+   "runs": [
+    {
+     "text": "CLICK TO GO BACK UP",
+     "size": 19.9,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3",
+     "link": "#page-0",
+     "deco": "underline"
+    }
+   ]
+  },
+  {
+   "id": "LBw1MVyTjC25H43j",
+   "type": "rect",
+   "top": 17.5,
+   "left": 1107.1,
+   "w": 20.1,
+   "h": 9.5,
+   "rot": -90,
+   "media": {
+    "kind": "image",
+    "id": "MADgjVqX00o",
+    "recolor": {
+     "#000000": "#242424"
+    }
+   }
+  },
+  {
+   "id": "LBgd2XVXwhZhWlLF",
+   "type": "group",
+   "top": 31.1,
+   "left": 33.5,
+   "w": 43.6,
+   "h": 15.5,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBMcqFnnj2ll39NJ",
+   "type": "line",
+   "top": 44.5,
+   "left": 33.5,
+   "w": 43.6,
+   "h": 2.1,
+   "stroke": {
+    "w": 2.1333333333333333,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBH4hmK27ndgL7mh",
+   "type": "line",
+   "top": 31.1,
+   "left": 33.5,
+   "w": 43.6,
+   "h": 2.1,
+   "stroke": {
+    "w": 2.1333333333333333,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBlB795k6c2rpN7d",
+   "type": "shape",
+   "top": 814.7,
+   "left": 663.4,
+   "w": 602,
+   "h": 602.6,
+   "media": {
+    "kind": "image",
+    "id": "MAHOncgdcoI"
+   }
+  },
+  {
+   "id": "LBcvsyg5bw83tftm",
+   "type": "group",
+   "top": 799.1,
+   "left": 33.5,
+   "w": 43.6,
+   "h": 15.5,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBbxlY09BSXYfKvg",
+   "type": "line",
+   "top": 812.5,
+   "left": 33.5,
+   "w": 43.6,
+   "h": 2.1,
+   "stroke": {
+    "w": 2.1333333333333333,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBYqqH7yQDz2JLN7",
+   "type": "line",
+   "top": 799.1,
+   "left": 33.5,
+   "w": 43.6,
+   "h": 2.1,
+   "stroke": {
+    "w": 2.1333333333333333,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LB7d7xvpZ0npLypj",
+   "type": "text",
+   "top": 1116,
+   "left": 84.6,
+   "w": 370,
+   "h": 199.7,
+   "runs": [
+    {
+     "text": "World Industrial Design Week 2026 was a week-long celebration organized by Benildean Industrial Designers (BIND), held from July 13–17, 2026. Guided by the theme Form Follows Feeling, the event explored ",
+     "size": 17.1,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "the relationship between design, human emotions, and meaningful experiences through workshops and creative sessions",
+     "size": 17.1,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": ". It aimed to celebrate industrial design as a discipline that goes beyond function and aesthetics, emphasizing how thoughtful design can connect with people and enrich everyday life.\n",
+     "size": 17.1,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBtQsYDKS30fJPR1",
+   "type": "text",
+   "top": 814.2,
+   "left": 77.1,
+   "w": 542.5,
+   "h": 300.8,
+   "runs": [
+    {
+     "text": "WORLD INDUSTRIAL DESIGN WEEK 2026",
+     "size": 83.7,
+     "weight": "ultrabold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 0.8,
+     "ls": -0.1,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBbMWL9vcPCmpZ4J",
+   "type": "text",
+   "top": 1371.9,
+   "left": 84.6,
+   "w": 370,
+   "h": 19.8,
+   "runs": [
+    {
+     "text": "World Design Organization - Events",
+     "size": 17.1,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3",
+     "link": "https://wdo.org/programmes/widd/widd-2026/events/",
+     "deco": "underline"
+    }
+   ]
+  },
+  {
+   "id": "LBXLdHVN5wQhYP7P",
+   "type": "shape",
+   "top": 1612.8,
+   "left": 592.5,
+   "w": 302.8,
+   "h": 420,
+   "media": {
+    "kind": "image",
+    "id": "MAHXtngTXao"
+   }
+  },
+  {
+   "id": "LBc3VXYSf8XNRjxH",
+   "type": "shape",
+   "top": 1612.8,
+   "left": 940.9,
+   "w": 325.8,
+   "h": 420,
+   "media": {
+    "kind": "image",
+    "id": "MAHXtnpfbpU"
+   }
+  },
+  {
+   "id": "LBN71WD5shGgnGT6",
+   "type": "rect",
+   "top": 1670.3,
+   "left": 62.6,
+   "w": 408.1,
+   "h": 408.1,
+   "media": {
+    "kind": "image",
+    "id": "MAHW4FTF7MQ"
+   }
+  },
+  {
+   "id": "LBjP3fp6n3qjb2SY",
+   "type": "text",
+   "top": 2078.3,
+   "left": 50.5,
+   "w": 489.9,
+   "h": 119.6,
+   "runs": [
+    {
+     "text": "PROBLEM",
+     "size": 99.8,
+     "weight": "ultrabold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 0.8,
+     "ls": -0.1,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBrrV6630PPWDb0M",
+   "type": "text",
+   "top": 2046.5,
+   "left": 592.5,
+   "w": 302.8,
+   "h": 217,
+   "runs": [
+    {
+     "text": "Our team aimed to bring the theme Form Follows Feeling to life through an engaging and cohesive event experience for World Industrial Design Week 2026. The challenge was to ",
+     "size": 18.4,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "translate an abstract concept into a clear visual identity",
+     "size": 18.4,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": " and supporting materials that communicated the event’s message while maintaining consistency across its various activities and touchpoints.\n",
+     "size": 18.4,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBvT7BBgZyQy42Bm",
+   "type": "text",
+   "top": 2046.5,
+   "left": 940.9,
+   "w": 325.8,
+   "h": 207.2,
+   "runs": [
+    {
+     "text": "As Creative Lead and Publications Head, I helped guide the event’s ",
+     "size": 18.9,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "visual direction and oversee the development of its publication materials and graphic assets. ",
+     "size": 18.9,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "My role involved translating the event’s concept into visual communications, ensuring consistency across designs, and collaborating with the team to create materials that reflected the event’s identity and purpose.\n",
+     "size": 18.9,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LB3g4WC7XXVzXN3d",
+   "type": "shape",
+   "top": 2418.3,
+   "left": 0.3,
+   "w": 656.5,
+   "h": 539.4,
+   "media": {
+    "kind": "image",
+    "id": "MAHXz2gofo4"
+   }
+  },
+  {
+   "id": "LB8MDgP1kh22lTd8",
+   "type": "text",
+   "top": 2480.5,
+   "left": 706.4,
+   "w": 474.7,
+   "h": 108.9,
+   "runs": [
+    {
+     "text": "MY ROLE",
+     "size": 91,
+     "weight": "ultrabold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 0.8,
+     "ls": -0.1,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBKyZGjYpKCYnprx",
+   "type": "text",
+   "top": 2858.4,
+   "left": 706.4,
+   "w": 623,
+   "h": 99.2,
+   "runs": [
+    {
+     "text": "As Creative Lead and Publications Head, I guided our visual direction, coordinated publication deliverables, and worked alongside ",
+     "size": 16.3,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "a team whose collective strengths carried the project beyond what I could achieve alone.",
+     "size": 16.3,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": " This experience taught me that leadership is not about doing everything myself, but about empowering others to contribute their best. It became a defining reminder of my design philosophy:",
+     "size": 16.3,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": " to design is to serve.\n",
+     "size": 16.3,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3",
+     "deco": "underline"
+    }
+   ]
+  },
+  {
+   "id": "LBL1T4qx63bKYqKq",
+   "type": "text",
+   "top": 2661.6,
+   "left": 706.4,
+   "w": 498,
+   "h": 51.3,
+   "runs": [
+    {
+     "text": "Guided the team's visual direction to maintain a cohesive identity across event materials.\n",
+     "size": 16.3,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LB9HDh8bLZvt7VHT",
+   "type": "text",
+   "top": 2640.4,
+   "left": 706.4,
+   "w": 414.7,
+   "h": 21.2,
+   "runs": [
+    {
+     "text": "Creative Direction",
+     "size": 18.3,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LB4phXcgx2D31DLp",
+   "type": "text",
+   "top": 2734.3,
+   "left": 706.4,
+   "w": 498,
+   "h": 51.3,
+   "runs": [
+    {
+     "text": "Coordinated the creation and refinement of publication assets alongside the Publications team.\n",
+     "size": 16.3,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBVbwQXvnMtDgWcz",
+   "type": "text",
+   "top": 2713.1,
+   "left": 706.4,
+   "w": 414.7,
+   "h": 21.2,
+   "runs": [
+    {
+     "text": "Publications Management",
+     "size": 18.3,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBp5DcdMbKBJvhP4",
+   "type": "text",
+   "top": 2806.9,
+   "left": 706.4,
+   "w": 498,
+   "h": 51.3,
+   "runs": [
+    {
+     "text": "Worked closely with team members and volunteers, supporting their strengths while learning to lean on others where I fell short.\n",
+     "size": 16.3,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBKLT2mmFFxLSV5Q",
+   "type": "text",
+   "top": 2785.7,
+   "left": 706.4,
+   "w": 414.7,
+   "h": 21.2,
+   "runs": [
+    {
+     "text": "Team Collaboration",
+     "size": 18.3,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LB8RlvNyqb8VVS8M",
+   "type": "text",
+   "top": 2380.8,
+   "left": 77.1,
+   "w": 363.2,
+   "h": 23.2,
+   "runs": [
+    {
+     "text": "WORLD INDUSTRIAL DESIGN WEEK 2026",
+     "size": 19.9,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBH17QYMrWV3J2Ys",
+   "type": "text",
+   "top": 2380.8,
+   "left": 967.1,
+   "w": 321.7,
+   "h": 18,
+   "runs": [
+    {
+     "text": "PROJECT 2",
+     "size": 15.2,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "end",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBRMCFrD5b0135hM",
+   "type": "text",
+   "top": 2577.8,
+   "left": 706.4,
+   "w": 363.2,
+   "h": 23.2,
+   "runs": [
+    {
+     "text": "CREATIVE LEAD/PUBLICATIONS HEAD",
+     "size": 19.9,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBQh7mdSM6TKV9T3",
+   "type": "line",
+   "top": 3237.6,
+   "left": -39.4,
+   "w": 606.5,
+   "h": 602.7,
+   "rot": 83,
+   "stroke": {
+    "w": 1,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LB9r7n5wQ5jSZMNk",
+   "type": "group",
+   "top": 3329.5,
+   "left": 144.1,
+   "w": 208.2,
+   "h": 208.2,
+   "rot": 9.8,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBXB6Kc1dfNfwc6J",
+   "type": "rect",
+   "top": 3329.5,
+   "left": 144.1,
+   "w": 208.2,
+   "h": 208.2,
+   "rot": 9.8,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LB36S4VLXP25WfD3",
+   "type": "shape",
+   "top": 3336,
+   "left": 151.1,
+   "w": 189.1,
+   "h": 189.1,
+   "rot": 9.8,
+   "media": {
+    "kind": "image",
+    "id": "MAHOXflG0T0"
+   }
+  },
+  {
+   "id": "LBwTRLtFL7zS6YYB",
+   "type": "rect",
+   "top": 3498.1,
+   "left": 753.7,
+   "w": 262.4,
+   "h": 22.3,
+   "media": {
+    "kind": "image",
+    "id": "MAF_mI5iUeA",
+    "recolor": {
+     "#000000": "#ffba38"
+    }
+   }
+  },
+  {
+   "id": "LBYw7Xd5r8VQSqSK",
+   "type": "group",
+   "top": 3560.1,
+   "left": 77.1,
+   "w": 171.1,
+   "h": 171.1,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LB1DS4jSv7L6Cglz",
+   "type": "rect",
+   "top": 3560.1,
+   "left": 77.1,
+   "w": 171.1,
+   "h": 171.1,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LBdyllJT1q61zzsS",
+   "type": "shape",
+   "top": 3565.8,
+   "left": 82.4,
+   "w": 155.4,
+   "h": 155.4,
+   "media": {
+    "kind": "image",
+    "id": "MAHXzzrvd4o"
+   }
+  },
+  {
+   "id": "LBb3QnSXGTl1Kqlf",
+   "type": "group",
+   "top": 3184.2,
+   "left": 685.1,
+   "w": 180,
+   "h": 180,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LB1Wjb8C8v3HmSRX",
+   "type": "rect",
+   "top": 3184.2,
+   "left": 685.1,
+   "w": 180,
+   "h": 180,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LBcp4sMDV8fz6R4W",
+   "type": "shape",
+   "top": 3190.2,
+   "left": 690.7,
+   "w": 163.5,
+   "h": 163.5,
+   "media": {
+    "kind": "image",
+    "id": "MAHXzgMNALk"
+   }
+  },
+  {
+   "id": "LB8tb4ZTVhvNcMDY",
+   "type": "rect",
+   "top": 3188.8,
+   "left": 266.9,
+   "w": 118.3,
+   "h": 118.3,
+   "media": {
+    "kind": "image",
+    "id": "MAHW4FTF7MQ"
+   }
+  },
+  {
+   "id": "LBww0PW28G1rVpjf",
+   "type": "group",
+   "top": 3184.2,
+   "left": 867.3,
+   "w": 180,
+   "h": 180,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LB1CT1s93GM9wDQx",
+   "type": "rect",
+   "top": 3184.2,
+   "left": 867.3,
+   "w": 180,
+   "h": 180,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LBHDPxgKzPK5VDQP",
+   "type": "shape",
+   "top": 3190.2,
+   "left": 872.8,
+   "w": 163.5,
+   "h": 163.5,
+   "media": {
+    "kind": "image",
+    "id": "MAHXzoO7jC0"
+   }
+  },
+  {
+   "id": "LBjSVfYBfWpsKy7r",
+   "type": "group",
+   "top": 3184.2,
+   "left": 1047.3,
+   "w": 180,
+   "h": 180,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBs8VlZNHlK0f9JY",
+   "type": "rect",
+   "top": 3184.2,
+   "left": 1047.3,
+   "w": 180,
+   "h": 180,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LBxmZ393d6T5F6bP",
+   "type": "shape",
+   "top": 3190.2,
+   "left": 1052.9,
+   "w": 163.5,
+   "h": 163.5,
+   "media": {
+    "kind": "image",
+    "id": "MAHXzvm9imw"
+   }
+  },
+  {
+   "id": "LBHP8Mv2ksL5zltq",
+   "type": "group",
+   "top": 3343.2,
+   "left": 544.1,
+   "w": 209.6,
+   "h": 209.6,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBDgkj82h6jfDSWQ",
+   "type": "rect",
+   "top": 3343.2,
+   "left": 544.1,
+   "w": 209.6,
+   "h": 209.6,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LBZFyk1x8ySVR4bN",
+   "type": "shape",
+   "top": 3350.2,
+   "left": 550.6,
+   "w": 190.3,
+   "h": 190.3,
+   "media": {
+    "kind": "image",
+    "id": "MAHXzpYus-E"
+   }
+  },
+  {
+   "id": "LB8N8g6HJ40hhyYR",
+   "type": "group",
+   "top": 3523.2,
+   "left": 814.8,
+   "w": 201.3,
+   "h": 263.2,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBpy2zkKD2qJZxsS",
+   "type": "rect",
+   "top": 3523.2,
+   "left": 814.8,
+   "w": 201.3,
+   "h": 263.2,
+   "media": {
+    "kind": "image",
+    "id": "MAEW70ufzp8"
+   }
+  },
+  {
+   "id": "LByXD21NMYFZ4P08",
+   "type": "rect",
+   "top": 3527.6,
+   "left": 820.9,
+   "w": 183.5,
+   "h": 247.8,
+   "media": {
+    "kind": "image",
+    "id": "MAHNcRPLqUY"
+   }
+  },
+  {
+   "id": "LB143th5tf1yB0SF",
+   "type": "rect",
+   "top": 3563.7,
+   "left": 316.9,
+   "w": 359,
+   "h": 201.9,
+   "media": {
+    "kind": "image",
+    "id": "MAHXz3mZUXI"
+   }
+  },
+  {
+   "id": "LB9vxyvmZLSJjTf9",
+   "type": "text",
+   "top": 3098.8,
+   "left": 155.5,
+   "w": 1055,
+   "h": 93,
+   "runs": [
+    {
+     "text": "CREATIVE  &  FUN PROGRESS",
+     "size": 77.9,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "center",
+     "lh": 0.8,
+     "ls": -0.1,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBm8gbWL6BCxH2RH",
+   "type": "text",
+   "top": 3201.8,
+   "left": 131.9,
+   "w": 95,
+   "h": 72.3,
+   "runs": [
+    {
+     "text": "start",
+     "size": 60.7,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "start",
+     "lh": 0.84,
+     "ls": -0.076,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBGFBkkXNr1bCD3R",
+   "type": "text",
+   "top": 3246.2,
+   "left": 415.2,
+   "w": 257.9,
+   "h": 97,
+   "runs": [
+    {
+     "text": "WHAT DOES \"DESIGN\" MEAN TO PEOPLE? WE STARTED SKETCHING AND MOOD-BOARDING WAYS TO TURN \"FORM FOLLOWS FEELING\" INTO VISUALS.",
+     "size": 15.7,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBJKgGkjJc1yhhGZ",
+   "type": "text",
+   "top": 3448,
+   "left": 757.1,
+   "w": 259,
+   "h": 51.2,
+   "runs": [
+    {
+     "text": "OUR HANDS ARE THE SOURCE OF INTUITION. HANDS BECAME OUR VISUAL IDENTITY.",
+     "size": 16.2,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LByRg435vV7tQYlp",
+   "type": "text",
+   "top": 3628.5,
+   "left": 1023,
+   "w": 180.3,
+   "h": 48,
+   "runs": [
+    {
+     "text": "MAIN POSTER FINISHED! IT SET THE STYLE FOR ALL OTHER ASSETS.",
+     "size": 15.1,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBgGZRgTtlmsJk3b",
+   "type": "rect",
+   "top": 3563.7,
+   "left": 316.9,
+   "w": 361.1,
+   "h": 232.6,
+   "media": {
+    "kind": "image",
+    "id": "MAEW7y18qrI"
+   }
+  },
+  {
+   "id": "LB7Lf6ZM001kylB6",
+   "type": "text",
+   "top": 3736.5,
+   "left": 76.8,
+   "w": 180.3,
+   "h": 62.7,
+   "runs": [
+    {
+     "text": "THE WORKLOAD GREW, SO I BROUGHT IN TEAM MEMBERS AND VOLUNTEERS.",
+     "size": 15.1,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBqRXpncT58SZPDX",
+   "type": "group",
+   "top": 3343.2,
+   "left": 345.6,
+   "w": 209.6,
+   "h": 209.6,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LB6YgxB8Q7KVkLyX",
+   "type": "rect",
+   "top": 3343.2,
+   "left": 345.6,
+   "w": 209.6,
+   "h": 209.6,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LBR4XkVpgvlJxrvr",
+   "type": "shape",
+   "top": 3350.2,
+   "left": 352,
+   "w": 190.3,
+   "h": 190.3,
+   "media": {
+    "kind": "image",
+    "id": "MAHOG_Pvcy4"
+   }
+  },
+  {
+   "id": "LBsFdwHvTmy9mdZz",
+   "type": "line",
+   "top": 3840,
+   "left": 299.8,
+   "w": 772.4,
+   "h": 542.3,
+   "stroke": {
+    "w": 1,
+    "color": "#242424"
+   }
+  },
+  {
+   "id": "LBtHmkS2pzgNTjXj",
+   "type": "rect",
+   "top": 4261.2,
+   "left": 811,
+   "w": 290.4,
+   "h": 290.4,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LBJMZmbbk3k9js2l",
+   "type": "rect",
+   "top": 3876.7,
+   "left": 313.6,
+   "w": 203.6,
+   "h": 255.2,
+   "media": {
+    "kind": "image",
+    "id": "MAEW70ufzp8"
+   }
+  },
+  {
+   "id": "LB8MggN83jsBjX9h",
+   "type": "rect",
+   "top": 3876.7,
+   "left": 517.2,
+   "w": 203.6,
+   "h": 255.2,
+   "media": {
+    "kind": "image",
+    "id": "MAEW70ufzp8"
+   }
+  },
+  {
+   "id": "LBr6KSZpkk0Pc1Yc",
+   "type": "rect",
+   "top": 3876.7,
+   "left": 720.8,
+   "w": 203.6,
+   "h": 255.2,
+   "media": {
+    "kind": "image",
+    "id": "MAEW70ufzp8"
+   }
+  },
+  {
+   "id": "LB2j9w8VvLFSB79k",
+   "type": "rect",
+   "top": 3876.7,
+   "left": 924.4,
+   "w": 203.6,
+   "h": 255.2,
+   "media": {
+    "kind": "image",
+    "id": "MAEW70ufzp8"
+   }
+  },
+  {
+   "id": "LB2kNjT6N9m096rd",
+   "type": "rect",
+   "top": 3876.7,
+   "left": 313.6,
+   "w": 195.9,
+   "h": 244.8,
+   "media": {
+    "kind": "image",
+    "id": "MAHXz_-K_CY"
+   }
+  },
+  {
+   "id": "LBPd6KgXBvskJsqW",
+   "type": "rect",
+   "top": 3876.7,
+   "left": 517.2,
+   "w": 195.9,
+   "h": 244.8,
+   "media": {
+    "kind": "image",
+    "id": "MAHXzzbihOo"
+   }
+  },
+  {
+   "id": "LBFQctlw8pvT98Y1",
+   "type": "rect",
+   "top": 3876.7,
+   "left": 720.8,
+   "w": 196.2,
+   "h": 244.8,
+   "media": {
+    "kind": "image",
+    "id": "MAHOZQ7X5aI"
+   }
+  },
+  {
+   "id": "LBT8LpPjZ9V1SRhF",
+   "type": "rect",
+   "top": 3876.7,
+   "left": 924.4,
+   "w": 196.2,
+   "h": 244.8,
+   "media": {
+    "kind": "image",
+    "id": "MAHOZcpGnCY"
+   }
+  },
+  {
+   "id": "LBbyR0BBHHLJLTlT",
+   "type": "rect",
+   "top": 4202.6,
+   "left": 822.6,
+   "w": 267.2,
+   "h": 378.1,
+   "media": {
+    "kind": "image",
+    "id": "MAHXz0i9M-o"
+   }
+  },
+  {
+   "id": "LB3WwZSrX5prfHnn",
+   "type": "rect",
+   "top": 4391.6,
+   "left": 559.9,
+   "w": 228.8,
+   "h": 114.4,
+   "media": {
+    "kind": "image",
+    "id": "MAHXz9oCqCY"
+   }
+  },
+  {
+   "id": "LBnQzQb0SRg17nwF",
+   "type": "rect",
+   "top": 4267.6,
+   "left": 559.9,
+   "w": 228.8,
+   "h": 114.4,
+   "media": {
+    "kind": "image",
+    "id": "MAHXz-e_HhM"
+   }
+  },
+  {
+   "id": "LBw3gQlkzHwP1Zgw",
+   "type": "rect",
+   "top": 4269.1,
+   "left": 356.3,
+   "w": 195.3,
+   "h": 246.1,
+   "media": {
+    "kind": "image",
+    "id": "MAHXtnpfbpU"
+   }
+  },
+  {
+   "id": "LBVmDBxBxz76VJw7",
+   "type": "rect",
+   "top": 4269.1,
+   "left": 356.3,
+   "w": 203.6,
+   "h": 255.2,
+   "media": {
+    "kind": "image",
+    "id": "MAEW70ufzp8"
+   }
+  },
+  {
+   "id": "LBRmVhd7MrK1JwFk",
+   "type": "text",
+   "top": 4009.3,
+   "left": 1127.7,
+   "w": 180.3,
+   "h": 63,
+   "runs": [
+    {
+     "text": "WITH THE TEAM, ONE SHARED VISION BECAME A COHESIVE POSTER SET.",
+     "size": 15.1,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBNmqPG4t3vgz0hz",
+   "type": "text",
+   "top": 4396.7,
+   "left": 1101.5,
+   "w": 180.3,
+   "h": 63,
+   "runs": [
+    {
+     "text": "OUR VISUAL LANGUAGE BECAME A TANGIBLE KEEPSAKE: TOTES AND SHIRTS.",
+     "size": 15.1,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "center",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBByVFv30PPSn91S",
+   "type": "text",
+   "top": 4138.6,
+   "left": 474.3,
+   "w": 481.9,
+   "h": 18,
+   "runs": [
+    {
+     "text": "WHERE I FELL SHORT, MY TEAM HELPED ME GROW.",
+     "size": 15.1,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "center",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBP2yKns8W9mvTtL",
+   "type": "rect",
+   "top": 4161,
+   "left": 541.4,
+   "w": 347.8,
+   "h": 29.6,
+   "media": {
+    "kind": "image",
+    "id": "MAF_mI5iUeA",
+    "recolor": {
+     "#000000": "#ffba38"
+    }
+   }
+  },
+  {
+   "id": "LBF5XWm9V199Yl4w",
+   "type": "line",
+   "top": 4608,
+   "left": 299.8,
+   "w": 772.4,
+   "h": 542.3,
+   "stroke": {
+    "w": 1,
+    "color": "#242424"
+   }
+  },
+  {
+   "id": "LBnVqpSyJyvZfpt2",
+   "type": "rect",
+   "top": 4666.2,
+   "left": 342.2,
+   "w": 283.9,
+   "h": 212.9,
+   "media": {
+    "kind": "image",
+    "id": "MAHX0Pj_TMg"
+   }
+  },
+  {
+   "id": "LB2m3ScYNGQRnt6F",
+   "type": "rect",
+   "top": 4666.2,
+   "left": 626.2,
+   "w": 283.9,
+   "h": 212.9,
+   "media": {
+    "kind": "image",
+    "id": "MAHX0O5yhAg"
+   }
+  },
+  {
+   "id": "LBHFgry8nwvppPGW",
+   "type": "rect",
+   "top": 5013.9,
+   "left": 425.1,
+   "w": 283.9,
+   "h": 212.9,
+   "media": {
+    "kind": "image",
+    "id": "MAHX0C5z88w"
+   }
+  },
+  {
+   "id": "LBtFqRwQV4lPH0gC",
+   "type": "rect",
+   "top": 4666.2,
+   "left": 910.1,
+   "w": 283.9,
+   "h": 212.9,
+   "media": {
+    "kind": "image",
+    "id": "MAHX0PvR3b8"
+   }
+  },
+  {
+   "id": "LBWpC4nYMdMLmKL9",
+   "type": "rect",
+   "top": 4666.2,
+   "left": 333.1,
+   "w": 889.4,
+   "h": 228.1,
+   "media": {
+    "kind": "image",
+    "id": "MAEW7y18qrI"
+   }
+  },
+  {
+   "id": "LB2t4Wj2Mlcbdmdx",
+   "type": "rect",
+   "top": 5013.9,
+   "left": 709,
+   "w": 282.5,
+   "h": 212.9,
+   "media": {
+    "kind": "image",
+    "id": "MAHX-HUy1KQ"
+   }
+  },
+  {
+   "id": "LBjVQrdcXPD6B9kB",
+   "type": "rect",
+   "top": 5013.9,
+   "left": 991.5,
+   "w": 283.9,
+   "h": 212.9,
+   "media": {
+    "kind": "image",
+    "id": "MAHX-NOju-I"
+   }
+  },
+  {
+   "id": "LBNvQtcc5bgMNBrb",
+   "type": "text",
+   "top": 5226.9,
+   "left": 235.2,
+   "w": 113.9,
+   "h": 71.8,
+   "runs": [
+    {
+     "text": "finish",
+     "size": 60.7,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "start",
+     "lh": 0.84,
+     "ls": -0.076,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBJXmzY8LJ892l5N",
+   "type": "text",
+   "top": 4894.3,
+   "left": 564.2,
+   "w": 427.3,
+   "h": 18,
+   "runs": [
+    {
+     "text": "HANDS-ON WORKSHOPS BROUGHT THE THEME TO LIFE.",
+     "size": 15.1,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBDHpTvLQtmkWZlB",
+   "type": "text",
+   "top": 5130.3,
+   "left": 300.5,
+   "w": 114.6,
+   "h": 63,
+   "runs": [
+    {
+     "text": "THE WEEK CLOSED WITH A FULL-HOUSE SCREENINGS!",
+     "size": 15.1,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LB660Q5ZgC7gt3vq",
+   "type": "rect",
+   "top": 5013.9,
+   "left": 415.1,
+   "w": 889.4,
+   "h": 224.3,
+   "media": {
+    "kind": "image",
+    "id": "MAEW7y18qrI"
+   }
+  },
+  {
+   "id": "LBHd6Q1PxmBWZ9Q2",
+   "type": "group",
+   "top": 5754.9,
+   "left": 343.9,
+   "w": 683,
+   "h": 399.7,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LB9fhGHc48dMRtV5",
+   "type": "rect",
+   "top": 5754.9,
+   "left": 343.9,
+   "w": 683,
+   "h": 399.7,
+   "media": {
+    "kind": "image",
+    "id": "MAEW7y18qrI"
+   }
+  },
+  {
+   "id": "LBQPmlVLFBvCRr09",
+   "type": "rect",
+   "top": 5766.2,
+   "left": 358.6,
+   "w": 645.4,
+   "h": 363,
+   "media": {
+    "kind": "video",
+    "id": "VAHX41PzVd4"
+   }
+  },
+  {
+   "id": "LBGrZKJpy8FwLyzN",
+   "type": "rect",
+   "top": 5403.1,
+   "left": -53.8,
+   "w": 460.1,
+   "h": 575.7,
+   "media": {
+    "kind": "image",
+    "id": "MAHX46p1rps"
+   }
+  },
+  {
+   "id": "LBHKHVFcy5ZzbP7q",
+   "type": "rect",
+   "top": 5603.5,
+   "left": 978,
+   "w": 460.1,
+   "h": 575.7,
+   "media": {
+    "kind": "image",
+    "id": "MAHX46K5X8w"
+   }
+  },
+  {
+   "id": "LB29JkmjHQSkPDBT",
+   "type": "rect",
+   "top": 5690.9,
+   "left": 501,
+   "w": 322,
+   "h": 53.1,
+   "media": {
+    "kind": "image",
+    "id": "MAGZFos4FSI"
+   }
+  },
+  {
+   "id": "LBkW0Nl17N7GLFCH",
+   "type": "rect",
+   "top": 5403.1,
+   "left": 523.6,
+   "w": 299.4,
+   "h": 299.4,
+   "media": {
+    "kind": "image",
+    "id": "MAHW4h2aUzY"
+   }
+  },
+  {
+   "id": "LBVpBLLcbhHhkw9Y",
+   "type": "text",
+   "top": 5622.3,
+   "left": 293.7,
+   "w": 778.5,
+   "h": 68.7,
+   "runs": [
+    {
+     "text": "sample videos",
+     "size": 57.5,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "center",
+     "lh": 0.8,
+     "ls": -0.1,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBXfNLWzwJqXbsHZ",
+   "type": "rect",
+   "top": 6154.8,
+   "left": 361,
+   "w": 644,
+   "h": 362.2,
+   "media": {
+    "kind": "video",
+    "id": "VAHX44GbMHw"
+   }
+  },
+  {
+   "id": "LB7NF7ghwrhGRNm4",
+   "type": "rect",
+   "top": 6154.8,
+   "left": 346.3,
+   "w": 681.2,
+   "h": 384.3,
+   "media": {
+    "kind": "image",
+    "id": "MAEW7y18qrI"
+   }
+  },
+  {
+   "id": "LBDjhGcG2JHpWgF8",
+   "type": "rect",
+   "top": 6528,
+   "left": 361,
+   "w": 644,
+   "h": 362.2,
+   "media": {
+    "kind": "video",
+    "id": "VAHX4zCn_ks"
+   }
+  },
+  {
+   "id": "LB19Tjpk3yQykR0K",
+   "type": "rect",
+   "top": 6527.7,
+   "left": 346.3,
+   "w": 681.2,
+   "h": 384.3,
+   "media": {
+    "kind": "image",
+    "id": "MAEW7y18qrI"
+   }
+  },
+  {
+   "id": "LB7jZ08k4KwT7w0V",
+   "type": "rect",
+   "top": 6149.1,
+   "left": -46.1,
+   "w": 423.5,
+   "h": 529.9,
+   "rot": -13,
+   "media": {
+    "kind": "image",
+    "id": "MAHX439I2tw"
+   }
+  },
+  {
+   "id": "LBs1DnSvPWNtnmmM",
+   "type": "rect",
+   "top": 6383.2,
+   "left": 955.7,
+   "w": 410.3,
+   "h": 513.3,
+   "rot": 11.3,
+   "media": {
+    "kind": "image",
+    "id": "MAHX45EOfp0"
+   }
+  },
+  {
+   "id": "LBlMNj0YbY2tTLRn",
+   "type": "rect",
+   "top": 6926.4,
+   "left": 381.8,
+   "w": 618.8,
+   "h": 764.7,
+   "media": {
+    "kind": "image",
+    "id": "MAEW70ufzp8"
+   }
+  },
+  {
+   "id": "LBWhnnx23lRjyw3M",
+   "type": "rect",
+   "top": 7418.1,
+   "left": 381.8,
+   "w": 197.2,
+   "h": 244.7,
+   "media": {
+    "kind": "image",
+    "id": "MAHOZQ7X5aI"
+   }
+  },
+  {
+   "id": "LBK4wq0KHvt1N8Xg",
+   "type": "rect",
+   "top": 7418.1,
+   "left": 579,
+   "w": 196.2,
+   "h": 244.7,
+   "media": {
+    "kind": "image",
+    "id": "MAHOZcpGnCY"
+   }
+  },
+  {
+   "id": "LBbNGNsL5WjDxh3L",
+   "type": "rect",
+   "top": 7172.2,
+   "left": 578.5,
+   "w": 196.7,
+   "h": 245.8,
+   "media": {
+    "kind": "image",
+    "id": "MAHXz7Zycd0"
+   }
+  },
+  {
+   "id": "LBpNTG5mr04qbpTm",
+   "type": "rect",
+   "top": 6926.4,
+   "left": 578.5,
+   "w": 196.7,
+   "h": 245.8,
+   "media": {
+    "kind": "image",
+    "id": "MAHXzz_7Y00"
+   }
+  },
+  {
+   "id": "LBrGNMCl2ZzNGtCR",
+   "type": "rect",
+   "top": 7172.2,
+   "left": 381.8,
+   "w": 196.7,
+   "h": 245.8,
+   "media": {
+    "kind": "image",
+    "id": "MAHXz_dFBJU"
+   }
+  },
+  {
+   "id": "LB22SpWNBlJlfQyB",
+   "type": "rect",
+   "top": 7172.2,
+   "left": 775.1,
+   "w": 196.7,
+   "h": 245.8,
+   "media": {
+    "kind": "image",
+    "id": "MAHXzz5OP-k"
+   }
+  },
+  {
+   "id": "LB5ffwhYx3CqbTCV",
+   "type": "rect",
+   "top": 6926.4,
+   "left": 381.8,
+   "w": 197.7,
+   "h": 245.8,
+   "media": {
+    "kind": "image",
+    "id": "MAHXz_-K_CY"
+   }
+  },
+  {
+   "id": "LBdpd9pfdbVgzqVy",
+   "type": "rect",
+   "top": 6926.4,
+   "left": 775.1,
+   "w": 196.7,
+   "h": 245.8,
+   "media": {
+    "kind": "image",
+    "id": "MAHXzyi6D_A"
+   }
+  },
+  {
+   "id": "LBJMp4SXNNQGvfwk",
+   "type": "rect",
+   "top": 7418.1,
+   "left": 775.1,
+   "w": 196.7,
+   "h": 244.7,
+   "media": {
+    "kind": "image",
+    "id": "MAHXzzbihOo"
+   }
+  },
+  {
+   "id": "LBPQvFv2V77NqSys",
+   "type": "rect",
+   "top": 7069.9,
+   "left": -171,
+   "w": 681,
+   "h": 340.5,
+   "rot": -21.1,
+   "media": {
+    "kind": "image",
+    "id": "MAHX4wynz7k"
+   }
+  },
+  {
+   "id": "LB94qYfZknhjSth1",
+   "type": "rect",
+   "top": 7212.6,
+   "left": 933.6,
+   "w": 478.5,
+   "h": 478.5,
+   "media": {
+    "kind": "image",
+    "id": "MAHX4_oH9RQ"
+   }
+  },
+  {
+   "id": "LB5TLWkD4YX3LQQF",
+   "type": "shape",
+   "top": 7702.8,
+   "left": 655,
+   "w": 702.1,
+   "h": 210.7,
+   "media": {
+    "kind": "image",
+    "id": "MAHX0FGOmtc"
+   }
+  },
+  {
+   "id": "LBL10kcqymDkxzRl",
+   "type": "shape",
+   "top": 7913.5,
+   "left": 655,
+   "w": 702.1,
+   "h": 464.8,
+   "media": {
+    "kind": "image",
+    "id": "MAHX0JMnm10"
+   }
+  },
+  {
+   "id": "LBLj7lsdygKZYwCT",
+   "type": "shape",
+   "top": 8053.1,
+   "left": 77.1,
+   "w": 565.2,
+   "h": 325.1,
+   "media": {
+    "kind": "image",
+    "id": "MAHX0C5z88w"
+   }
+  },
+  {
+   "id": "LBz9hgwqcgzxNMN6",
+   "type": "text",
+   "top": 7826.3,
+   "left": 77.1,
+   "w": 363.5,
+   "h": 63.2,
+   "runs": [
+    {
+     "text": "THE OUTCOME",
+     "size": 53.1,
+     "weight": "ultrabold",
+     "color": "#242424",
+     "align": "start",
+     "lh": 0.8,
+     "ls": -0.07,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBYZxHwtd36t3r6H",
+   "type": "text",
+   "top": 7922.7,
+   "left": 77.1,
+   "w": 497,
+   "h": 122.5,
+   "runs": [
+    {
+     "text": "This experience was more than a unified visual identity for World Industrial Design Week 2026. The photos and documented process barely capture how much my Publications team lifted me up where I fell short, filling the gaps through their dedication, support, and shared effort. This experience reminded me that",
+     "size": 15.2,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": " design is never a solitary act,",
+     "size": 15.2,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": " but a collective effort built on trust and a willingness to serve one another. It further strengthened my belief that",
+     "size": 15.2,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": " to design is to serve.",
+     "size": 15.2,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "\n",
+     "size": 15.2,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LB9863nK5gL5lRsJ",
+   "type": "text",
+   "top": 8402.7,
+   "left": 74.5,
+   "w": 198.9,
+   "h": 18,
+   "runs": [
+    {
+     "text": "uy.andreuy@gmail.com",
+     "size": 15.2,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "center",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBwGCTNlN0CQ3nHm",
+   "type": "text",
+   "top": 7756.8,
+   "left": 77.1,
+   "w": 321.7,
+   "h": 23.2,
+   "runs": [
+    {
+     "text": "WORLD INDUSTRIAL DESIGN WEEK 2026",
+     "size": 19.9,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBL7pRzgP6FMPwTz",
+   "type": "text",
+   "top": 8212.5,
+   "left": -99.9,
+   "w": 707.6,
+   "h": 1318.2,
+   "rot": 8.2,
+   "runs": [
+    {
+     "text": "!!",
+     "size": 1101.8,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "start",
+     "lh": 0.84,
+     "ls": -0.076,
+     "font": "YAFancOAWqc,0"
+    }
+   ]
+  },
+  {
+   "id": "LBJ6z5SKSQtdHj3x",
+   "type": "shape",
+   "top": 8380.3,
+   "left": 335.4,
+   "w": 1089.4,
+   "h": 689.2,
+   "rot": 13.2
+  },
+  {
+   "id": "LBRTrJZvbpXjMNh3",
+   "type": "text",
+   "top": 8955,
+   "left": 133.4,
+   "w": 544.4,
+   "h": 261,
+   "runs": [
+    {
+     "text": "THE  TEAM THAT MADE IT HAPPEN",
+     "size": 91,
+     "weight": "normal",
+     "color": "#ffffff",
+     "align": "start",
+     "lh": 0.84,
+     "ls": -0.076,
+     "font": "YAFanRK9Tic,0"
+    }
+   ]
+  },
+  {
+   "id": "LBqkJrz68yP6gsV8",
+   "type": "shape",
+   "top": 9106,
+   "left": 597.4,
+   "w": 1030.6,
+   "h": 683,
+   "rot": 8.4
+  },
+  {
+   "id": "LBM5k6pFc64mjkRH",
+   "type": "shape",
+   "top": 9117.4,
+   "left": 608.8,
+   "w": 1030.6,
+   "h": 683,
+   "rot": 8.4
+  },
+  {
+   "id": "LBySB7DsFpsdQ5Gg",
+   "type": "text",
+   "top": 8673.7,
+   "left": 625.6,
+   "w": 114.7,
+   "h": 35.9,
+   "runs": [
+    {
+     "text": "PIPBOY",
+     "size": 30.3,
+     "weight": "bold",
+     "color": "#ffffff",
+     "align": "end",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBSDWWRYLGhXSLRD",
+   "type": "text",
+   "top": 8702.8,
+   "left": 591.1,
+   "w": 209.1,
+   "h": 18.5,
+   "runs": [
+    {
+     "text": "MULTIFUNCIONAL CLOCK",
+     "size": 15.8,
+     "weight": "normal",
+     "color": "#ffffff",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBTQ80jPrmbQVKFS",
+   "type": "text",
+   "top": 8479.5,
+   "left": 483.3,
+   "w": 554.8,
+   "h": 36.1,
+   "runs": [
+    {
+     "text": "LEANDER PORNEA",
+     "size": 30.3,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBnYGwxpm3fD30xL",
+   "type": "text",
+   "top": 8506.3,
+   "left": 483.3,
+   "w": 498.8,
+   "h": 18.5,
+   "runs": [
+    {
+     "text": "CO-CREATIVE LEAD/CO-HEAD",
+     "size": 15.8,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBjLZ3HcsSv9R52G",
+   "type": "group",
+   "top": 8542.4,
+   "left": 483.3,
+   "w": 554.8,
+   "h": 45.3,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LB0VZbMg1LSRThCL",
+   "type": "text",
+   "top": 8542.4,
+   "left": 483.3,
+   "w": 554.8,
+   "h": 36.1,
+   "runs": [
+    {
+     "text": "SOMMER CEANA REYES",
+     "size": 30.3,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBfYb99hGlkxp4Dt",
+   "type": "text",
+   "top": 8569.3,
+   "left": 483.3,
+   "w": 498.8,
+   "h": 18.5,
+   "runs": [
+    {
+     "text": "PUBLICATIONS OFFICER",
+     "size": 15.8,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBSJLjDH7xMsgXYF",
+   "type": "group",
+   "top": 8608,
+   "left": 483.3,
+   "w": 554.8,
+   "h": 45.3,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBq3X6n5XPgZRBqt",
+   "type": "text",
+   "top": 8608,
+   "left": 483.3,
+   "w": 554.8,
+   "h": 36.1,
+   "runs": [
+    {
+     "text": "ANNE TRISHA BOTE",
+     "size": 30.3,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBh950qSYGH4kWKR",
+   "type": "text",
+   "top": 8634.9,
+   "left": 483.3,
+   "w": 498.8,
+   "h": 18.5,
+   "runs": [
+    {
+     "text": "PUBLICATIONS VP",
+     "size": 15.8,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBQGpBk3r1BtqPJ5",
+   "type": "group",
+   "top": 8673.7,
+   "left": 483.3,
+   "w": 554.8,
+   "h": 45.3,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBzQlHstrDqq1zdm",
+   "type": "text",
+   "top": 8673.7,
+   "left": 483.3,
+   "w": 554.8,
+   "h": 36.1,
+   "runs": [
+    {
+     "text": "VERONIQUE RICCI",
+     "size": 30.3,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LB9zl1hGx2CbbHHD",
+   "type": "text",
+   "top": 8700.5,
+   "left": 483.3,
+   "w": 498.8,
+   "h": 18.5,
+   "runs": [
+    {
+     "text": "PUBLICATIONS OFFICER",
+     "size": 15.8,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBCM59FKqPZD2qzW",
+   "type": "group",
+   "top": 8739.3,
+   "left": 483.3,
+   "w": 554.8,
+   "h": 45.3,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBwpvrwyrfzdh18c",
+   "type": "text",
+   "top": 8739.3,
+   "left": 483.3,
+   "w": 554.8,
+   "h": 36.1,
+   "runs": [
+    {
+     "text": "HANNAH ENCARNACION",
+     "size": 30.3,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LB8pXx8ThVrBDDJ8",
+   "type": "text",
+   "top": 8766.1,
+   "left": 483.3,
+   "w": 498.8,
+   "h": 18.5,
+   "runs": [
+    {
+     "text": "PUBLICATIONS OFFICER",
+     "size": 15.8,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBKVjgg1vwsGBpcK",
+   "type": "text",
+   "top": 8671.4,
+   "left": 934.1,
+   "w": 554.8,
+   "h": 36.1,
+   "runs": [
+    {
+     "text": "KARL SANTIAGUEL",
+     "size": 30.3,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBkBzwBqm13lW8Y7",
+   "type": "group",
+   "top": 8734.3,
+   "left": 934.1,
+   "w": 554.8,
+   "h": 45.3,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBclS7Tljt7vBr2t",
+   "type": "text",
+   "top": 8734.3,
+   "left": 934.1,
+   "w": 554.8,
+   "h": 36.1,
+   "runs": [
+    {
+     "text": "ATHENE GALPO",
+     "size": 30.3,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBzqhMw7bltlWRJQ",
+   "type": "text",
+   "top": 8761.1,
+   "left": 934.1,
+   "w": 498.8,
+   "h": 18.5,
+   "runs": [
+    {
+     "text": "PUBLICATIONS VOLUNTEER",
+     "size": 15.8,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBLcBRZxQtDRF8mV",
+   "type": "group",
+   "top": 8799.9,
+   "left": 934.1,
+   "w": 554.8,
+   "h": 45.3,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBhq7YvSRzG8mRjZ",
+   "type": "text",
+   "top": 8799.9,
+   "left": 934.1,
+   "w": 554.8,
+   "h": 36.1,
+   "runs": [
+    {
+     "text": "PATRICIA DELA CRUZ",
+     "size": 30.3,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBRyN2RdRJqCkwP6",
+   "type": "text",
+   "top": 8826.7,
+   "left": 934.1,
+   "w": 498.8,
+   "h": 18.5,
+   "runs": [
+    {
+     "text": "PUBLICATIONS VOLUNTEER",
+     "size": 15.8,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBKhNQZ7JQ8BrzbJ",
+   "type": "group",
+   "top": 8865.5,
+   "left": 934.1,
+   "w": 554.8,
+   "h": 45.3,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBh5mcxB7xbk3QzX",
+   "type": "text",
+   "top": 8865.5,
+   "left": 934.1,
+   "w": 554.8,
+   "h": 36.1,
+   "runs": [
+    {
+     "text": "JOEI HEATHER CO",
+     "size": 30.3,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LB1GzQlQfQjCKSl2",
+   "type": "text",
+   "top": 8892.4,
+   "left": 934.1,
+   "w": 498.8,
+   "h": 18.5,
+   "runs": [
+    {
+     "text": "PUBLICATIONS VOLUNTEER",
+     "size": 15.8,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBzdmlBsYvphJnhh",
+   "type": "group",
+   "top": 8931.1,
+   "left": 934.1,
+   "w": 554.8,
+   "h": 45.3,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBjXkCCsrFZP1sT7",
+   "type": "text",
+   "top": 8931.1,
+   "left": 934.1,
+   "w": 554.8,
+   "h": 36.1,
+   "runs": [
+    {
+     "text": "ARCHI NIMO",
+     "size": 30.3,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBt1bfjjNdgVLWCd",
+   "type": "text",
+   "top": 8958,
+   "left": 934.1,
+   "w": 498.8,
+   "h": 18.5,
+   "runs": [
+    {
+     "text": "PUBLICATIONS VOLUNTEER",
+     "size": 15.8,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBJmWcm9JHsS00gF",
+   "type": "text",
+   "top": 8700.8,
+   "left": 934.1,
+   "w": 498.8,
+   "h": 18.5,
+   "runs": [
+    {
+     "text": "PUBLICATIONS VOLUNTEER",
+     "size": 15.8,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBn7GFkNbgBmnXBn",
+   "type": "text",
+   "top": 9172.9,
+   "left": 1142.7,
+   "w": 235.1,
+   "h": 23,
+   "runs": [
+    {
+     "text": "CLICK ME TO CONTINUE",
+     "size": 19.9,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3",
+     "link": "#page-3",
+     "deco": "underline"
+    }
+   ]
+  },
+  {
+   "id": "LBQRCd9tjrjCWm9m",
+   "type": "rect",
+   "top": 9178.2,
+   "left": 1118.8,
+   "w": 20.1,
+   "h": 9.5,
+   "rot": 90,
+   "media": {
+    "kind": "image",
+    "id": "MADgjVqX00o",
+    "recolor": {
+     "#000000": "#242424"
+    }
+   }
+  }
+ ]
+}

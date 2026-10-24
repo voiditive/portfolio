@@ -1,0 +1,1770 @@
+[
+	{
+		"page": 1,
+		"out": "home/01-MAHW4G8Wrf0.webp",
+		"x": 119.5,
+		"y": 262,
+		"w": 438.8,
+		"h": 438.8,
+		"canvaId": "LB1qLQyzwYpY27pZ",
+		"kind": "image"
+	},
+	{
+		"page": 1,
+		"out": "home/02-MAHW4Lj-aUU.webp",
+		"x": 878.8,
+		"y": 289.5,
+		"w": 383.6,
+		"h": 383.6,
+		"canvaId": "LBPXbFs3xBT4DgJX",
+		"kind": "image"
+	},
+	{
+		"page": 1,
+		"out": "home/03-MAHW4FTF7MQ.webp",
+		"x": 402.9,
+		"y": 302,
+		"w": 358.7,
+		"h": 358.7,
+		"canvaId": "LBCKLLHGR0Ksv1xd",
+		"kind": "image"
+	},
+	{
+		"page": 1,
+		"out": "home/04-MAHW4ALPIKc.webp",
+		"x": 694,
+		"y": 329,
+		"w": 297.3,
+		"h": 297.3,
+		"canvaId": "LBk1L9l5Tt29Bk0R",
+		"kind": "image"
+	},
+	{
+		"page": 1,
+		"out": "home/05-MADgjVqX00o.webp",
+		"x": 229.2,
+		"y": 782.6,
+		"w": 9.5,
+		"h": 20.1,
+		"canvaId": "LBK8j3mVlc63lDbB",
+		"kind": "image"
+	},
+	{
+		"page": 1,
+		"out": "home/06-MADgjVqX00o.webp",
+		"x": 1178,
+		"y": 784.1,
+		"w": 9.5,
+		"h": 20.1,
+		"canvaId": "LBbSJH1CDl9sF1ct",
+		"kind": "image"
+	},
+	{
+		"page": 1,
+		"out": "home/07-MAHVGy4PgFI.webp",
+		"x": 526.2,
+		"y": 1034.1,
+		"w": 313.6,
+		"h": 313.3,
+		"canvaId": "LBClZvsT4pQ7kPyk",
+		"kind": "image"
+	},
+	{
+		"page": 1,
+		"out": "home/08-MAHW39iiVGY.webp",
+		"x": 1037.6,
+		"y": 2483,
+		"w": 324,
+		"h": 349.6,
+		"canvaId": "LBhSyCV3hnLfZw20",
+		"kind": "image"
+	},
+	{
+		"page": 1,
+		"out": "home/09-MAHW3yblEr0.webp",
+		"x": 48.9,
+		"y": 2565.2,
+		"w": 271.4,
+		"h": 228,
+		"canvaId": "LB2NDGQMDsBH8jZM",
+		"kind": "image"
+	},
+	{
+		"page": 1,
+		"out": "home/10-MAHW4sh93ws.webp",
+		"x": 776.4,
+		"y": 2573.8,
+		"w": 173.5,
+		"h": 205.2,
+		"canvaId": "LBPJQT9GycFGfL5f",
+		"kind": "image"
+	},
+	{
+		"page": 1,
+		"out": "home/11-MAG3o8QZnBU.webp",
+		"x": 380.8,
+		"y": 2587.6,
+		"w": 299.2,
+		"h": 188.7,
+		"canvaId": "LBKcsXtCrNNhLrfq",
+		"kind": "image"
+	},
+	{
+		"page": 1,
+		"out": "home/12-MAHW4G8Wrf0.webp",
+		"x": 4.5,
+		"y": 2682.1,
+		"w": 161.5,
+		"h": 161.5,
+		"canvaId": "LBGrzNs47gKZTm03",
+		"kind": "image"
+	},
+	{
+		"page": 1,
+		"out": "home/13-MAHW4Lj-aUU.webp",
+		"x": 730.6,
+		"y": 2682.9,
+		"w": 143.4,
+		"h": 143.4,
+		"canvaId": "LBwCWSN5bW0Wlxnk",
+		"kind": "image"
+	},
+	{
+		"page": 1,
+		"out": "home/14-MAHW4FTF7MQ.webp",
+		"x": 336.2,
+		"y": 2710.9,
+		"w": 103.9,
+		"h": 103.9,
+		"canvaId": "LBBqsbVXqM9BVkPp",
+		"kind": "image"
+	},
+	{
+		"page": 1,
+		"out": "home/15-MADgjVqX00o.webp",
+		"x": 1112.4,
+		"y": 3088.1,
+		"w": 9.5,
+		"h": 20.1,
+		"canvaId": "LBR0zPyj7z394Qzq",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/01-MADgjVqX00o.webp",
+		"x": 1112.4,
+		"y": 68.2,
+		"w": 9.5,
+		"h": 20.1,
+		"canvaId": "LB4tR8LkP99h7kRS",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/02-MAHW3yblEr0.webp",
+		"x": 527,
+		"y": 296,
+		"w": 342.8,
+		"h": 287.9,
+		"canvaId": "LBXt2q8SBnqYPk8C",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/03-MAHW3yblEr0.webp",
+		"x": 663.4,
+		"y": 870.7,
+		"w": 602,
+		"h": 602.6,
+		"canvaId": "LBfc9HT5SW2nTqfT",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/04-MAHW4jk7bI0.webp",
+		"x": 0,
+		"y": 1641.7,
+		"w": 583.2,
+		"h": 616.6,
+		"canvaId": "LBDDQBj3B0RZSHKm",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/05-MAHXtrWTpWA.webp",
+		"x": 615.2,
+		"y": 1668.8,
+		"w": 280.2,
+		"h": 420,
+		"canvaId": "LB90gZ03db0nbX9p",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/06-MAHXtmbYByM.webp",
+		"x": 940.9,
+		"y": 1668.8,
+		"w": 280.2,
+		"h": 420,
+		"canvaId": "LBbNrQ8cJz2xHVw0",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/07-MAHW4G8Wrf0.webp",
+		"x": 249.6,
+		"y": 3229,
+		"w": 149.8,
+		"h": 149.8,
+		"canvaId": "LBrkzgvx7Qqyrnv2",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/08-MAFUqPSNORs.webp",
+		"x": 722.8,
+		"y": 3237.3,
+		"w": 180,
+		"h": 180,
+		"canvaId": "LB5HqFJmYHbK695t",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/09-MAFk9QSs9ds.webp",
+		"x": 368.5,
+		"y": 3247.4,
+		"w": 334.2,
+		"h": 162.1,
+		"canvaId": "LBTXJCCGjVjs1tDF",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/10-MAFUqPSNORs.webp",
+		"x": 56.5,
+		"y": 3383.9,
+		"w": 208.2,
+		"h": 208.2,
+		"canvaId": "LBxP4KqrtHPX8Qml",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/11-MAFUqPSNORs.webp",
+		"x": 269.9,
+		"y": 3417.3,
+		"w": 197.1,
+		"h": 197.1,
+		"canvaId": "LB7MNv8cjfBZ012J",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/12-MAFUqPSNORs.webp",
+		"x": 690.6,
+		"y": 3421.2,
+		"w": 158.1,
+		"h": 158.1,
+		"canvaId": "LBrl2P1dmG055dXJ",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/13-MAFUqPSNORs.webp",
+		"x": 850.3,
+		"y": 3421.2,
+		"w": 158.1,
+		"h": 158.1,
+		"canvaId": "LB2tV83dKSc2hdNw",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/14-MAF_mI5iUeA.webp",
+		"x": 993.3,
+		"y": 3582.3,
+		"w": 262.4,
+		"h": 22.3,
+		"canvaId": "LBzG4PnmKvLJq2Cr",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/15-MAFUqPSNORs.webp",
+		"x": 512.1,
+		"y": 3609.6,
+		"w": 209.6,
+		"h": 209.6,
+		"canvaId": "LBFB14f3BySzrQVn",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/16-MAFUqPSNORs.webp",
+		"x": 300.8,
+		"y": 3622.1,
+		"w": 197.1,
+		"h": 197.1,
+		"canvaId": "LBxbt975ClpnlGTb",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/17-MAFUqPSNORs.webp",
+		"x": 734.9,
+		"y": 3622.1,
+		"w": 209.6,
+		"h": 209.6,
+		"canvaId": "LBS6swc1MhZwvYl8",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/18-MAHHoiONCgs.webp",
+		"x": 780.1,
+		"y": 3907.8,
+		"w": 222.7,
+		"h": 259.4,
+		"canvaId": "LBsLXYXbfy4pL5vN",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/19-MAFUqPSNORs.webp",
+		"x": 764.9,
+		"y": 3926.5,
+		"w": 251,
+		"h": 251,
+		"canvaId": "LBNvTlKgJBppMX31",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/20-MAFUqPSNORs.webp",
+		"x": 332.9,
+		"y": 3956.9,
+		"w": 197.1,
+		"h": 197.1,
+		"canvaId": "LBxScHcRqBqQTVmV",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/21-MAFUqPSNORs.webp",
+		"x": 549.6,
+		"y": 3967.9,
+		"w": 197.1,
+		"h": 197.1,
+		"canvaId": "LB7HNJV1kVtCtnNm",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/22-MAHXuIWCfiI.webp",
+		"x": 542.9,
+		"y": 4066.5,
+		"w": 272.7,
+		"h": 363.6,
+		"canvaId": "LBKnQX3rFqjV0cmQ",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/23-MAFUqPSNORs.webp",
+		"x": 342.6,
+		"y": 4211.7,
+		"w": 197.1,
+		"h": 197.1,
+		"canvaId": "LBRD0jfb7pXM339J",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/24-MAFUqPSNORs.webp",
+		"x": 818.8,
+		"y": 4211.7,
+		"w": 197.1,
+		"h": 197.1,
+		"canvaId": "LBhXM8XmNWtnjCNH",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/25-MAHHorfv0Tk.webp",
+		"x": 808.6,
+		"y": 4230.2,
+		"w": 230.9,
+		"h": 197.1,
+		"canvaId": "LBYsxCz0w4lnc9DR",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/26-MAHW3yblEr0.webp",
+		"x": 375.3,
+		"y": 4392.8,
+		"w": 224.6,
+		"h": 299.5,
+		"canvaId": "LBFQzPVwn8vxr0c3",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/27-MAHW4jk7bI0.webp",
+		"x": 517.1,
+		"y": 4605.9,
+		"w": 331.8,
+		"h": 331.8,
+		"canvaId": "LBNf7DD1Rn9nCGLh",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/28-MAEW70ufzp8.webp",
+		"x": 475.5,
+		"y": 4882.4,
+		"w": 414.9,
+		"h": 542.4,
+		"canvaId": "LBn50ZkR5GLQ4NkX",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/29-MAHXuILuZ6M.webp",
+		"x": 21.7,
+		"y": 5794.2,
+		"w": 184.6,
+		"h": 249.4,
+		"canvaId": "LBZK8KYTd2X0vNV0",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/30-MAHXuILuZ6M.webp",
+		"x": 241.7,
+		"y": 5794.2,
+		"w": 202.3,
+		"h": 249.4,
+		"canvaId": "LB8ykYn25WKF0wbT",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/31-MAHXuILuZ6M.webp",
+		"x": 479.4,
+		"y": 5794.2,
+		"w": 184.6,
+		"h": 249.4,
+		"canvaId": "LBQ3J8QVQjXvgKbc",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/32-MAHXuILuZ6M.webp",
+		"x": 698.8,
+		"y": 5794.2,
+		"w": 184.6,
+		"h": 249.4,
+		"canvaId": "LBjkWXLdp41wtz4m",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/33-MAHXuILuZ6M.webp",
+		"x": 918.4,
+		"y": 5794.2,
+		"w": 184.6,
+		"h": 249.4,
+		"canvaId": "LB1shjP483t2VvWC",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/34-MAHXuILuZ6M.webp",
+		"x": 1138,
+		"y": 5794.2,
+		"w": 184.6,
+		"h": 249.4,
+		"canvaId": "LBTMZ9rnf2mBxTD7",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/35-MAHXuWilf4w.webp",
+		"x": 106,
+		"y": 6425.7,
+		"w": 559.9,
+		"h": 381.1,
+		"canvaId": "LBhSnn7NwczLqmwR",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/36-MAHW3yblEr0.webp",
+		"x": 729,
+		"y": 6425.7,
+		"w": 559.9,
+		"h": 381.1,
+		"canvaId": "LBLXymh652r8mqDB",
+		"kind": "image"
+	},
+	{
+		"page": 2,
+		"out": "pipboy/37-MADgjVqX00o.webp",
+		"x": 1112.4,
+		"y": 6928.1,
+		"w": 9.5,
+		"h": 20.1,
+		"canvaId": "LB5CHRzNhSHVPcqh",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/01-MADgjVqX00o.webp",
+		"x": 1112.4,
+		"y": 68.2,
+		"w": 9.5,
+		"h": 20.1,
+		"canvaId": "LBw1MVyTjC25H43j",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/02-MAG3o8QZnBU.webp",
+		"x": 472.6,
+		"y": 331.3,
+		"w": 420.8,
+		"h": 265.3,
+		"canvaId": "LBkqXkqT5LfSphMM",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/03-MAHOncgdcoI.webp",
+		"x": 663.4,
+		"y": 870.7,
+		"w": 602,
+		"h": 602.6,
+		"canvaId": "LBlB795k6c2rpN7d",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/04-MAHXtngTXao.webp",
+		"x": 592.5,
+		"y": 1668.8,
+		"w": 302.8,
+		"h": 420,
+		"canvaId": "LBXLdHVN5wQhYP7P",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/05-MAHXtnpfbpU.webp",
+		"x": 940.9,
+		"y": 1668.8,
+		"w": 325.8,
+		"h": 420,
+		"canvaId": "LBc3VXYSf8XNRjxH",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/06-MAHW4FTF7MQ.webp",
+		"x": 62.6,
+		"y": 1726.3,
+		"w": 408.1,
+		"h": 408.1,
+		"canvaId": "LBN71WD5shGgnGT6",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/07-MAHXz2gofo4.webp",
+		"x": 0.3,
+		"y": 2474.3,
+		"w": 656.5,
+		"h": 539.4,
+		"canvaId": "LB3g4WC7XXVzXN3d",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/08-MAFUqPSNORs.webp",
+		"x": 685.1,
+		"y": 3240.2,
+		"w": 180,
+		"h": 180,
+		"canvaId": "LB1Wjb8C8v3HmSRX",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/09-MAFUqPSNORs.webp",
+		"x": 867.3,
+		"y": 3240.2,
+		"w": 180,
+		"h": 180,
+		"canvaId": "LB1CT1s93GM9wDQx",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/10-MAFUqPSNORs.webp",
+		"x": 1047.3,
+		"y": 3240.2,
+		"w": 180,
+		"h": 180,
+		"canvaId": "LBs8VlZNHlK0f9JY",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/11-MAHW4FTF7MQ.webp",
+		"x": 266.9,
+		"y": 3244.8,
+		"w": 118.3,
+		"h": 118.3,
+		"canvaId": "LB8tb4ZTVhvNcMDY",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/12-MAFUqPSNORs.webp",
+		"x": 127.9,
+		"y": 3369.3,
+		"w": 240.6,
+		"h": 240.6,
+		"canvaId": "LBXB6Kc1dfNfwc6J",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/13-MAFUqPSNORs.webp",
+		"x": 345.6,
+		"y": 3399.2,
+		"w": 209.6,
+		"h": 209.6,
+		"canvaId": "LB6YgxB8Q7KVkLyX",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/14-MAFUqPSNORs.webp",
+		"x": 544.1,
+		"y": 3399.2,
+		"w": 209.6,
+		"h": 209.6,
+		"canvaId": "LBDgkj82h6jfDSWQ",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/15-MAF_mI5iUeA.webp",
+		"x": 753.7,
+		"y": 3554.1,
+		"w": 262.4,
+		"h": 22.3,
+		"canvaId": "LBwTRLtFL7zS6YYB",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/16-MAEW70ufzp8.webp",
+		"x": 814.8,
+		"y": 3579.2,
+		"w": 201.3,
+		"h": 263.2,
+		"canvaId": "LBpy2zkKD2qJZxsS",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/17-MAFUqPSNORs.webp",
+		"x": 77.1,
+		"y": 3616.1,
+		"w": 171.1,
+		"h": 171.1,
+		"canvaId": "LB1DS4jSv7L6Cglz",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/18-MAEW7y18qrI.webp",
+		"x": 316.9,
+		"y": 3619.7,
+		"w": 361.1,
+		"h": 232.6,
+		"canvaId": "LBgGZRgTtlmsJk3b",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/19-MAEW70ufzp8.webp",
+		"x": 313.6,
+		"y": 3932.7,
+		"w": 203.6,
+		"h": 255.2,
+		"canvaId": "LBJMZmbbk3k9js2l",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/20-MAEW70ufzp8.webp",
+		"x": 517.2,
+		"y": 3932.7,
+		"w": 203.6,
+		"h": 255.2,
+		"canvaId": "LB8MggN83jsBjX9h",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/21-MAEW70ufzp8.webp",
+		"x": 720.8,
+		"y": 3932.7,
+		"w": 203.6,
+		"h": 255.2,
+		"canvaId": "LBr6KSZpkk0Pc1Yc",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/22-MAEW70ufzp8.webp",
+		"x": 924.4,
+		"y": 3932.7,
+		"w": 203.6,
+		"h": 255.2,
+		"canvaId": "LB2j9w8VvLFSB79k",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/23-MAF_mI5iUeA.webp",
+		"x": 541.4,
+		"y": 4217,
+		"w": 347.8,
+		"h": 29.6,
+		"canvaId": "LBP2yKns8W9mvTtL",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/24-MAHXz0i9M-o.webp",
+		"x": 822.6,
+		"y": 4258.6,
+		"w": 267.2,
+		"h": 378.1,
+		"canvaId": "LBbyR0BBHHLJLTlT",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/25-MAFUqPSNORs.webp",
+		"x": 811,
+		"y": 4317.2,
+		"w": 290.4,
+		"h": 290.4,
+		"canvaId": "LBtHmkS2pzgNTjXj",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/26-MAHXz-e_HhM.webp",
+		"x": 559.9,
+		"y": 4323.6,
+		"w": 228.8,
+		"h": 114.4,
+		"canvaId": "LBnQzQb0SRg17nwF",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/27-MAEW70ufzp8.webp",
+		"x": 356.3,
+		"y": 4325.1,
+		"w": 203.6,
+		"h": 255.2,
+		"canvaId": "LBVmDBxBxz76VJw7",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/28-MAHXz9oCqCY.webp",
+		"x": 559.9,
+		"y": 4447.6,
+		"w": 228.8,
+		"h": 114.4,
+		"canvaId": "LB3WwZSrX5prfHnn",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/29-MAEW7y18qrI.webp",
+		"x": 333.1,
+		"y": 4722.2,
+		"w": 889.4,
+		"h": 228.1,
+		"canvaId": "LBWpC4nYMdMLmKL9",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/30-MAEW7y18qrI.webp",
+		"x": 415.1,
+		"y": 5069.9,
+		"w": 889.4,
+		"h": 224.3,
+		"canvaId": "LB660Q5ZgC7gt3vq",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/31-MAHX46p1rps.webp",
+		"x": 0,
+		"y": 5459.1,
+		"w": 406.3,
+		"h": 575.7,
+		"canvaId": "LBGrZKJpy8FwLyzN",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/32-MAHW4h2aUzY.webp",
+		"x": 523.6,
+		"y": 5459.1,
+		"w": 299.4,
+		"h": 299.4,
+		"canvaId": "LBkW0Nl17N7GLFCH",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/33-MAHX46K5X8w.webp",
+		"x": 978,
+		"y": 5659.5,
+		"w": 388,
+		"h": 575.7,
+		"canvaId": "LBHKHVFcy5ZzbP7q",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/34-MAGZFos4FSI.webp",
+		"x": 501,
+		"y": 5746.9,
+		"w": 322,
+		"h": 53.1,
+		"canvaId": "LB29JkmjHQSkPDBT",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/35-MAEW7y18qrI.webp",
+		"x": 343.9,
+		"y": 5810.9,
+		"w": 683,
+		"h": 399.7,
+		"canvaId": "LB9fhGHc48dMRtV5",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/36-MAHX439I2tw.webp",
+		"x": 0,
+		"y": 6164.3,
+		"w": 431.6,
+		"h": 611.6,
+		"canvaId": "LB7jZ08k4KwT7w0V",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/37-MAEW7y18qrI.webp",
+		"x": 346.3,
+		"y": 6210.8,
+		"w": 681.2,
+		"h": 384.3,
+		"canvaId": "LB7NF7ghwrhGRNm4",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/38-MAHX45EOfp0.webp",
+		"x": 909.4,
+		"y": 6404,
+		"w": 456.6,
+		"h": 583.7,
+		"canvaId": "LBs1DnSvPWNtnmmM",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/39-MAEW7y18qrI.webp",
+		"x": 346.3,
+		"y": 6583.7,
+		"w": 681.2,
+		"h": 384.3,
+		"canvaId": "LB19Tjpk3yQykR0K",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/40-MAEW70ufzp8.webp",
+		"x": 381.8,
+		"y": 6982.4,
+		"w": 618.8,
+		"h": 764.7,
+		"canvaId": "LBlMNj0YbY2tTLRn",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/41-MAHX4wynz7k.webp",
+		"x": 0,
+		"y": 7014.7,
+		"w": 548.5,
+		"h": 562.8,
+		"canvaId": "LBPQvFv2V77NqSys",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/42-MAHX4_oH9RQ.webp",
+		"x": 933.6,
+		"y": 7268.6,
+		"w": 432.4,
+		"h": 478.5,
+		"canvaId": "LB94qYfZknhjSth1",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/43-MAHX0FGOmtc.webp",
+		"x": 655,
+		"y": 7758.8,
+		"w": 702.1,
+		"h": 210.7,
+		"canvaId": "LB5TLWkD4YX3LQQF",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/44-MAHX0JMnm10.webp",
+		"x": 655,
+		"y": 7969.5,
+		"w": 702.1,
+		"h": 464.8,
+		"canvaId": "LBL10kcqymDkxzRl",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/45-MAHX0C5z88w.webp",
+		"x": 77.1,
+		"y": 8109.1,
+		"w": 565.2,
+		"h": 325.1,
+		"canvaId": "LBLj7lsdygKZYwCT",
+		"kind": "image"
+	},
+	{
+		"page": 3,
+		"out": "widw/46-MADgjVqX00o.webp",
+		"x": 1124.1,
+		"y": 9228.9,
+		"w": 9.5,
+		"h": 20.1,
+		"canvaId": "LBQRCd9tjrjCWm9m",
+		"kind": "image"
+	},
+	{
+		"page": 4,
+		"out": "illustrations/01-MAHX5p2i5zc.webp",
+		"x": 127.1,
+		"y": 56,
+		"w": 523.7,
+		"h": 326.3,
+		"canvaId": "LBX02PP1mh2kcc1p",
+		"kind": "image"
+	},
+	{
+		"page": 4,
+		"out": "illustrations/02-MAHVng-atF0.webp",
+		"x": 668.7,
+		"y": 56,
+		"w": 620.5,
+		"h": 768,
+		"canvaId": "LBs0zs6xZdmfDk6j",
+		"kind": "image"
+	},
+	{
+		"page": 4,
+		"out": "illustrations/03-MAHVnt-_Kd8.webp",
+		"x": 127.1,
+		"y": 405.5,
+		"w": 523.7,
+		"h": 418.5,
+		"canvaId": "LBcpyQ6Wj6wHrm0X",
+		"kind": "image"
+	},
+	{
+		"page": 4,
+		"out": "illustrations/04-MAHVn15YrnQ.webp",
+		"x": 129,
+		"y": 847.4,
+		"w": 362.8,
+		"h": 454,
+		"canvaId": "LBBj7G122Pvynywg",
+		"kind": "image"
+	},
+	{
+		"page": 4,
+		"out": "illustrations/05-MAHX5jnMKDU.webp",
+		"x": 503.6,
+		"y": 847.4,
+		"w": 319.8,
+		"h": 454,
+		"canvaId": "LB3y0kmHn6wlSClv",
+		"kind": "image"
+	},
+	{
+		"page": 4,
+		"out": "illustrations/06-MAHVnt2yTIU.webp",
+		"x": 835.2,
+		"y": 847.4,
+		"w": 454,
+		"h": 454,
+		"canvaId": "LBWDjN61Xq0JgZHy",
+		"kind": "image"
+	},
+	{
+		"page": 4,
+		"out": "illustrations/07-MAHX5twmmOs.webp",
+		"x": 131.7,
+		"y": 1325.1,
+		"w": 385.8,
+		"h": 482.8,
+		"canvaId": "LBr8KJy6CV00prcJ",
+		"kind": "image"
+	},
+	{
+		"page": 4,
+		"out": "illustrations/08-MAHX5pPzBwI.webp",
+		"x": 517.6,
+		"y": 1325.1,
+		"w": 385.8,
+		"h": 482.8,
+		"canvaId": "LBtzRrfWLFZGXMfK",
+		"kind": "image"
+	},
+	{
+		"page": 4,
+		"out": "illustrations/09-MAHX5tDnbN0.webp",
+		"x": 903.4,
+		"y": 1325.1,
+		"w": 385.8,
+		"h": 482.8,
+		"canvaId": "LBhVb3MzJH83wqGR",
+		"kind": "image"
+	},
+	{
+		"page": 4,
+		"out": "illustrations/10-MAHX59zzJHc.webp",
+		"x": 117.7,
+		"y": 2222.9,
+		"w": 586.5,
+		"h": 404.2,
+		"canvaId": "LBlPHmJDQqnf5lcF",
+		"kind": "image"
+	},
+	{
+		"page": 4,
+		"out": "illustrations/11-MAHX5wraeQI.webp",
+		"x": 719.2,
+		"y": 2222.9,
+		"w": 586.5,
+		"h": 404.2,
+		"canvaId": "LBxRCC2ZsCRlwHsk",
+		"kind": "image"
+	},
+	{
+		"page": 4,
+		"out": "illustrations/12-MAHX55fO9gU.webp",
+		"x": 117.2,
+		"y": 2640.3,
+		"w": 586.5,
+		"h": 404.2,
+		"canvaId": "LBnDw0qL9B3js62J",
+		"kind": "image"
+	},
+	{
+		"page": 4,
+		"out": "illustrations/13-MAHX5xbD1is.webp",
+		"x": 718.7,
+		"y": 2640.3,
+		"w": 586.5,
+		"h": 468.7,
+		"canvaId": "LBf416Lc5CCTzTH2",
+		"kind": "image"
+	},
+	{
+		"page": 4,
+		"out": "illustrations/14-MAHX59M5kzg.webp",
+		"x": 142.1,
+		"y": 3154.7,
+		"w": 504.9,
+		"h": 714.5,
+		"canvaId": "LBw5528XYyZkMDvW",
+		"kind": "image"
+	},
+	{
+		"page": 4,
+		"out": "illustrations/15-MAHX596WMzY.webp",
+		"x": 697.9,
+		"y": 3154.7,
+		"w": 526,
+		"h": 362.5,
+		"canvaId": "LBc97NkJG0w9bdNn",
+		"kind": "image"
+	},
+	{
+		"page": 4,
+		"out": "illustrations/16-MAHX5-qctk4.webp",
+		"x": 697.9,
+		"y": 3506.8,
+		"w": 526,
+		"h": 362.5,
+		"canvaId": "LBhHJ4z97VfTGQ7d",
+		"kind": "image"
+	},
+	{
+		"page": 4,
+		"out": "illustrations/17-MAHX54qiSws.webp",
+		"x": 92.6,
+		"y": 3896,
+		"w": 400.4,
+		"h": 573.6,
+		"canvaId": "LBp9ncTgdNshYB7Z",
+		"kind": "image"
+	},
+	{
+		"page": 4,
+		"out": "illustrations/18-MAHX53O4U54.webp",
+		"x": 516.5,
+		"y": 3896,
+		"w": 772.7,
+		"h": 556.7,
+		"canvaId": "LBHbx79y7r9nQykK",
+		"kind": "image"
+	},
+	{
+		"page": 4,
+		"out": "illustrations/19-MAHX5z7AXwo.webp",
+		"x": 94.3,
+		"y": 4478.3,
+		"w": 746.8,
+		"h": 560.1,
+		"canvaId": "LB26VgSj0q1RNlql",
+		"kind": "image"
+	},
+	{
+		"page": 4,
+		"out": "illustrations/20-MAHX58vQtuc.webp",
+		"x": 619.2,
+		"y": 4740.8,
+		"w": 746.8,
+		"h": 560.1,
+		"canvaId": "LByMtNhzTkZKDHLC",
+		"kind": "image"
+	},
+	{
+		"page": 5,
+		"out": "ishda/01-MADgjVqX00o.webp",
+		"x": 1112.4,
+		"y": 68.2,
+		"w": 9.5,
+		"h": 20.1,
+		"canvaId": "LBlcJWksgSQcS5CT",
+		"kind": "image"
+	},
+	{
+		"page": 5,
+		"out": "ishda/02-MAHW39iiVGY.webp",
+		"x": 558.3,
+		"y": 292.5,
+		"w": 284.5,
+		"h": 348.1,
+		"canvaId": "LBZSb08G7ldK6my8",
+		"kind": "image"
+	},
+	{
+		"page": 5,
+		"out": "ishda/03-MAHW39iiVGY.webp",
+		"x": 537.2,
+		"y": 350.2,
+		"w": 318.3,
+		"h": 318.6,
+		"canvaId": "LBvwxvh85QZXZqPY",
+		"kind": "image"
+	},
+	{
+		"page": 5,
+		"out": "ishda/04-MAHW39iiVGY.webp",
+		"x": 663.4,
+		"y": 870.7,
+		"w": 602,
+		"h": 602.6,
+		"canvaId": "LB7r68rPsbBjsCdR",
+		"kind": "image"
+	},
+	{
+		"page": 5,
+		"out": "ishda/05-MAHW4ALPIKc.webp",
+		"x": 145.1,
+		"y": 1665.4,
+		"w": 416.4,
+		"h": 416.4,
+		"canvaId": "LB5HY019ydNSfhtq",
+		"kind": "image"
+	},
+	{
+		"page": 5,
+		"out": "ishda/06-MAHX5KeOBpY.webp",
+		"x": 592.5,
+		"y": 1668.8,
+		"w": 302.8,
+		"h": 420,
+		"canvaId": "LBKDbmn1VJqHymlh",
+		"kind": "image"
+	},
+	{
+		"page": 5,
+		"out": "ishda/07-MAHX5CXkcWA.webp",
+		"x": 940.9,
+		"y": 1668.8,
+		"w": 325.8,
+		"h": 420,
+		"canvaId": "LBxCTJmz1bwLPsYc",
+		"kind": "image"
+	},
+	{
+		"page": 5,
+		"out": "ishda/08-MAHW4ALPIKc.webp",
+		"x": 64.4,
+		"y": 1717.9,
+		"w": 416.4,
+		"h": 416.4,
+		"canvaId": "LB9dnyQMQfGWv4Sj",
+		"kind": "image"
+	},
+	{
+		"page": 5,
+		"out": "ishda/09-MAFUqPSNORs.webp",
+		"x": 837.5,
+		"y": 2479.9,
+		"w": 195.9,
+		"h": 195.9,
+		"canvaId": "LBny0TYtGdnVz9HB",
+		"kind": "image"
+	},
+	{
+		"page": 5,
+		"out": "ishda/10-MAFUqPSNORs.webp",
+		"x": 638.5,
+		"y": 2482.6,
+		"w": 195.9,
+		"h": 195.9,
+		"canvaId": "LBL7BXsL6SP6X7LR",
+		"kind": "image"
+	},
+	{
+		"page": 5,
+		"out": "ishda/11-MAFUqPSNORs.webp",
+		"x": 243.7,
+		"y": 2676.4,
+		"w": 195.9,
+		"h": 195.9,
+		"canvaId": "LBSBY4TLFrsTYngW",
+		"kind": "image"
+	},
+	{
+		"page": 5,
+		"out": "ishda/12-MAFUqPSNORs.webp",
+		"x": 439.6,
+		"y": 2676.4,
+		"w": 195.9,
+		"h": 195.9,
+		"canvaId": "LB6nzcpW3j7mmn36",
+		"kind": "image"
+	},
+	{
+		"page": 5,
+		"out": "ishda/13-MAFUqPSNORs.webp",
+		"x": 919.9,
+		"y": 2693.7,
+		"w": 195.9,
+		"h": 195.9,
+		"canvaId": "LBRlkvCpg5b4dNnN",
+		"kind": "image"
+	},
+	{
+		"page": 5,
+		"out": "ishda/14-MAF_mI5iUeA.webp",
+		"x": 994.8,
+		"y": 2773.3,
+		"w": 262.4,
+		"h": 22.3,
+		"canvaId": "LB4WpnnRqPMSFc74",
+		"kind": "image"
+	},
+	{
+		"page": 5,
+		"out": "ishda/15-MAFUqPSNORs.webp",
+		"x": 724,
+		"y": 2931.1,
+		"w": 195.9,
+		"h": 195.9,
+		"canvaId": "LBWpG4mVnnm7jzrQ",
+		"kind": "image"
+	},
+	{
+		"page": 5,
+		"out": "ishda/16-MAFUqPSNORs.webp",
+		"x": 513,
+		"y": 2932.1,
+		"w": 195.9,
+		"h": 195.9,
+		"canvaId": "LBx9H89PmK9nfjQY",
+		"kind": "image"
+	},
+	{
+		"page": 5,
+		"out": "ishda/17-MAHX44V7bZs.webp",
+		"x": 8.4,
+		"y": 3164.2,
+		"w": 334.2,
+		"h": 673.7,
+		"canvaId": "LBk3Q7gVdk9bz8zh",
+		"kind": "image"
+	},
+	{
+		"page": 5,
+		"out": "ishda/18-MAHX44V7bZs.webp",
+		"x": 342.6,
+		"y": 3173.1,
+		"w": 334.2,
+		"h": 673.7,
+		"canvaId": "LBVYH75YXG8btVqN",
+		"kind": "image"
+	},
+	{
+		"page": 5,
+		"out": "ishda/19-MAHX44V7bZs.webp",
+		"x": 676.9,
+		"y": 3186.1,
+		"w": 334.2,
+		"h": 673.7,
+		"canvaId": "LBDTtSVNL4HGVVGc",
+		"kind": "image"
+	},
+	{
+		"page": 5,
+		"out": "ishda/20-MAHX44V7bZs.webp",
+		"x": 1011.1,
+		"y": 3186.1,
+		"w": 334.2,
+		"h": 673.7,
+		"canvaId": "LBdCJvwgZLfPFRzL",
+		"kind": "image"
+	},
+	{
+		"page": 5,
+		"out": "ishda/21-MADgjVqX00o.webp",
+		"x": 1112.4,
+		"y": 3856.1,
+		"w": 9.5,
+		"h": 20.1,
+		"canvaId": "LBPBYny7pjB0YLNT",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/01-MAHX4Xge3sU.webp",
+		"x": 380.3,
+		"y": 68.2,
+		"w": 605.4,
+		"h": 605.4,
+		"canvaId": "LBqgbJ8WzZ4T6fRr",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/02-MADgjVqX00o.webp",
+		"x": 1112.4,
+		"y": 68.2,
+		"w": 9.5,
+		"h": 20.1,
+		"canvaId": "LBBLJqSVq4D0Fbx9",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/03-MAHW4sh93ws.webp",
+		"x": 663.4,
+		"y": 870.7,
+		"w": 602,
+		"h": 602.6,
+		"canvaId": "LBgP0t6BlYf4wmJ2",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/04-MAFUqPSNORs.webp",
+		"x": 538.8,
+		"y": 1702.5,
+		"w": 195.9,
+		"h": 195.9,
+		"canvaId": "LBP5Wp0PBdMzfjkg",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/05-MAFUqPSNORs.webp",
+		"x": 756.1,
+		"y": 1702.5,
+		"w": 195.9,
+		"h": 195.9,
+		"canvaId": "LB60cssSMw4WKGcs",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/06-MAFUqPSNORs.webp",
+		"x": 994.8,
+		"y": 1898.4,
+		"w": 195.9,
+		"h": 195.9,
+		"canvaId": "LBxBt2Mtl2WmjxtC",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/07-MAFUqPSNORs.webp",
+		"x": 243.7,
+		"y": 1908.4,
+		"w": 195.9,
+		"h": 195.9,
+		"canvaId": "LB29NfZlQYpYCjXL",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/08-MAFUqPSNORs.webp",
+		"x": 439.6,
+		"y": 1908.4,
+		"w": 195.9,
+		"h": 195.9,
+		"canvaId": "LB54Q5Ys3QSTBzBb",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/09-MAF_mI5iUeA.webp",
+		"x": 994.8,
+		"y": 2005.3,
+		"w": 262.4,
+		"h": 22.3,
+		"canvaId": "LBR00sBNbKHpd7m4",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/10-MAFUqPSNORs.webp",
+		"x": 682.2,
+		"y": 2087.3,
+		"w": 195.9,
+		"h": 195.9,
+		"canvaId": "LB6R2mH1yzfHjkk6",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/11-MAFUqPSNORs.webp",
+		"x": 878.2,
+		"y": 2099.1,
+		"w": 195.9,
+		"h": 195.9,
+		"canvaId": "LBmLxh09BM4lQm7Q",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/12-MAFUqPSNORs.webp",
+		"x": 311.1,
+		"y": 2418.9,
+		"w": 195.9,
+		"h": 195.9,
+		"canvaId": "LBVND9r53WpWNRn9",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/13-MAFUqPSNORs.webp",
+		"x": 683,
+		"y": 2436.8,
+		"w": 195.9,
+		"h": 195.9,
+		"canvaId": "LBq8XsqvMKrlz9g3",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/14-MAFUqPSNORs.webp",
+		"x": 878.9,
+		"y": 2436.8,
+		"w": 195.9,
+		"h": 195.9,
+		"canvaId": "LBjFrmBf8hqKlKzK",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/15-MAFUqPSNORs.webp",
+		"x": 1074.9,
+		"y": 2436.8,
+		"w": 195.9,
+		"h": 195.9,
+		"canvaId": "LBB5L5GYwQCcgrC9",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/16-MAFUqPSNORs.webp",
+		"x": 496.7,
+		"y": 2443.8,
+		"w": 195.9,
+		"h": 195.9,
+		"canvaId": "LBT4Jx1Q1ClSWqrN",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/17-MAFUqPSNORs.webp",
+		"x": 614.1,
+		"y": 2782.9,
+		"w": 195.9,
+		"h": 195.9,
+		"canvaId": "LBTD0jP9K3r5NKcP",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/18-MAFUqPSNORs.webp",
+		"x": 409.1,
+		"y": 2804.4,
+		"w": 195.9,
+		"h": 195.9,
+		"canvaId": "LBH1KZmTFyFktngr",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/19-MAFUqPSNORs.webp",
+		"x": 810.1,
+		"y": 2804.4,
+		"w": 195.9,
+		"h": 195.9,
+		"canvaId": "LBjfbbr4ycdcDZn6",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/20-MAHX4Xge3sU.webp",
+		"x": 0.3,
+		"y": 3128,
+		"w": 538.8,
+		"h": 538.8,
+		"canvaId": "LBvCxdqcTdJyYbp7",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/21-MAHX4EkznQ8.webp",
+		"x": 539.2,
+		"y": 3128,
+		"w": 404.1,
+		"h": 538.8,
+		"canvaId": "LByHW2YlLjm8PW36",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/22-MAHX4Um95R4.webp",
+		"x": 940.9,
+		"y": 3128,
+		"w": 425.1,
+		"h": 538.8,
+		"canvaId": "LBcTNT250D1kG2lt",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/23-MAHX4AOK1nM.webp",
+		"x": 0.3,
+		"y": 3666.8,
+		"w": 538.8,
+		"h": 269.4,
+		"canvaId": "LBtfLGDBMqKy27SD",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/24-MAHX4AAvI94.webp",
+		"x": 539.2,
+		"y": 3666.8,
+		"w": 404.1,
+		"h": 229.2,
+		"canvaId": "LBzqFYwfDwG8mlVb",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/25-MAHX4AUy5jQ.webp",
+		"x": 940.9,
+		"y": 3666.8,
+		"w": 425.1,
+		"h": 229.2,
+		"canvaId": "LB8NcJPQ8hxvCcLK",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/26-MAHX4IEaPcQ.webp",
+		"x": 0.3,
+		"y": 3896,
+		"w": 538.8,
+		"h": 538.8,
+		"canvaId": "LB8V635gzwhnxKQz",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/27-MAHX4M4f5Zc.webp",
+		"x": 539.2,
+		"y": 3896,
+		"w": 401.7,
+		"h": 538.8,
+		"canvaId": "LBvQtby9LvlSrjm0",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/28-MAHX4JWOkXg.webp",
+		"x": 940.9,
+		"y": 3896,
+		"w": 424.8,
+		"h": 538.8,
+		"canvaId": "LBwvW5PMMCb08g6l",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/29-MAHX4MA8LBU.webp",
+		"x": 0.3,
+		"y": 4434.8,
+		"w": 538.8,
+		"h": 229.2,
+		"canvaId": "LB3l10VYT02ZWs51",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/30-MAHX4Y3y6Qc.webp",
+		"x": 539.2,
+		"y": 4434.8,
+		"w": 401.7,
+		"h": 229.2,
+		"canvaId": "LB8rXSzCTHMVpZ2b",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/31-MAHX4FW7q_c.webp",
+		"x": 940.9,
+		"y": 4434.8,
+		"w": 425.1,
+		"h": 229.2,
+		"canvaId": "LBTlsjQXsTpKkRzl",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/32-MAHX4Y3y6Qc.webp",
+		"x": 0.3,
+		"y": 4774.2,
+		"w": 743.8,
+		"h": 302.7,
+		"canvaId": "LBQKjgYlhRmy26j6",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/33-MAHX4K8SNa8.webp",
+		"x": 753.1,
+		"y": 4774.2,
+		"w": 612.5,
+		"h": 545.7,
+		"canvaId": "LB4DrJdF8JbFXxgB",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/34-MAHW4jk7bI0.webp",
+		"x": 98,
+		"y": 5566.1,
+		"w": 564.4,
+		"h": 564.4,
+		"canvaId": "LBrLC3X4BTLcnfnp",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/35-MAHW4h2aUzY.webp",
+		"x": 507.8,
+		"y": 5620.2,
+		"w": 433.1,
+		"h": 433.1,
+		"canvaId": "LBj3BYBfgPZywXK9",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/36-MAHW4o0v5QY.webp",
+		"x": 743.1,
+		"y": 5648.1,
+		"w": 377.3,
+		"h": 377.3,
+		"canvaId": "LBJkWlR0s4FHkFw6",
+		"kind": "image"
+	},
+	{
+		"page": 6,
+		"out": "yume/37-MAHW4irt9do.webp",
+		"x": 415.3,
+		"y": 5657.7,
+		"w": 333.7,
+		"h": 333.7,
+		"canvaId": "LB8NpTbyht9n4hCn",
+		"kind": "image"
+	},
+	{
+		"page": 4,
+		"out": "illustrations/grid-paper.webp",
+		"x": 0,
+		"y": 1832,
+		"w": 1366,
+		"h": 360
+	}
+]

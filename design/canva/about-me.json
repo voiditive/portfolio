@@ -1,0 +1,2025 @@
+{
+ "title": "about me",
+ "height": 3072,
+ "sections": [
+  {
+   "id": "PBM0pWNpHNqGFZ2y",
+   "top": 0,
+   "h": 768,
+   "bg": "#df2200"
+  },
+  {
+   "id": "PBK082qktZdpj4vR",
+   "top": 768,
+   "h": 768,
+   "bg": "#ffffff"
+  },
+  {
+   "id": "PB43GkyBwMSjYX1z",
+   "top": 1536,
+   "h": 768,
+   "bg": "#ffffff"
+  },
+  {
+   "id": "PBjVBZMj22FzV1rS",
+   "top": 2304,
+   "h": 768,
+   "bg": "#ffffff"
+  }
+ ],
+ "elements": [
+  {
+   "id": "LBbSJH1CDl9sF1ct",
+   "type": "rect",
+   "top": 733.4,
+   "left": 1172.7,
+   "w": 20.1,
+   "h": 9.5,
+   "rot": 90,
+   "media": {
+    "kind": "image",
+    "id": "MADgjVqX00o",
+    "recolor": {
+     "#000000": "#ffffff"
+    }
+   }
+  },
+  {
+   "id": "LBVwWh6QV06zF729",
+   "type": "line",
+   "top": 31.1,
+   "left": 33.5,
+   "w": 43.6,
+   "h": 2.1,
+   "stroke": {
+    "w": 2,
+    "color": "#ffffff"
+   }
+  },
+  {
+   "id": "LBM9f7T0cLWZ4xJQ",
+   "type": "line",
+   "top": 44.5,
+   "left": 33.5,
+   "w": 43.6,
+   "h": 2.1,
+   "stroke": {
+    "w": 2,
+    "color": "#ffffff"
+   }
+  },
+  {
+   "id": "LB5B3xNn0Mjb1TQj",
+   "type": "text",
+   "top": 128.1,
+   "left": 428.1,
+   "w": 509.7,
+   "h": 70.7,
+   "runs": [
+    {
+     "text": "MY INDUSTRIAL DESIGN",
+     "size": 59.3,
+     "weight": "bold",
+     "color": "#ffffff",
+     "align": "center",
+     "lh": 0.8,
+     "ls": -0.1,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBydW2RwvHx7TbXX",
+   "type": "text",
+   "top": 163.4,
+   "left": 350.9,
+   "w": 664.3,
+   "h": 194.2,
+   "runs": [
+    {
+     "text": "PORTFOLIO",
+     "size": 161.9,
+     "weight": "bold",
+     "color": "#ffffff",
+     "align": "center",
+     "lh": 0.8,
+     "ls": -0.1,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LB28L6VxH9m2zKhT",
+   "type": "text",
+   "top": 421.6,
+   "left": 473.3,
+   "w": 422.1,
+   "h": 241.5,
+   "runs": [
+    {
+     "text": "\nMY DESIGN \nPROCESS",
+     "size": 86.3,
+     "weight": "normal",
+     "color": "#ffffff",
+     "align": "center",
+     "lh": 0.8,
+     "ls": -0.1,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBk1L9l5Tt29Bk0R",
+   "type": "rect",
+   "top": 273,
+   "left": 694,
+   "w": 297.3,
+   "h": 297.3,
+   "media": {
+    "kind": "image",
+    "id": "MAHW4ALPIKc"
+   }
+  },
+  {
+   "id": "LB1qLQyzwYpY27pZ",
+   "type": "rect",
+   "top": 243.4,
+   "left": 156.9,
+   "w": 363.9,
+   "h": 363.9,
+   "rot": 13.5,
+   "media": {
+    "kind": "image",
+    "id": "MAHW4G8Wrf0"
+   }
+  },
+  {
+   "id": "LBCKLLHGR0Ksv1xd",
+   "type": "rect",
+   "top": 282.2,
+   "left": 439.1,
+   "w": 286.2,
+   "h": 286.2,
+   "rot": 17.4,
+   "media": {
+    "kind": "image",
+    "id": "MAHW4FTF7MQ"
+   }
+  },
+  {
+   "id": "LBPXbFs3xBT4DgJX",
+   "type": "rect",
+   "top": 233.5,
+   "left": 878.8,
+   "w": 383.6,
+   "h": 383.6,
+   "media": {
+    "kind": "image",
+    "id": "MAHW4Lj-aUU"
+   }
+  },
+  {
+   "id": "LBv5Dtgq4M4bYgLK",
+   "type": "text",
+   "top": 666.6,
+   "left": 364.1,
+   "w": 218.1,
+   "h": 61.6,
+   "runs": [
+    {
+     "text": "THIS DESIGN PORTFOLIO INCLUDES\nTHE DESIGNS",
+     "size": 19.9,
+     "weight": "normal",
+     "color": "#ffffff",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBgLfgYRZJ4ml9G8",
+   "type": "text",
+   "top": 644.7,
+   "left": 660.7,
+   "w": 44.5,
+   "h": 103.5,
+   "runs": [
+    {
+     "text": "+",
+     "size": 86.3,
+     "weight": "normal",
+     "color": "#ffffff",
+     "align": "center",
+     "lh": 0.8,
+     "ls": -0.1,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBdlPwM7WFX6s8gQ",
+   "type": "text",
+   "top": 101.8,
+   "left": 520.9,
+   "w": 321.7,
+   "h": 26.6,
+   "runs": [
+    {
+     "text": "(UY, ANDREW MATTHEW)",
+     "size": 22.9,
+     "weight": "normal",
+     "color": "#ffffff",
+     "align": "center",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBnj0xCQ4TwTJV59",
+   "type": "text",
+   "top": 728.1,
+   "left": 1195.3,
+   "w": 156.8,
+   "h": 23.2,
+   "runs": [
+    {
+     "text": "LET’S START",
+     "size": 19.9,
+     "weight": "normal",
+     "color": "#ffffff",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBv5mY0tPK9CJ1dT",
+   "type": "text",
+   "top": 666.6,
+   "left": 842.6,
+   "w": 156.8,
+   "h": 61.6,
+   "runs": [
+    {
+     "text": "THE PROCESSES\nOVER THE PAST\n",
+     "size": 19.9,
+     "weight": "normal",
+     "color": "#ffffff",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "YEARS",
+     "size": 19.9,
+     "weight": "bold",
+     "color": "#ffffff",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBCNNqW3R5XNdnhL",
+   "type": "text",
+   "top": 726.6,
+   "left": 77.1,
+   "w": 156.8,
+   "h": 23.2,
+   "runs": [
+    {
+     "text": "CLICK ON ICONS ",
+     "size": 19.9,
+     "weight": "normal",
+     "color": "#ffffff",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBK8j3mVlc63lDbB",
+   "type": "rect",
+   "top": 731.9,
+   "left": 223.9,
+   "w": 20.1,
+   "h": 9.5,
+   "rot": -90,
+   "media": {
+    "kind": "image",
+    "id": "MADgjVqX00o",
+    "recolor": {
+     "#000000": "#ffffff"
+    }
+   }
+  },
+  {
+   "id": "LBClZvsT4pQ7kPyk",
+   "type": "rect",
+   "top": 978.1,
+   "left": 526.2,
+   "w": 313.6,
+   "h": 313.3,
+   "media": {
+    "kind": "image",
+    "id": "MAHVGy4PgFI"
+   }
+  },
+  {
+   "id": "LB5S0WPrczMgncVB",
+   "type": "text",
+   "top": 830.2,
+   "left": 356.8,
+   "w": 652.5,
+   "h": 163.4,
+   "runs": [
+    {
+     "text": "I’M",
+     "size": 136.5,
+     "weight": "bold",
+     "color": "#df2200",
+     "align": "center",
+     "lh": 0.8,
+     "ls": -0.1,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": " ANDREW",
+     "size": 136.5,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "center",
+     "lh": 0.8,
+     "ls": -0.1,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBhNCVdpQh4D9HHt",
+   "type": "text",
+   "top": 1060.6,
+   "left": 287,
+   "w": 157.1,
+   "h": 19.8,
+   "runs": [
+    {
+     "text": "+63 939 357 3880",
+     "size": 17.1,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "center",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBrDkFj4QKHg4WBq",
+   "type": "text",
+   "top": 821.6,
+   "left": 606.8,
+   "w": 156.8,
+   "h": 23.2,
+   "runs": [
+    {
+     "text": "hello everyone!",
+     "size": 19.9,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBF65NqmNh8gSJb2",
+   "type": "text",
+   "top": 1027.6,
+   "left": 287.3,
+   "w": 156.8,
+   "h": 23.2,
+   "runs": [
+    {
+     "text": "PHONE",
+     "size": 19.9,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LB2Nfv8jWdfnVmQ8",
+   "type": "text",
+   "top": 1027.6,
+   "left": 906.1,
+   "w": 172.7,
+   "h": 23.2,
+   "runs": [
+    {
+     "text": "EMAIL",
+     "size": 19.9,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "end",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBKFxpgs1VxTQTL1",
+   "type": "text",
+   "top": 1060.6,
+   "left": 879.8,
+   "w": 198.9,
+   "h": 19.8,
+   "runs": [
+    {
+     "text": "uy.andreuy@gmail.com",
+     "size": 17.1,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "center",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBc5TFzFn3sYhp4J",
+   "type": "text",
+   "top": 1310.3,
+   "left": 472.8,
+   "w": 424.8,
+   "h": 173.3,
+   "runs": [
+    {
+     "text": "I’m 21 years old, currently studying Industrial Design at De La Salle-College of Saint Benilde. I enjoy turning ideas into meaningful products and experiences through sketching, illustration, 3D modeling, and experimentation.\n \nI believe",
+     "size": 17.1,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": " ",
+     "size": 17.1,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "that",
+     "size": 17.1,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": " to design is to serve",
+     "size": 17.1,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "—to understand people, solve problems, and create things that are purposeful and enjoyable.\n",
+     "size": 17.1,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "\n",
+     "size": 17.1,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBg0fnXGwbyRJs1P",
+   "type": "group",
+   "top": 799.1,
+   "left": 33.5,
+   "w": 43.6,
+   "h": 15.5,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBJ7JR8RDWvwzXKN",
+   "type": "line",
+   "top": 812.5,
+   "left": 33.5,
+   "w": 43.6,
+   "h": 2.1,
+   "stroke": {
+    "w": 2.1333333333333333,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBzlTcWFlczSLjG4",
+   "type": "line",
+   "top": 799.1,
+   "left": 33.5,
+   "w": 43.6,
+   "h": 2.1,
+   "stroke": {
+    "w": 2.1333333333333333,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBRmPnQzqc1Dfth5",
+   "type": "text",
+   "top": 1700,
+   "left": 86.6,
+   "w": 283.5,
+   "h": 14.9,
+   "runs": [
+    {
+     "text": "DE LA SALLE-COLLEGE OF SAINT BENILDE",
+     "size": 12.8,
+     "weight": "bold",
+     "color": "#0b0b0d",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBV9NP258XxV38Xl",
+   "type": "text",
+   "top": 1718.5,
+   "left": 152.9,
+   "w": 140,
+   "h": 15.6,
+   "runs": [
+    {
+     "text": "INDUSTRIAL DESIGN",
+     "size": 13.3,
+     "weight": "normal",
+     "color": "#010102",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBvzSZjhfPlZKWFM",
+   "type": "text",
+   "top": 1737.3,
+   "left": 141.8,
+   "w": 162.2,
+   "h": 16.4,
+   "runs": [
+    {
+     "text": "2024-2028 (EXPECTED)",
+     "size": 13.9,
+     "weight": "normal",
+     "color": "#000001",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LB27cxPGS5xt6d2j",
+   "type": "text",
+   "top": 1986.7,
+   "left": 158.8,
+   "w": 106.5,
+   "h": 15.6,
+   "runs": [
+    {
+     "text": "INTERMEDIATE",
+     "size": 13.3,
+     "weight": "bold",
+     "color": "#08090a",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBHYkFMrvTYbxtkZ",
+   "type": "text",
+   "top": 2005.9,
+   "left": 179.1,
+   "w": 59.9,
+   "h": 15.6,
+   "runs": [
+    {
+     "text": "FILIPINO",
+     "size": 13.3,
+     "weight": "normal",
+     "color": "#010103",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBDNwzxdJJCl899y",
+   "type": "text",
+   "top": 2034.9,
+   "left": 184.9,
+   "w": 54.6,
+   "h": 16.4,
+   "runs": [
+    {
+     "text": "NATIVE",
+     "size": 13.9,
+     "weight": "bold",
+     "color": "#09090a",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBvBpv58hbgSlwPx",
+   "type": "text",
+   "top": 2054.4,
+   "left": 178.5,
+   "w": 63.4,
+   "h": 16.4,
+   "runs": [
+    {
+     "text": "ENGLISH",
+     "size": 13.9,
+     "weight": "normal",
+     "color": "#010102",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LB6tPT5pVBPhlmqs",
+   "type": "text",
+   "top": 1700,
+   "left": 554.3,
+   "w": 257.6,
+   "h": 31.3,
+   "runs": [
+    {
+     "text": "BENILDEAN INDUSTRIAL DESIGNERS\n",
+     "size": 13.3,
+     "weight": "bold",
+     "color": "#0d0d0f",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBV2My9LcMFSRGfq",
+   "type": "text",
+   "top": 1753.1,
+   "left": 546.2,
+   "w": 286.8,
+   "h": 15.6,
+   "runs": [
+    {
+     "text": "WORLD INDUSTRIAL DESIGN WEEK 2026",
+     "size": 13.3,
+     "weight": "bold",
+     "color": "#0b0c0d",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBqNqmxtNtZr6wCB",
+   "type": "text",
+   "top": 1769.9,
+   "left": 519.3,
+   "w": 319.9,
+   "h": 17.1,
+   "runs": [
+    {
+     "text": "CREATIVE LEAD/PUBLICATIONS HEAD/2026",
+     "size": 14.4,
+     "weight": "normal",
+     "color": "#050506",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBj4h4RjBStpZt6Y",
+   "type": "text",
+   "top": 1987.4,
+   "left": 626.1,
+   "w": 81,
+   "h": 14.9,
+   "runs": [
+    {
+     "text": "CV/RESUME",
+     "size": 12.8,
+     "weight": "bold",
+     "color": "#000000",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LB07XFRjxdPQFKxV",
+   "type": "text",
+   "top": 2005.2,
+   "left": 594,
+   "w": 145.3,
+   "h": 17,
+   "runs": [
+    {
+     "text": "LEARN MORE HERE",
+     "size": 14.4,
+     "weight": "normal",
+     "color": "#050506",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0",
+     "link": "https://drive.google.com/file/d/17BG8bozSRukMAXM4ZNurV2sGvoGaW5i2/view?usp=sharing",
+     "deco": "underline"
+    }
+   ]
+  },
+  {
+   "id": "LB7jVRtjJbvRVT79",
+   "type": "text",
+   "top": 1688.6,
+   "left": 1093.6,
+   "w": 72.8,
+   "h": 16.4,
+   "runs": [
+    {
+     "text": "2D SKILLS",
+     "size": 13.9,
+     "weight": "bold",
+     "color": "#08090a",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBLVrB3112FGDpv5",
+   "type": "text",
+   "top": 1707.5,
+   "left": 1054.9,
+   "w": 152.4,
+   "h": 15.6,
+   "runs": [
+    {
+     "text": "ADOBE ILLUSTRATOR/",
+     "size": 13.3,
+     "weight": "normal",
+     "color": "#020203",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBF547nYGPFKGr2Y",
+   "type": "text",
+   "top": 1725.3,
+   "left": 1059.2,
+   "w": 148.8,
+   "h": 15.6,
+   "runs": [
+    {
+     "text": "ADOBE PHOTOSHOP/",
+     "size": 13.3,
+     "weight": "normal",
+     "color": "#010102",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBfnGNDl0FMKjPq2",
+   "type": "text",
+   "top": 1742.7,
+   "left": 1096.1,
+   "w": 76.5,
+   "h": 16.4,
+   "runs": [
+    {
+     "text": "AUTOCAD/",
+     "size": 13.9,
+     "weight": "normal",
+     "color": "#010102",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBJ1LnzvpxJRCHy6",
+   "type": "text",
+   "top": 1760.8,
+   "left": 1065.1,
+   "w": 138.6,
+   "h": 31.3,
+   "runs": [
+    {
+     "text": "FIGMA/PROCREATE/\nCLIP STUDIO PAINT",
+     "size": 13.3,
+     "weight": "normal",
+     "color": "#020203",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBxn4zCmd65jdvTk",
+   "type": "text",
+   "top": 1811,
+   "left": 1093.6,
+   "w": 72.8,
+   "h": 16.4,
+   "runs": [
+    {
+     "text": "3D SKILLS",
+     "size": 13.9,
+     "weight": "bold",
+     "color": "#0a0b0c",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBgDDLc8NrbMG2V5",
+   "type": "text",
+   "top": 1829.5,
+   "left": 1094.8,
+   "w": 61.2,
+   "h": 15.6,
+   "runs": [
+    {
+     "text": "3DS MAX",
+     "size": 13.3,
+     "weight": "normal",
+     "color": "#000002",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBs5FHHsSRjy7nFx",
+   "type": "text",
+   "top": 1847,
+   "left": 1081.9,
+   "w": 95.5,
+   "h": 15.6,
+   "runs": [
+    {
+     "text": "SOLIDWORKS",
+     "size": 13.3,
+     "weight": "normal",
+     "color": "#000002",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LB2HXxGCQ50C1ZsX",
+   "type": "text",
+   "top": 2007.7,
+   "left": 1035.1,
+   "w": 172.5,
+   "h": 15.6,
+   "runs": [
+    {
+     "text": "RENDERING/TEAMWORK",
+     "size": 13.3,
+     "weight": "normal",
+     "color": "#020203",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBcrqBkssLSTMtq0",
+   "type": "text",
+   "top": 2025.6,
+   "left": 1057.5,
+   "w": 147.9,
+   "h": 15.6,
+   "runs": [
+    {
+     "text": "/CREATIVE THINKING/",
+     "size": 13.3,
+     "weight": "normal",
+     "color": "#010102",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBklmGKTp42nxLsf",
+   "type": "text",
+   "top": 2043.2,
+   "left": 1034.6,
+   "w": 197.4,
+   "h": 15.6,
+   "runs": [
+    {
+     "text": "PROTOTYPING/LEADERSHIP/",
+     "size": 13.3,
+     "weight": "normal",
+     "color": "#010102",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBL8DGByjLT6THqT",
+   "type": "text",
+   "top": 2061.4,
+   "left": 1039.4,
+   "w": 183.1,
+   "h": 14.9,
+   "runs": [
+    {
+     "text": "DESIGN AND ILLUSTRATION",
+     "size": 12.8,
+     "weight": "normal",
+     "color": "#010103",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBssdd1Stnd9z7Vj",
+   "type": "text",
+   "top": 1990.1,
+   "left": 1040.6,
+   "w": 185.3,
+   "h": 15.6,
+   "runs": [
+    {
+     "text": "SKETCHING/HAND/DIGITAL",
+     "size": 13.3,
+     "weight": "normal",
+     "color": "#020203",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBlky0sgpTksjbLc",
+   "type": "text",
+   "top": 1717.3,
+   "left": 585.6,
+   "w": 194,
+   "h": 17.1,
+   "runs": [
+    {
+     "text": "PUBLICATIONS/2025-2026 ",
+     "size": 14.4,
+     "weight": "normal",
+     "color": "#050506",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBRSzlBfDB01fsQP",
+   "type": "text",
+   "top": 1631.3,
+   "left": 99.8,
+   "w": 224.5,
+   "h": 40.2,
+   "runs": [
+    {
+     "text": "EDUCATION",
+     "size": 34.1,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "end",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBGm2PtX81H0rhHM",
+   "type": "text",
+   "top": 1631.3,
+   "left": 548.4,
+   "w": 224.5,
+   "h": 40.2,
+   "runs": [
+    {
+     "text": "EXPERIENCE",
+     "size": 34.1,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "end",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBT6W6nV03gwGYzP",
+   "type": "text",
+   "top": 1631.3,
+   "left": 964.1,
+   "w": 224.5,
+   "h": 40.2,
+   "runs": [
+    {
+     "text": "SKILLS",
+     "size": 34.1,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "end",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBLZzbvqCSt8zCR6",
+   "type": "text",
+   "top": 1917.9,
+   "left": 99.9,
+   "w": 224.5,
+   "h": 40.2,
+   "runs": [
+    {
+     "text": "LANGUAGES",
+     "size": 34.1,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "end",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBkGdNQy7WVcbBMc",
+   "type": "text",
+   "top": 1917.9,
+   "left": 554.3,
+   "w": 224.5,
+   "h": 40.2,
+   "runs": [
+    {
+     "text": "REFERENCES",
+     "size": 34.1,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "end",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBftd588qBV8dqTb",
+   "type": "text",
+   "top": 1917.9,
+   "left": 1015.8,
+   "w": 235,
+   "h": 40.2,
+   "runs": [
+    {
+     "text": "OTHER SKILLS",
+     "size": 34.1,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "end",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFdtQi73Xs,0"
+    }
+   ]
+  },
+  {
+   "id": "LBBWMHpnQWvxdrTr",
+   "type": "line",
+   "top": 1669,
+   "left": 86.6,
+   "w": 275.2,
+   "h": 0.7,
+   "stroke": {
+    "w": 1,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBp2gJcWQVL022Zf",
+   "type": "line",
+   "top": 1961.1,
+   "left": 86.6,
+   "w": 275.2,
+   "h": 0.7,
+   "stroke": {
+    "w": 1,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBRGN5DrWNzwwr2K",
+   "type": "line",
+   "top": 1671.6,
+   "left": 529,
+   "w": 275.2,
+   "h": 0.7,
+   "stroke": {
+    "w": 1,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBWQgxKyy9WhFH4B",
+   "type": "line",
+   "top": 1670.6,
+   "left": 995.7,
+   "w": 275.2,
+   "h": 0.7,
+   "stroke": {
+    "w": 1,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBhJwhQ5Jwc834PB",
+   "type": "line",
+   "top": 1960.6,
+   "left": 529,
+   "w": 275.2,
+   "h": 0.7,
+   "stroke": {
+    "w": 1,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBsV6vctSZkScrG1",
+   "type": "line",
+   "top": 1961.6,
+   "left": 995.7,
+   "w": 275.2,
+   "h": 0.7,
+   "stroke": {
+    "w": 1,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBMcccx4tyPdYTxB",
+   "type": "line",
+   "top": 2461.4,
+   "left": 27.7,
+   "w": 296.8,
+   "h": 1,
+   "stroke": {
+    "w": 1,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBqMQkVT6ZSjy1Kw",
+   "type": "line",
+   "top": 2461.4,
+   "left": 371.2,
+   "w": 296.8,
+   "h": 1,
+   "stroke": {
+    "w": 1,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBcrL9X0DPsQgYL6",
+   "type": "line",
+   "top": 2460.7,
+   "left": 714.8,
+   "w": 296.8,
+   "h": 1,
+   "stroke": {
+    "w": 1,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LB6fQW0RKj79MN9t",
+   "type": "line",
+   "top": 2461.8,
+   "left": 1058.4,
+   "w": 296.8,
+   "h": 1,
+   "stroke": {
+    "w": 1,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBBRPSR5KH1vRMWp",
+   "type": "line",
+   "top": 2740.1,
+   "left": 27.7,
+   "w": 296.8,
+   "h": 1,
+   "stroke": {
+    "w": 1,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBK5KFxbHhqcgW8T",
+   "type": "line",
+   "top": 2756,
+   "left": 27.7,
+   "w": 296.8,
+   "h": 1,
+   "stroke": {
+    "w": 1,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBMGdwqBs28wlXqH",
+   "type": "line",
+   "top": 2769.8,
+   "left": 27.7,
+   "w": 296.8,
+   "h": 1,
+   "stroke": {
+    "w": 1,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBvWwTk67Ttv398q",
+   "type": "line",
+   "top": 2783.6,
+   "left": 27.7,
+   "w": 296.8,
+   "h": 1,
+   "stroke": {
+    "w": 1,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBMjYdWqfpMYtxWL",
+   "type": "group",
+   "top": 2740.6,
+   "left": 371.2,
+   "w": 296.8,
+   "h": 44.3,
+   "group": true,
+   "children": 4
+  },
+  {
+   "id": "LB58GcWqsWkxBLrD",
+   "type": "line",
+   "top": 2740.6,
+   "left": 371.2,
+   "w": 296.8,
+   "h": 0.8,
+   "stroke": {
+    "w": 0.766900933797648,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LB6www4G3sS4qsJP",
+   "type": "line",
+   "top": 2756.5,
+   "left": 371.2,
+   "w": 296.8,
+   "h": 0.8,
+   "stroke": {
+    "w": 0.766900933797648,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBSdB4fbGWgp1MTw",
+   "type": "line",
+   "top": 2770.3,
+   "left": 371.2,
+   "w": 296.8,
+   "h": 0.8,
+   "stroke": {
+    "w": 0.766900933797648,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBdjsjYrJtKM3B18",
+   "type": "line",
+   "top": 2784.1,
+   "left": 371.2,
+   "w": 296.8,
+   "h": 0.8,
+   "stroke": {
+    "w": 0.766900933797648,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBklHYXTT3fZmGw6",
+   "type": "group",
+   "top": 2740.6,
+   "left": 714.8,
+   "w": 296.8,
+   "h": 44.3,
+   "group": true,
+   "children": 4
+  },
+  {
+   "id": "LBPyQ7qwCL6jx2ZT",
+   "type": "line",
+   "top": 2740.6,
+   "left": 714.8,
+   "w": 296.8,
+   "h": 0.8,
+   "stroke": {
+    "w": 0.766900933797648,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBmS1k47dBhLpFp7",
+   "type": "line",
+   "top": 2756.5,
+   "left": 714.8,
+   "w": 296.8,
+   "h": 0.8,
+   "stroke": {
+    "w": 0.766900933797648,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LB5hL2wsbcKdH5C1",
+   "type": "line",
+   "top": 2770.3,
+   "left": 714.8,
+   "w": 296.8,
+   "h": 0.8,
+   "stroke": {
+    "w": 0.766900933797648,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBlR39cBXjH37Dws",
+   "type": "line",
+   "top": 2784.1,
+   "left": 714.8,
+   "w": 296.8,
+   "h": 0.8,
+   "stroke": {
+    "w": 0.766900933797648,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LB24Zm1jGJjTctwN",
+   "type": "group",
+   "top": 2740.6,
+   "left": 1058.4,
+   "w": 296.8,
+   "h": 44.3,
+   "group": true,
+   "children": 4
+  },
+  {
+   "id": "LB7TT3d59vQ9mmJm",
+   "type": "line",
+   "top": 2740.6,
+   "left": 1058.4,
+   "w": 296.8,
+   "h": 0.8,
+   "stroke": {
+    "w": 0.766900933797648,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LB8CH5qQdVswxD3G",
+   "type": "line",
+   "top": 2756.5,
+   "left": 1058.4,
+   "w": 296.8,
+   "h": 0.8,
+   "stroke": {
+    "w": 0.766900933797648,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LB5jq1vmMlrhJy1v",
+   "type": "line",
+   "top": 2770.3,
+   "left": 1058.4,
+   "w": 296.8,
+   "h": 0.8,
+   "stroke": {
+    "w": 0.766900933797648,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBNV25Cs91ZvV2Vq",
+   "type": "line",
+   "top": 2784.1,
+   "left": 1058.4,
+   "w": 296.8,
+   "h": 0.8,
+   "stroke": {
+    "w": 0.766900933797648,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LB2NDGQMDsBH8jZM",
+   "type": "rect",
+   "top": 2509.2,
+   "left": 48.9,
+   "w": 271.4,
+   "h": 228,
+   "media": {
+    "kind": "image",
+    "id": "MAHW3yblEr0"
+   }
+  },
+  {
+   "id": "LBhSyCV3hnLfZw20",
+   "type": "rect",
+   "top": 2461.7,
+   "left": 1085,
+   "w": 229.2,
+   "h": 280.3,
+   "rot": -24.2,
+   "media": {
+    "kind": "image",
+    "id": "MAHW39iiVGY"
+   }
+  },
+  {
+   "id": "LBGrzNs47gKZTm03",
+   "type": "rect",
+   "top": 2626.1,
+   "left": 4.5,
+   "w": 161.5,
+   "h": 161.5,
+   "media": {
+    "kind": "image",
+    "id": "MAHW4G8Wrf0"
+   }
+  },
+  {
+   "id": "LBdScYcmlt20QPFK",
+   "type": "rect",
+   "top": 2635.3,
+   "left": 1058.4,
+   "w": 102.3,
+   "h": 102.3,
+   "media": {
+    "kind": "image",
+    "id": "MAHW4ALPIKc"
+   }
+  },
+  {
+   "id": "LBHFVvvB99bTVG0M",
+   "type": "rect",
+   "top": 2620.7,
+   "left": 1079.6,
+   "w": 102.3,
+   "h": 102.3,
+   "media": {
+    "kind": "image",
+    "id": "MAHW4ALPIKc"
+   }
+  },
+  {
+   "id": "LBPJQT9GycFGfL5f",
+   "type": "rect",
+   "top": 2517.8,
+   "left": 776.4,
+   "w": 173.5,
+   "h": 205.2,
+   "media": {
+    "kind": "image",
+    "id": "MAHW4sh93ws"
+   }
+  },
+  {
+   "id": "LBwCWSN5bW0Wlxnk",
+   "type": "rect",
+   "top": 2626.9,
+   "left": 730.6,
+   "w": 143.4,
+   "h": 143.4,
+   "media": {
+    "kind": "image",
+    "id": "MAHW4Lj-aUU"
+   }
+  },
+  {
+   "id": "LBKcsXtCrNNhLrfq",
+   "type": "rect",
+   "top": 2531.6,
+   "left": 380.8,
+   "w": 299.2,
+   "h": 188.7,
+   "media": {
+    "kind": "image",
+    "id": "MAG3o8QZnBU"
+   }
+  },
+  {
+   "id": "LBBqsbVXqM9BVkPp",
+   "type": "rect",
+   "top": 2654.9,
+   "left": 336.2,
+   "w": 103.9,
+   "h": 103.9,
+   "media": {
+    "kind": "image",
+    "id": "MAHW4FTF7MQ"
+   }
+  },
+  {
+   "id": "LBftdgcjZ8b7Vfbs",
+   "type": "text",
+   "top": 2473.6,
+   "left": 27.7,
+   "w": 169.1,
+   "h": 36,
+   "runs": [
+    {
+     "text": "(01)",
+     "size": 30.7,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LB0lDXG5pZ06zNFL",
+   "type": "text",
+   "top": 2473.6,
+   "left": 714.8,
+   "w": 169.1,
+   "h": 36,
+   "runs": [
+    {
+     "text": "(03)",
+     "size": 30.7,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBRSYQvDjmbsF74K",
+   "type": "text",
+   "top": 2473.6,
+   "left": 1068.1,
+   "w": 169.1,
+   "h": 36,
+   "runs": [
+    {
+     "text": "(04)",
+     "size": 30.7,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LB7S7mc3KGzypnyR",
+   "type": "text",
+   "top": 2743.8,
+   "left": 27.7,
+   "w": 221.8,
+   "h": 16,
+   "runs": [
+    {
+     "text": "PIP-BOY MULTIFUNCTIONAL CLOCK",
+     "size": 13.7,
+     "weight": "normal",
+     "color": "#010103",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBhGhV968wd2Jyth",
+   "type": "text",
+   "top": 2787.6,
+   "left": 27.7,
+   "w": 270.2,
+   "h": 16,
+   "runs": [
+    {
+     "text": "DESIGN DATE: 2026",
+     "size": 13.7,
+     "weight": "normal",
+     "color": "#010103",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBYlM1WBHf8z9xm2",
+   "type": "text",
+   "top": 2473.6,
+   "left": 371.2,
+   "w": 169.1,
+   "h": 36,
+   "runs": [
+    {
+     "text": "(02)",
+     "size": 30.7,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBns9VmSr86DTy67",
+   "type": "text",
+   "top": 2743.8,
+   "left": 371.2,
+   "w": 259.6,
+   "h": 16,
+   "runs": [
+    {
+     "text": "WORLD INDUSTRIAL DESIGN WEEK 2026",
+     "size": 13.7,
+     "weight": "normal",
+     "color": "#010103",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBt0MJSN1fJj5C7v",
+   "type": "text",
+   "top": 2787.6,
+   "left": 371.2,
+   "w": 296.8,
+   "h": 16,
+   "runs": [
+    {
+     "text": "DESIGN DATE: 2026",
+     "size": 13.7,
+     "weight": "normal",
+     "color": "#010103",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LB1vqRRTtJGp7YDb",
+   "type": "text",
+   "top": 2787.6,
+   "left": 714.8,
+   "w": 296.8,
+   "h": 16,
+   "runs": [
+    {
+     "text": "DESIGN DATE: 2020-2022",
+     "size": 13.7,
+     "weight": "normal",
+     "color": "#010103",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LB2zK7skCtn1MB3H",
+   "type": "text",
+   "top": 2787.6,
+   "left": 1058.4,
+   "w": 296.8,
+   "h": 16,
+   "runs": [
+    {
+     "text": "DESIGN DATE: 2025",
+     "size": 13.7,
+     "weight": "normal",
+     "color": "#010103",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LB6K8sCYfRghBfcf",
+   "type": "text",
+   "top": 2743.8,
+   "left": 714.8,
+   "w": 176.2,
+   "h": 16,
+   "runs": [
+    {
+     "text": "YUMEPH CLOTHING BRAND",
+     "size": 13.7,
+     "weight": "normal",
+     "color": "#010103",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBtppKQx70rmZKKy",
+   "type": "text",
+   "top": 2743.8,
+   "left": 1058.4,
+   "w": 243.2,
+   "h": 16,
+   "runs": [
+    {
+     "text": "ISHDA: ARTISAN UTENSIL PACKAGING",
+     "size": 13.7,
+     "weight": "normal",
+     "color": "#010103",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBsDGvM68ltHbTCv",
+   "type": "text",
+   "top": 2473.6,
+   "left": 155.3,
+   "w": 169.1,
+   "h": 36,
+   "runs": [
+    {
+     "text": "PIPBOY",
+     "size": 30.7,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "end",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LB0QQYwmR7jhKFnj",
+   "type": "text",
+   "top": 2473.6,
+   "left": 440,
+   "w": 228,
+   "h": 65.9,
+   "runs": [
+    {
+     "text": "WIDW-\nWIDO",
+     "size": 30.7,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "end",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LB1PRqvPWPHSzqsN",
+   "type": "text",
+   "top": 2473.6,
+   "left": 1127.2,
+   "w": 228,
+   "h": 36,
+   "runs": [
+    {
+     "text": "ISHDA",
+     "size": 30.7,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "end",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LB9cL6xJ1l1FwDtC",
+   "type": "text",
+   "top": 2473.6,
+   "left": 783.8,
+   "w": 228,
+   "h": 36,
+   "runs": [
+    {
+     "text": "YUMEPH",
+     "size": 30.7,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "end",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LB49w7NZkZqtJlGz",
+   "type": "text",
+   "top": 3032.1,
+   "left": 1130.9,
+   "w": 235.1,
+   "h": 23,
+   "runs": [
+    {
+     "text": "CLICK ME TO CONTINUE",
+     "size": 19.9,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3",
+     "link": "#page-1",
+     "deco": "underline"
+    }
+   ]
+  },
+  {
+   "id": "LBR0zPyj7z394Qzq",
+   "type": "rect",
+   "top": 3037.4,
+   "left": 1107.1,
+   "w": 20.1,
+   "h": 9.5,
+   "rot": 90,
+   "media": {
+    "kind": "image",
+    "id": "MADgjVqX00o",
+    "recolor": {
+     "#000000": "#242424"
+    }
+   }
+  }
+ ]
+}

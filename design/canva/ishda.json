@@ -1,0 +1,946 @@
+{
+ "title": "ishda",
+ "height": 3840,
+ "sections": [
+  {
+   "id": "PBh2VF1YlJQVZRWM",
+   "top": 0,
+   "h": 768,
+   "bg": "#ffffff"
+  },
+  {
+   "id": "PB25wk46JN9lr1wf",
+   "top": 768,
+   "h": 768,
+   "bg": "#ffffff"
+  },
+  {
+   "id": "PB2pfX1fQ7BbMp3p",
+   "top": 1536,
+   "h": 768,
+   "bg": "#ffffff"
+  },
+  {
+   "id": "PBCG5WTdQzDMJcfh",
+   "top": 2304,
+   "h": 768,
+   "bg": "#ffffff"
+  },
+  {
+   "id": "PBXzYB4mXc4hJ7PT",
+   "top": 3072,
+   "h": 768,
+   "bg": "#ffffff"
+  }
+ ],
+ "elements": [
+  {
+   "id": "LBZSb08G7ldK6my8",
+   "type": "rect",
+   "top": 236.5,
+   "left": 558.3,
+   "w": 284.5,
+   "h": 348.1,
+   "media": {
+    "kind": "image",
+    "id": "MAHW39iiVGY"
+   }
+  },
+  {
+   "id": "LBmpwfGBGVxhMPvz",
+   "type": "text",
+   "top": 226,
+   "left": 625.6,
+   "w": 114.7,
+   "h": 35.9,
+   "runs": [
+    {
+     "text": "ISHDA",
+     "size": 30.3,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "end",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBkzpsQ38lmkk5TN",
+   "type": "text",
+   "top": 261.9,
+   "left": 582,
+   "w": 237.3,
+   "h": 18.5,
+   "runs": [
+    {
+     "text": "ARTISAN UTENSIL PACKAGING",
+     "size": 15.8,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LB8JDj67tfWfsZkX",
+   "type": "group",
+   "top": 31.1,
+   "left": 33.5,
+   "w": 43.6,
+   "h": 15.5,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LB2l0Mb7Dh7GRhZ9",
+   "type": "line",
+   "top": 44.5,
+   "left": 33.5,
+   "w": 43.6,
+   "h": 2.1,
+   "stroke": {
+    "w": 2.1333333333333333,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBxZBCMdcZkFg8lW",
+   "type": "line",
+   "top": 31.1,
+   "left": 33.5,
+   "w": 43.6,
+   "h": 2.1,
+   "stroke": {
+    "w": 2.1333333333333333,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBG8T2Rq7BrQjrZl",
+   "type": "text",
+   "top": 12.2,
+   "left": 1137.9,
+   "w": 235.1,
+   "h": 23,
+   "runs": [
+    {
+     "text": "CLICK TO GO BACK UP",
+     "size": 19.9,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3",
+     "link": "#page-2",
+     "deco": "underline"
+    }
+   ]
+  },
+  {
+   "id": "LBlcJWksgSQcS5CT",
+   "type": "rect",
+   "top": 17.5,
+   "left": 1107.1,
+   "w": 20.1,
+   "h": 9.5,
+   "rot": -90,
+   "media": {
+    "kind": "image",
+    "id": "MADgjVqX00o",
+    "recolor": {
+     "#000000": "#242424"
+    }
+   }
+  },
+  {
+   "id": "LBvwxvh85QZXZqPY",
+   "type": "shape",
+   "top": 294.2,
+   "left": 537.2,
+   "w": 318.3,
+   "h": 318.6,
+   "media": {
+    "kind": "image",
+    "id": "MAHW39iiVGY"
+   }
+  },
+  {
+   "id": "LB7r68rPsbBjsCdR",
+   "type": "shape",
+   "top": 814.7,
+   "left": 663.4,
+   "w": 602,
+   "h": 602.6,
+   "media": {
+    "kind": "image",
+    "id": "MAHW39iiVGY"
+   }
+  },
+  {
+   "id": "LBthP6WBQ1yTBxs7",
+   "type": "text",
+   "top": 1048.1,
+   "left": 85.8,
+   "w": 392.7,
+   "h": 194.7,
+   "runs": [
+    {
+     "text": "ISHDA is a playful yet thoughtful utensils brand that blends function with storytelling. Inspired by the fish—an everyday symbol of food, culture, and nourishment—its packaging becomes part of the product itself. Each utensil is revealed through the fish’s tail, forming a spoon, fork, or knife, turning a simple dining tool into a memorable experience. ISHDA highlights creativity, sustainability, and local inspiration by transforming ordinary utensils into objects that feel intentional, engaging, and visually distinctive.",
+     "size": 18.1,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBdBjlSVPCggDWnp",
+   "type": "text",
+   "top": 914.5,
+   "left": 77.1,
+   "w": 542.5,
+   "h": 100.3,
+   "runs": [
+    {
+     "text": "ISHDA",
+     "size": 83.7,
+     "weight": "ultrabold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 0.8,
+     "ls": -0.1,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBKDbmn1VJqHymlh",
+   "type": "shape",
+   "top": 1612.8,
+   "left": 592.5,
+   "w": 302.8,
+   "h": 420,
+   "media": {
+    "kind": "image",
+    "id": "MAHX5KeOBpY"
+   }
+  },
+  {
+   "id": "LBxCTJmz1bwLPsYc",
+   "type": "shape",
+   "top": 1612.8,
+   "left": 940.9,
+   "w": 325.8,
+   "h": 420,
+   "media": {
+    "kind": "image",
+    "id": "MAHX5CXkcWA"
+   }
+  },
+  {
+   "id": "LB5HY019ydNSfhtq",
+   "type": "rect",
+   "top": 1609.4,
+   "left": 145.1,
+   "w": 416.4,
+   "h": 416.4,
+   "media": {
+    "kind": "image",
+    "id": "MAHW4ALPIKc"
+   }
+  },
+  {
+   "id": "LB7TZ0s1FWgxwNz7",
+   "type": "text",
+   "top": 2078.3,
+   "left": 50.5,
+   "w": 489.9,
+   "h": 119.6,
+   "runs": [
+    {
+     "text": "OBJECTIVE",
+     "size": 99.8,
+     "weight": "ultrabold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 0.8,
+     "ls": -0.1,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBnBRW0v6cW8s8FC",
+   "type": "text",
+   "top": 2046.5,
+   "left": 592.5,
+   "w": 302.8,
+   "h": 201.8,
+   "runs": [
+    {
+     "text": "ISHDA is a design-driven utensil brand that merges ",
+     "size": 18.4,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "everyday functionality with playful storytelling",
+     "size": 18.4,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": ", using ",
+     "size": 18.4,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "fish-inspired packaging ",
+     "size": 18.4,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "where spoons, forks, and knives are cleverly revealed through the tail. By integrating packaging and product into a single cohesive concept, the brand creates a ",
+     "size": 18.4,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "strong shelf presence",
+     "size": 18.4,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": ", enhances the dining experience, and drives gift appeal while maintaining ergonomic usability.",
+     "size": 18.4,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBclJrcM34p4Znyk",
+   "type": "text",
+   "top": 2046.5,
+   "left": 940.9,
+   "w": 325.8,
+   "h": 165.8,
+   "runs": [
+    {
+     "text": "Built with sustainability and practicality in mind, ISHDA utilizes ",
+     "size": 18.9,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "recyclable rock paper ",
+     "size": 18.9,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "packaging to reduce disposable waste while complying with food-contact safety standards. This distinctive approach transforms ordinary dining tools into ",
+     "size": 18.9,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "memorable, sustainable objects",
+     "size": 18.9,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": " that offer a fresh, creative alternative in the tableware market.",
+     "size": 18.9,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LB9dnyQMQfGWv4Sj",
+   "type": "rect",
+   "top": 1661.9,
+   "left": 64.4,
+   "w": 416.4,
+   "h": 416.4,
+   "media": {
+    "kind": "image",
+    "id": "MAHW4ALPIKc"
+   }
+  },
+  {
+   "id": "LB5JKPfL427V2VKC",
+   "type": "line",
+   "top": 2466.8,
+   "left": 10.4,
+   "w": 605.3,
+   "h": 570.3,
+   "rot": 70.1,
+   "stroke": {
+    "w": 1,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LB4WpnnRqPMSFc74",
+   "type": "rect",
+   "top": 2717.3,
+   "left": 994.8,
+   "w": 262.4,
+   "h": 22.3,
+   "media": {
+    "kind": "image",
+    "id": "MAF_mI5iUeA",
+    "recolor": {
+     "#000000": "#ffffff"
+    }
+   }
+  },
+  {
+   "id": "LBxvK6xkFStWrBB4",
+   "type": "group",
+   "top": 2426.6,
+   "left": 638.5,
+   "w": 195.9,
+   "h": 195.9,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBL7BXsL6SP6X7LR",
+   "type": "rect",
+   "top": 2426.6,
+   "left": 638.5,
+   "w": 195.9,
+   "h": 195.9,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LBvS1mPqQLmbx8cZ",
+   "type": "shape",
+   "top": 2433.2,
+   "left": 644.6,
+   "w": 178,
+   "h": 178,
+   "media": {
+    "kind": "image",
+    "id": "MAHX4_U_tBg"
+   }
+  },
+  {
+   "id": "LBBYTwrbb25wvYcj",
+   "type": "text",
+   "top": 2330.8,
+   "left": 155.5,
+   "w": 1055,
+   "h": 93,
+   "runs": [
+    {
+     "text": "CREATIVE  &  FUN PROGRESS",
+     "size": 77.9,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "center",
+     "lh": 0.8,
+     "ls": -0.1,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LB28k2wYPyKFhqqF",
+   "type": "group",
+   "top": 2637.7,
+   "left": 919.9,
+   "w": 195.9,
+   "h": 195.9,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBRlkvCpg5b4dNnN",
+   "type": "rect",
+   "top": 2637.7,
+   "left": 919.9,
+   "w": 195.9,
+   "h": 195.9,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LBgMfBLGSjL66HL0",
+   "type": "shape",
+   "top": 2644.2,
+   "left": 926,
+   "w": 178,
+   "h": 178,
+   "media": {
+    "kind": "image",
+    "id": "MAHX4279SPM"
+   }
+  },
+  {
+   "id": "LBR6nhL8t1kJn5C0",
+   "type": "group",
+   "top": 2620.4,
+   "left": 439.6,
+   "w": 195.9,
+   "h": 195.9,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LB6nzcpW3j7mmn36",
+   "type": "rect",
+   "top": 2620.4,
+   "left": 439.6,
+   "w": 195.9,
+   "h": 195.9,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LB7bHM5cxdbMsRT1",
+   "type": "shape",
+   "top": 2626.9,
+   "left": 445.7,
+   "w": 178,
+   "h": 178,
+   "media": {
+    "kind": "image",
+    "id": "MAG714iS0Qw"
+   }
+  },
+  {
+   "id": "LBrWDgBV4MHxyLgP",
+   "type": "group",
+   "top": 2620.4,
+   "left": 243.7,
+   "w": 195.9,
+   "h": 195.9,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBSBY4TLFrsTYngW",
+   "type": "rect",
+   "top": 2620.4,
+   "left": 243.7,
+   "w": 195.9,
+   "h": 195.9,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LB1wsNF5zKByCrb3",
+   "type": "shape",
+   "top": 2626.9,
+   "left": 249.7,
+   "w": 178,
+   "h": 178,
+   "media": {
+    "kind": "image",
+    "id": "MAG71wSgASw"
+   }
+  },
+  {
+   "id": "LBSzp5PvWk04tDK0",
+   "type": "group",
+   "top": 2876.1,
+   "left": 513,
+   "w": 195.9,
+   "h": 195.9,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBx9H89PmK9nfjQY",
+   "type": "rect",
+   "top": 2876.1,
+   "left": 513,
+   "w": 195.9,
+   "h": 195.9,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LBJW0psM57Mp9dBF",
+   "type": "shape",
+   "top": 2882.6,
+   "left": 519.1,
+   "w": 178,
+   "h": 178,
+   "media": {
+    "kind": "image",
+    "id": "MAG71xaZ0DQ"
+   }
+  },
+  {
+   "id": "LBSFkf8Vl608JKG5",
+   "type": "group",
+   "top": 2875.1,
+   "left": 724,
+   "w": 195.9,
+   "h": 195.9,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBWpG4mVnnm7jzrQ",
+   "type": "rect",
+   "top": 2875.1,
+   "left": 724,
+   "w": 195.9,
+   "h": 195.9,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LBc3FYLzGYht7JS6",
+   "type": "shape",
+   "top": 2881.7,
+   "left": 730.1,
+   "w": 178,
+   "h": 178,
+   "media": {
+    "kind": "image",
+    "id": "MAG7139Ex_A"
+   }
+  },
+  {
+   "id": "LBN6DPG8skKQMRzq",
+   "type": "group",
+   "top": 2423.9,
+   "left": 837.5,
+   "w": 195.9,
+   "h": 195.9,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBny0TYtGdnVz9HB",
+   "type": "rect",
+   "top": 2423.9,
+   "left": 837.5,
+   "w": 195.9,
+   "h": 195.9,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LBR2ZsVxHsCg67WG",
+   "type": "shape",
+   "top": 2430.4,
+   "left": 843.5,
+   "w": 178,
+   "h": 178,
+   "media": {
+    "kind": "image",
+    "id": "MAG719PLfsU"
+   }
+  },
+  {
+   "id": "LBrgZPscZb08JzGK",
+   "type": "text",
+   "top": 2431.1,
+   "left": 115.3,
+   "w": 95,
+   "h": 72.3,
+   "runs": [
+    {
+     "text": "start",
+     "size": 60.7,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "start",
+     "lh": 0.84,
+     "ls": -0.076,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBZxh1dLMj6YWqxJ",
+   "type": "text",
+   "top": 2484.1,
+   "left": 438.9,
+   "w": 181,
+   "h": 97,
+   "runs": [
+    {
+     "text": " WHAT IF THE PACKAGING WAS THE PRODUCT? I SKETCHED FISH SHAPES THAT COULD HIDE A UTENSIL IN THE TAIL.",
+     "size": 15.7,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LB5stmqt8LjVcRPp",
+   "type": "text",
+   "top": 2671,
+   "left": 46.5,
+   "w": 185.8,
+   "h": 64.7,
+   "runs": [
+    {
+     "text": "PLAYFUL ON THE SHELF, FUNCTIONAL IN THE HAND, AND READY FOR PRODUCT PHOTOS.",
+     "size": 15.6,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBsj2Z5WWvhMJ6ZC",
+   "type": "text",
+   "top": 2671,
+   "left": 641.5,
+   "w": 257.9,
+   "h": 81.3,
+   "runs": [
+    {
+     "text": "PAPER MOCK-UPS WERE CUT, FOLDED, AND TESTED TO CHECK THE STRUCTURE AND HOW SMOOTHLY THE UTENSILS SLIDES OUT OF THE TAIL.",
+     "size": 15.7,
+     "weight": "bold",
+     "color": "#242424",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBfdk6ntvM6JShvW",
+   "type": "text",
+   "top": 2485.8,
+   "left": 1045.4,
+   "w": 180.3,
+   "h": 77.7,
+   "runs": [
+    {
+     "text": "THE FISH CONCEPT WAS REFINED THROUGH SKETCHES, THEN FLATTENED INTO A DIELINE",
+     "size": 15.1,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBgf1h45c36tmj6l",
+   "type": "text",
+   "top": 2995.2,
+   "left": 259.6,
+   "w": 113.9,
+   "h": 71.8,
+   "runs": [
+    {
+     "text": "finish",
+     "size": 60.7,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "start",
+     "lh": 0.84,
+     "ls": -0.076,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBNdnWspZCdDWb7s",
+   "type": "text",
+   "top": 2696.8,
+   "left": 1126.9,
+   "w": 136.9,
+   "h": 77.7,
+   "runs": [
+    {
+     "text": "EACH FISH FOLDS FROM A SINGLE SHEET OF RECYCLABLE ROCK PAPER.",
+     "size": 15.1,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBk3Q7gVdk9bz8zh",
+   "type": "rect",
+   "top": 3108.2,
+   "left": 8.4,
+   "w": 334.2,
+   "h": 673.7,
+   "media": {
+    "kind": "image",
+    "id": "MAHX44V7bZs"
+   }
+  },
+  {
+   "id": "LBVYH75YXG8btVqN",
+   "type": "rect",
+   "top": 3117.1,
+   "left": 342.6,
+   "w": 334.2,
+   "h": 673.7,
+   "media": {
+    "kind": "image",
+    "id": "MAHX44V7bZs"
+   }
+  },
+  {
+   "id": "LBDTtSVNL4HGVVGc",
+   "type": "rect",
+   "top": 3130.1,
+   "left": 676.9,
+   "w": 334.2,
+   "h": 673.7,
+   "media": {
+    "kind": "image",
+    "id": "MAHX44V7bZs"
+   }
+  },
+  {
+   "id": "LBdCJvwgZLfPFRzL",
+   "type": "rect",
+   "top": 3130.1,
+   "left": 1011.1,
+   "w": 334.2,
+   "h": 673.7,
+   "media": {
+    "kind": "image",
+    "id": "MAHX44V7bZs"
+   }
+  },
+  {
+   "id": "LBKYM0kMCqgmc0DN",
+   "type": "text",
+   "top": 3800.1,
+   "left": 1130.9,
+   "w": 235.1,
+   "h": 23,
+   "runs": [
+    {
+     "text": "CLICK ME TO CONTINUE",
+     "size": 19.9,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3",
+     "link": "#page-4",
+     "deco": "underline"
+    }
+   ]
+  },
+  {
+   "id": "LBPBYny7pjB0YLNT",
+   "type": "rect",
+   "top": 3805.4,
+   "left": 1107.1,
+   "w": 20.1,
+   "h": 9.5,
+   "rot": 90,
+   "media": {
+    "kind": "image",
+    "id": "MADgjVqX00o",
+    "recolor": {
+     "#000000": "#242424"
+    }
+   }
+  }
+ ]
+}

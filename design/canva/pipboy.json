@@ -1,0 +1,1753 @@
+{
+ "title": "pipboy",
+ "height": 6912,
+ "sections": [
+  {
+   "id": "PB6H9762qXrLLK77",
+   "top": 0,
+   "h": 768,
+   "bg": "#ffffff"
+  },
+  {
+   "id": "PBWzzTm1Nc34VTps",
+   "top": 768,
+   "h": 768,
+   "bg": "#ffffff"
+  },
+  {
+   "id": "PB3JbtLNbxVt14Bl",
+   "top": 1536,
+   "h": 768,
+   "bg": "#ffffff"
+  },
+  {
+   "id": "PBsf7WwfQ7tjprPX",
+   "top": 2304,
+   "h": 768,
+   "bg": "#ffffff"
+  },
+  {
+   "id": "PBMH3M6k0hjZr8N3",
+   "top": 3072,
+   "h": 768,
+   "bg": "#df2200"
+  },
+  {
+   "id": "PBskYdpqFLGsmPXR",
+   "top": 3840,
+   "h": 768,
+   "bg": "#ffffff"
+  },
+  {
+   "id": "PB0nkcqlxC0w6pbT",
+   "top": 4608,
+   "h": 768,
+   "bg": "#ffffff"
+  },
+  {
+   "id": "PBQ3j9TfnbPLsNSd",
+   "top": 5376,
+   "h": 768,
+   "bg": "#ffffff"
+  },
+  {
+   "id": "PBz5VT5QLsx3bTtQ",
+   "top": 6144,
+   "h": 768,
+   "bg": "#ffffff"
+  }
+ ],
+ "elements": [
+  {
+   "id": "LBXt2q8SBnqYPk8C",
+   "type": "rect",
+   "top": 240,
+   "left": 527,
+   "w": 342.8,
+   "h": 287.9,
+   "media": {
+    "kind": "image",
+    "id": "MAHW3yblEr0"
+   }
+  },
+  {
+   "id": "LBLmMKcS491dSbPt",
+   "type": "text",
+   "top": 225.7,
+   "left": 625.6,
+   "w": 114.7,
+   "h": 35.9,
+   "runs": [
+    {
+     "text": "PIPBOY",
+     "size": 30.3,
+     "weight": "bold",
+     "color": "#000000",
+     "align": "end",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBsSBqFm3vzxWVFH",
+   "type": "text",
+   "top": 254.8,
+   "left": 591.1,
+   "w": 206.7,
+   "h": 18.5,
+   "runs": [
+    {
+     "text": "MULTIFUNCTIONAL CLOCK",
+     "size": 15.8,
+     "weight": "normal",
+     "color": "#000000",
+     "align": "start",
+     "lh": 1.2,
+     "ls": 0,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBrzDWSJyQ4F3mfV",
+   "type": "group",
+   "top": 31.1,
+   "left": 33.5,
+   "w": 43.6,
+   "h": 15.5,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBv3Kjg2QX5bVfWs",
+   "type": "line",
+   "top": 44.5,
+   "left": 33.5,
+   "w": 43.6,
+   "h": 2.1,
+   "stroke": {
+    "w": 2.1333333333333333,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBbnRdBBRl0t7L4X",
+   "type": "line",
+   "top": 31.1,
+   "left": 33.5,
+   "w": 43.6,
+   "h": 2.1,
+   "stroke": {
+    "w": 2.1333333333333333,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBQXKRYNt7w2z5Mm",
+   "type": "text",
+   "top": 12.2,
+   "left": 1137.9,
+   "w": 235.1,
+   "h": 23,
+   "runs": [
+    {
+     "text": "CLICK TO GO BACK UP",
+     "size": 19.9,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3",
+     "link": "#page-0",
+     "deco": "underline"
+    }
+   ]
+  },
+  {
+   "id": "LB4tR8LkP99h7kRS",
+   "type": "rect",
+   "top": 17.5,
+   "left": 1107.1,
+   "w": 20.1,
+   "h": 9.5,
+   "rot": -90,
+   "media": {
+    "kind": "image",
+    "id": "MADgjVqX00o",
+    "recolor": {
+     "#000000": "#242424"
+    }
+   }
+  },
+  {
+   "id": "LBfc9HT5SW2nTqfT",
+   "type": "shape",
+   "top": 814.7,
+   "left": 663.4,
+   "w": 602,
+   "h": 602.6,
+   "media": {
+    "kind": "image",
+    "id": "MAHW3yblEr0"
+   }
+  },
+  {
+   "id": "LB62qBMK2DXdrbry",
+   "type": "text",
+   "top": 1048.1,
+   "left": 85.8,
+   "w": 370,
+   "h": 150.6,
+   "runs": [
+    {
+     "text": "Inspired by the iconic device from Fallout, the Pip-Boy reimagines a ",
+     "size": 17.1,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "fictional wearable as a functional everyday product. ",
+     "size": 17.1,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "Combining its recognizable retro-futuristic design with practical features such as ",
+     "size": 17.1,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "timekeeping, temperature and humidity monitoring, and an integrated in-game radio,",
+     "size": 17.1,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": " it bridges the gap between gaming memorabilia and functional product design.\n",
+     "size": 17.1,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBSswyqg6CGdF9bN",
+   "type": "text",
+   "top": 914.5,
+   "left": 77.1,
+   "w": 542.5,
+   "h": 100.3,
+   "runs": [
+    {
+     "text": "PIP-BOY 3000",
+     "size": 83.7,
+     "weight": "ultrabold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 0.8,
+     "ls": -0.1,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LB90gZ03db0nbX9p",
+   "type": "shape",
+   "top": 1612.8,
+   "left": 615.2,
+   "w": 280.2,
+   "h": 420,
+   "media": {
+    "kind": "image",
+    "id": "MAHXtrWTpWA"
+   }
+  },
+  {
+   "id": "LBbNrQ8cJz2xHVw0",
+   "type": "shape",
+   "top": 1612.8,
+   "left": 940.9,
+   "w": 280.2,
+   "h": 420,
+   "media": {
+    "kind": "image",
+    "id": "MAHXtmbYByM"
+   }
+  },
+  {
+   "id": "LBDDQBj3B0RZSHKm",
+   "type": "rect",
+   "top": 1585.7,
+   "left": -33.4,
+   "w": 616.6,
+   "h": 616.6,
+   "media": {
+    "kind": "image",
+    "id": "MAHW4jk7bI0"
+   }
+  },
+  {
+   "id": "LBk9WtFTm6WSblTH",
+   "type": "text",
+   "top": 2078.3,
+   "left": 50.5,
+   "w": 489.9,
+   "h": 119.6,
+   "runs": [
+    {
+     "text": "PROBLEM",
+     "size": 99.8,
+     "weight": "ultrabold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 0.8,
+     "ls": -0.1,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBtnClDdzkTLxr43",
+   "type": "text",
+   "top": 2046.5,
+   "left": 615.2,
+   "w": 280.2,
+   "h": 122.4,
+   "runs": [
+    {
+     "text": "The Pip-Boy is one of gaming's most recognizable props, ",
+     "size": 17.1,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "but it's mostly bought to be looked at:",
+     "size": 17.1,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": " a collectible or cosplay accessory ",
+     "size": 17.1,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "with little use once the event is over. ",
+     "size": 17.1,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "Fans own a piece of the Fallout world, yet it usually just sits on a shelf.",
+     "size": 17.1,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBcZ0hM7pQ6BXNjq",
+   "type": "text",
+   "top": 2046.5,
+   "left": 940.9,
+   "w": 280.2,
+   "h": 156.4,
+   "runs": [
+    {
+     "text": "MY FIRST PLAN was a wearable, but the ",
+     "size": 17.1,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "electronics I wanted wouldn't fit inside at that size",
+     "size": 17.1,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": ", and cutting features to make it fit defeated the purpose. I redesigned it as a ",
+     "size": 17.1,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "desktop clock",
+     "size": 17.1,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": " that keeps the retro-futuristic look and gives fans three daily uses: ",
+     "size": 17.1,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "telling time, monitoring temperature and humidity, and playing in-game radio.",
+     "size": 17.1,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBL5lrPRq1fc5gBY",
+   "type": "group",
+   "top": 1639.8,
+   "left": 519.7,
+   "w": 90.3,
+   "h": 36.4,
+   "rot": -90,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LB4ZhJtTWdjVFYmB",
+   "type": "line",
+   "top": 1655.8,
+   "left": 535.7,
+   "w": 90.3,
+   "h": 4.4,
+   "rot": -90,
+   "stroke": {
+    "w": 4.42043621592282,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBDXd1GKBySgk9XS",
+   "type": "line",
+   "top": 1655.8,
+   "left": 503.7,
+   "w": 90.3,
+   "h": 4.4,
+   "rot": -90,
+   "stroke": {
+    "w": 4.42043621592282,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBg8YMss51LxK6G3",
+   "type": "text",
+   "top": 2678.1,
+   "left": 276.2,
+   "w": 813.6,
+   "h": 48.5,
+   "runs": [
+    {
+     "text": " How can a fictional wearable become something fans use every day",
+     "size": 22.4,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "center",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": " without losing what makes it a Pip-Boy?",
+     "size": 22.4,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "center",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBQvBjDWdJ2NdmqJ",
+   "type": "line",
+   "top": 3237.6,
+   "left": -39.4,
+   "w": 606.5,
+   "h": 602.7,
+   "rot": 83,
+   "stroke": {
+    "w": 1,
+    "color": "#ffffff"
+   }
+  },
+  {
+   "id": "LB1D585kNjcjmdS7",
+   "type": "group",
+   "top": 3365.2,
+   "left": 850.3,
+   "w": 158.1,
+   "h": 158.1,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LB2tV83dKSc2hdNw",
+   "type": "rect",
+   "top": 3365.2,
+   "left": 850.3,
+   "w": 158.1,
+   "h": 158.1,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LBTk0DBHZb0V3pbp",
+   "type": "shape",
+   "top": 3370.5,
+   "left": 855.2,
+   "w": 143.6,
+   "h": 143.6,
+   "media": {
+    "kind": "image",
+    "id": "MAHXn0am5zM"
+   }
+  },
+  {
+   "id": "LBh044CVCYqJWSl6",
+   "type": "group",
+   "top": 3361.3,
+   "left": 269.9,
+   "w": 197.1,
+   "h": 197.1,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LB7MNv8cjfBZ012J",
+   "type": "rect",
+   "top": 3361.3,
+   "left": 269.9,
+   "w": 197.1,
+   "h": 197.1,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LBF0klf3W5YF9csq",
+   "type": "shape",
+   "top": 3367.9,
+   "left": 276,
+   "w": 179,
+   "h": 179,
+   "media": {
+    "kind": "image",
+    "id": "MAHHonO2ir0"
+   }
+  },
+  {
+   "id": "LBpMJk1SbMdGB4lh",
+   "type": "group",
+   "top": 3566.1,
+   "left": 300.8,
+   "w": 197.1,
+   "h": 197.1,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBxbt975ClpnlGTb",
+   "type": "rect",
+   "top": 3566.1,
+   "left": 300.8,
+   "w": 197.1,
+   "h": 197.1,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LBWZpD2n6PBnc6jQ",
+   "type": "shape",
+   "top": 3572.7,
+   "left": 306.9,
+   "w": 179,
+   "h": 179,
+   "media": {
+    "kind": "image",
+    "id": "MAHXn50yrFg"
+   }
+  },
+  {
+   "id": "LBrJ26zTZKwDtW8D",
+   "type": "group",
+   "top": 3327.9,
+   "left": 56.5,
+   "w": 208.2,
+   "h": 208.2,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBxP4KqrtHPX8Qml",
+   "type": "rect",
+   "top": 3327.9,
+   "left": 56.5,
+   "w": 208.2,
+   "h": 208.2,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LBz70kvqF7PS90H0",
+   "type": "shape",
+   "top": 3334.8,
+   "left": 63,
+   "w": 189.1,
+   "h": 189.1,
+   "media": {
+    "kind": "image",
+    "id": "MAHHotOslG8"
+   }
+  },
+  {
+   "id": "LBTXJCCGjVjs1tDF",
+   "type": "rect",
+   "top": 3191.4,
+   "left": 368.5,
+   "w": 334.2,
+   "h": 162.1,
+   "media": {
+    "kind": "image",
+    "id": "MAFk9QSs9ds",
+    "recolor": {
+     "#fa3a2f": "#ffffff"
+    }
+   }
+  },
+  {
+   "id": "LBzG4PnmKvLJq2Cr",
+   "type": "rect",
+   "top": 3526.3,
+   "left": 993.3,
+   "w": 262.4,
+   "h": 22.3,
+   "media": {
+    "kind": "image",
+    "id": "MAF_mI5iUeA",
+    "recolor": {
+     "#000000": "#ffffff"
+    }
+   }
+  },
+  {
+   "id": "LB9BLhWZwy7cz2n5",
+   "type": "group",
+   "top": 3553.6,
+   "left": 512.1,
+   "w": 209.6,
+   "h": 209.6,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBFB14f3BySzrQVn",
+   "type": "rect",
+   "top": 3553.6,
+   "left": 512.1,
+   "w": 209.6,
+   "h": 209.6,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LBm5B7wHSyDnZFfj",
+   "type": "shape",
+   "top": 3560.6,
+   "left": 518.6,
+   "w": 190.3,
+   "h": 190.3,
+   "media": {
+    "kind": "image",
+    "id": "MAHXuQja_fo"
+   }
+  },
+  {
+   "id": "LBzYYLJBxh7YWj9j",
+   "type": "group",
+   "top": 3566.1,
+   "left": 734.9,
+   "w": 209.6,
+   "h": 209.6,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBS6swc1MhZwvYl8",
+   "type": "rect",
+   "top": 3566.1,
+   "left": 734.9,
+   "w": 209.6,
+   "h": 209.6,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LBtJH639jjYs7tDw",
+   "type": "shape",
+   "top": 3573.1,
+   "left": 741.4,
+   "w": 190.3,
+   "h": 190.3,
+   "media": {
+    "kind": "image",
+    "id": "MAHXuVo3Tco"
+   }
+  },
+  {
+   "id": "LB4RGZ0cjFClzgyJ",
+   "type": "text",
+   "top": 3074.6,
+   "left": 211.2,
+   "w": 1023.2,
+   "h": 90.7,
+   "runs": [
+    {
+     "text": "CREATIVE  &  FUN PROGRESS",
+     "size": 75.6,
+     "weight": "bold",
+     "color": "#ffffff",
+     "align": "start",
+     "lh": 0.8,
+     "ls": -0.1,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBdJngr5qm0FXHDH",
+   "type": "group",
+   "top": 3181.3,
+   "left": 722.8,
+   "w": 180,
+   "h": 180,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LB5HqFJmYHbK695t",
+   "type": "rect",
+   "top": 3181.3,
+   "left": 722.8,
+   "w": 180,
+   "h": 180,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LBkpQv4Dm9w3qV92",
+   "type": "shape",
+   "top": 3187.3,
+   "left": 728.3,
+   "w": 163.5,
+   "h": 163.5,
+   "media": {
+    "kind": "image",
+    "id": "MAHXucJs_cc"
+   }
+  },
+  {
+   "id": "LBFJV71NVR3rjdN2",
+   "type": "group",
+   "top": 3365.2,
+   "left": 690.6,
+   "w": 158.1,
+   "h": 158.1,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBrl2P1dmG055dXJ",
+   "type": "rect",
+   "top": 3365.2,
+   "left": 690.6,
+   "w": 158.1,
+   "h": 158.1,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LBHsYMCzGpnsdXL5",
+   "type": "shape",
+   "top": 3370.5,
+   "left": 695.5,
+   "w": 143.6,
+   "h": 143.6,
+   "media": {
+    "kind": "image",
+    "id": "MAHXn_7d2KE"
+   }
+  },
+  {
+   "id": "LBrkzgvx7Qqyrnv2",
+   "type": "rect",
+   "top": 3173,
+   "left": 249.6,
+   "w": 149.8,
+   "h": 149.8,
+   "media": {
+    "kind": "image",
+    "id": "MAHW4G8Wrf0"
+   }
+  },
+  {
+   "id": "LBJvhWNJjpRmw4kM",
+   "type": "text",
+   "top": 3201.8,
+   "left": 131.9,
+   "w": 95,
+   "h": 72.3,
+   "runs": [
+    {
+     "text": "start",
+     "size": 60.7,
+     "weight": "normal",
+     "color": "#ffffff",
+     "align": "start",
+     "lh": 0.84,
+     "ls": -0.076,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LB1mKWTZ3vyxj5PT",
+   "type": "text",
+   "top": 3256.2,
+   "left": 425.1,
+   "w": 257.9,
+   "h": 50.1,
+   "runs": [
+    {
+     "text": "I NEED TO FIND A WAY TO MAKE IT APPLICABLE AS AN ",
+     "size": 15.7,
+     "weight": "normal",
+     "color": "#ffffff",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    },
+    {
+     "text": "EVERYDAY",
+     "size": 15.7,
+     "weight": "bold",
+     "color": "#ffffff",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    },
+    {
+     "text": " ",
+     "size": 15.7,
+     "weight": "normal",
+     "color": "#ffffff",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    },
+    {
+     "text": "PRODUCT",
+     "size": 15.7,
+     "weight": "bold",
+     "color": "#ffffff",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBNJn55MJtzmVZTY",
+   "type": "text",
+   "top": 3429.2,
+   "left": 1028.1,
+   "w": 192.8,
+   "h": 97.1,
+   "runs": [
+    {
+     "text": "I DECIDED TO ALTER THE DESIGN FOR A ",
+     "size": 16.2,
+     "weight": "normal",
+     "color": "#ffffff",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    },
+    {
+     "text": "MULTIFUNCTIONAL DISPLAY CLOCK ",
+     "size": 16.2,
+     "weight": "bold",
+     "color": "#ffffff",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    },
+    {
+     "text": "INSTEAD OF A WEARABLE PROP.",
+     "size": 16.2,
+     "weight": "normal",
+     "color": "#ffffff",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBY8RJpB2HmbdY92",
+   "type": "text",
+   "top": 3432,
+   "left": 485.4,
+   "w": 177.7,
+   "h": 59.9,
+   "runs": [
+    {
+     "text": "FINAL 3D PRINT USING ",
+     "size": 14.9,
+     "weight": "normal",
+     "color": "#ffffff",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    },
+    {
+     "text": "PLA PLASTIC",
+     "size": 14.9,
+     "weight": "bold",
+     "color": "#ffffff",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    },
+    {
+     "text": " AND PIECES CAME OUT IN THE CORRECT SIZING!",
+     "size": 14.9,
+     "weight": "normal",
+     "color": "#ffffff",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBKWTnK99wTQtZnc",
+   "type": "text",
+   "top": 3617.2,
+   "left": 957.5,
+   "w": 192.8,
+   "h": 65.8,
+   "runs": [
+    {
+     "text": "I USED DIFFERENT PAINTS AND MATERIALS TO CONVEY ARTIFICIAL WEAR AND RUST",
+     "size": 16.2,
+     "weight": "normal",
+     "color": "#ffffff",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBB1QN7L3GgGwqXm",
+   "type": "text",
+   "top": 3247.9,
+   "left": 912,
+   "w": 192.8,
+   "h": 65.8,
+   "runs": [
+    {
+     "text": "THE COMPONENTS WON’T FIT INSIDE AS A PROP. LESS FEATURES, BUT WEARABLE. ",
+     "size": 16.2,
+     "weight": "normal",
+     "color": "#ffffff",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LB2JNBGMmCgJk50t",
+   "type": "line",
+   "top": 3840,
+   "left": 299.8,
+   "w": 772.4,
+   "h": 542.3,
+   "stroke": {
+    "w": 1,
+    "color": "#242424"
+   }
+  },
+  {
+   "id": "LBxScHcRqBqQTVmV",
+   "type": "rect",
+   "top": 3900.9,
+   "left": 332.9,
+   "w": 197.1,
+   "h": 197.1,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LBQHmGbNxX5xrH39",
+   "type": "rect",
+   "top": 3909.4,
+   "left": 342.6,
+   "w": 173.9,
+   "h": 174.7,
+   "media": {
+    "kind": "image",
+    "id": "MAHHoiEmD_o"
+   }
+  },
+  {
+   "id": "LBd5ptRsQNxD8mLN",
+   "type": "group",
+   "top": 3911.9,
+   "left": 549.6,
+   "w": 197.1,
+   "h": 197.1,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LB7HNJV1kVtCtnNm",
+   "type": "rect",
+   "top": 3911.9,
+   "left": 549.6,
+   "w": 197.1,
+   "h": 197.1,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LBylg1bbZYVvXsjV",
+   "type": "shape",
+   "top": 3918.5,
+   "left": 555.7,
+   "w": 179,
+   "h": 179,
+   "media": {
+    "kind": "image",
+    "id": "MAHHogfXHjc"
+   }
+  },
+  {
+   "id": "LBRD0jfb7pXM339J",
+   "type": "rect",
+   "top": 4155.7,
+   "left": 342.6,
+   "w": 197.1,
+   "h": 197.1,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LB3jSjhpDZ9vWC97",
+   "type": "rect",
+   "top": 4139.8,
+   "left": 571.4,
+   "w": 197.1,
+   "h": 197.1,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LBhXM8XmNWtnjCNH",
+   "type": "rect",
+   "top": 4155.7,
+   "left": 818.8,
+   "w": 197.1,
+   "h": 197.1,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LBYsxCz0w4lnc9DR",
+   "type": "rect",
+   "top": 4174.2,
+   "left": 808.6,
+   "w": 230.9,
+   "h": 197.1,
+   "media": {
+    "kind": "image",
+    "id": "MAHHorfv0Tk"
+   }
+  },
+  {
+   "id": "LBKnQX3rFqjV0cmQ",
+   "type": "rect",
+   "top": 4010.5,
+   "left": 542.9,
+   "w": 272.7,
+   "h": 363.6,
+   "media": {
+    "kind": "image",
+    "id": "MAHXuIWCfiI"
+   }
+  },
+  {
+   "id": "LB8kDFg9yY4CSNqV",
+   "type": "rect",
+   "top": 4168.9,
+   "left": 348.2,
+   "w": 185.7,
+   "h": 170.6,
+   "media": {
+    "kind": "image",
+    "id": "MAHHqnn8P6w"
+   }
+  },
+  {
+   "id": "LBFQzPVwn8vxr0c3",
+   "type": "rect",
+   "top": 4336.8,
+   "left": 375.3,
+   "w": 224.6,
+   "h": 299.5,
+   "media": {
+    "kind": "image",
+    "id": "MAHW3yblEr0"
+   }
+  },
+  {
+   "id": "LBNvTlKgJBppMX31",
+   "type": "rect",
+   "top": 3870.5,
+   "left": 764.9,
+   "w": 251,
+   "h": 251,
+   "media": {
+    "kind": "image",
+    "id": "MAFUqPSNORs"
+   }
+  },
+  {
+   "id": "LBsLXYXbfy4pL5vN",
+   "type": "rect",
+   "top": 3851.8,
+   "left": 780.1,
+   "w": 222.7,
+   "h": 259.4,
+   "media": {
+    "kind": "image",
+    "id": "MAHHoiONCgs"
+   }
+  },
+  {
+   "id": "LBSjXVKS5Jqsr5mq",
+   "type": "text",
+   "top": 3981.5,
+   "left": 1044.6,
+   "w": 245.6,
+   "h": 77.7,
+   "runs": [
+    {
+     "text": "TROUBLESHOOTING CODE AFTER SOLDERING DIFFERENT COMPONENTS TOGETHER",
+     "size": 18.6,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBBFHzJCXXG06qbr",
+   "type": "text",
+   "top": 4183.7,
+   "left": 1039.5,
+   "w": 254.1,
+   "h": 80.6,
+   "runs": [
+    {
+     "text": "THE CODE WORKS! TIME TO ASSEMBLE THE PIECES TOGETHER FOR FINAL ASSEMBLY!",
+     "size": 19.3,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBsCq1rLjMVlGqPN",
+   "type": "group",
+   "top": 4826.4,
+   "left": 475.5,
+   "w": 414.9,
+   "h": 542.4,
+   "group": true,
+   "children": 2
+  },
+  {
+   "id": "LBn50ZkR5GLQ4NkX",
+   "type": "rect",
+   "top": 4826.4,
+   "left": 475.5,
+   "w": 414.9,
+   "h": 542.4,
+   "media": {
+    "kind": "image",
+    "id": "MAEW70ufzp8"
+   }
+  },
+  {
+   "id": "LB3szDFhB9fY4rPT",
+   "type": "rect",
+   "top": 4836.2,
+   "left": 485,
+   "w": 387.8,
+   "h": 515.1,
+   "media": {
+    "kind": "video",
+    "id": "VAHX6Qz7-sg"
+   }
+  },
+  {
+   "id": "LBsYCBRWMQJ7R5Q1",
+   "type": "text",
+   "top": 4768.9,
+   "left": 616.3,
+   "w": 133.3,
+   "h": 72.3,
+   "runs": [
+    {
+     "text": "demo",
+     "size": 60.7,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "start",
+     "lh": 0.84,
+     "ls": -0.076,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBNf7DD1Rn9nCGLh",
+   "type": "rect",
+   "top": 4587.7,
+   "left": 554.9,
+   "w": 256.2,
+   "h": 256.2,
+   "rot": -21.3,
+   "media": {
+    "kind": "image",
+    "id": "MAHW4jk7bI0"
+   }
+  },
+  {
+   "id": "LBwwVT66Xtl73LrV",
+   "type": "text",
+   "top": 4612.5,
+   "left": 245,
+   "w": 114,
+   "h": 72.3,
+   "runs": [
+    {
+     "text": "finish",
+     "size": 60.7,
+     "weight": "normal",
+     "color": "#242424",
+     "align": "start",
+     "lh": 0.84,
+     "ls": -0.076,
+     "font": "YAFcf7zkXN0,0"
+    }
+   ]
+  },
+  {
+   "id": "LBHG1C8W16BlzNf1",
+   "type": "text",
+   "top": 5452.9,
+   "left": 65.9,
+   "w": 1277.4,
+   "h": 115.4,
+   "runs": [
+    {
+     "text": "PRODUCT DETAILS",
+     "size": 96.6,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 0.8,
+     "ls": -0.1,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBfKJkPRprw4tZbF",
+   "type": "line",
+   "top": 5562.3,
+   "left": 65.9,
+   "w": 1256.7,
+   "h": 0.7,
+   "rot": -0.5,
+   "stroke": {
+    "w": 1,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBZK8KYTd2X0vNV0",
+   "type": "shape",
+   "top": 5738.2,
+   "left": 21.7,
+   "w": 184.6,
+   "h": 249.4,
+   "media": {
+    "kind": "image",
+    "id": "MAHXuILuZ6M"
+   }
+  },
+  {
+   "id": "LB8ykYn25WKF0wbT",
+   "type": "shape",
+   "top": 5738.2,
+   "left": 241.7,
+   "w": 202.3,
+   "h": 249.4,
+   "media": {
+    "kind": "image",
+    "id": "MAHXuILuZ6M"
+   }
+  },
+  {
+   "id": "LBQ3J8QVQjXvgKbc",
+   "type": "shape",
+   "top": 5738.2,
+   "left": 479.4,
+   "w": 184.6,
+   "h": 249.4,
+   "media": {
+    "kind": "image",
+    "id": "MAHXuILuZ6M"
+   }
+  },
+  {
+   "id": "LBjkWXLdp41wtz4m",
+   "type": "shape",
+   "top": 5738.2,
+   "left": 698.8,
+   "w": 184.6,
+   "h": 249.4,
+   "media": {
+    "kind": "image",
+    "id": "MAHXuILuZ6M"
+   }
+  },
+  {
+   "id": "LB1shjP483t2VvWC",
+   "type": "shape",
+   "top": 5738.2,
+   "left": 918.4,
+   "w": 184.6,
+   "h": 249.4,
+   "media": {
+    "kind": "image",
+    "id": "MAHXuILuZ6M"
+   }
+  },
+  {
+   "id": "LBTMZ9rnf2mBxTD7",
+   "type": "shape",
+   "top": 5738.2,
+   "left": 1138,
+   "w": 184.6,
+   "h": 249.4,
+   "media": {
+    "kind": "image",
+    "id": "MAHXuILuZ6M"
+   }
+  },
+  {
+   "id": "LB2zRm3y4vKQHzM2",
+   "type": "text",
+   "top": 6005.3,
+   "left": 241.7,
+   "w": 220.2,
+   "h": 63.5,
+   "runs": [
+    {
+     "text": "ROTARY KNOB TO SCROLL  DIFFERENT FUNCTIONS",
+     "size": 20.3,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LByMn2BZhrNJRQKY",
+   "type": "text",
+   "top": 6005.3,
+   "left": 514.2,
+   "w": 184.6,
+   "h": 43.7,
+   "runs": [
+    {
+     "text": "DECORATIVE LEDS/GAUGE",
+     "size": 20.3,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LB65bpjlcw3DB91j",
+   "type": "text",
+   "top": 6005.3,
+   "left": 744.9,
+   "w": 184.6,
+   "h": 43.7,
+   "runs": [
+    {
+     "text": "32 OHM\n",
+     "size": 20.3,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "SPEAKER",
+     "size": 20.3,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBS18qyPWr4h5nSb",
+   "type": "text",
+   "top": 6005.3,
+   "left": 918.4,
+   "w": 184.6,
+   "h": 43.7,
+   "runs": [
+    {
+     "text": "KNOBS TO ADJUST VOLUME",
+     "size": 20.3,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBK4dy715zF0yMPc",
+   "type": "text",
+   "top": 6003.3,
+   "left": 1181.4,
+   "w": 184.6,
+   "h": 43.7,
+   "runs": [
+    {
+     "text": "5 INCH IPS\n",
+     "size": 20.3,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    },
+    {
+     "text": "DISPLAY",
+     "size": 20.3,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LB0lXsC2FH0Jzrm6",
+   "type": "text",
+   "top": 6003.3,
+   "left": 29.1,
+   "w": 184.6,
+   "h": 23.9,
+   "runs": [
+    {
+     "text": "DECORATIVE LEDS",
+     "size": 20.3,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBR3DsvV4bNf2xxp",
+   "type": "text",
+   "top": 6220.9,
+   "left": 65.9,
+   "w": 1277.4,
+   "h": 115.4,
+   "runs": [
+    {
+     "text": "PRODUCT USAGE SCENARIO",
+     "size": 96.6,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 0.8,
+     "ls": -0.1,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LB6Md4QPFgM6R6yw",
+   "type": "line",
+   "top": 6336,
+   "left": 65.9,
+   "w": 1223.2,
+   "h": 0.7,
+   "rot": 0,
+   "stroke": {
+    "w": 1,
+    "color": "#000000"
+   }
+  },
+  {
+   "id": "LBhSnn7NwczLqmwR",
+   "type": "shape",
+   "top": 6369.7,
+   "left": 106,
+   "w": 559.9,
+   "h": 381.1,
+   "media": {
+    "kind": "image",
+    "id": "MAHXuWilf4w"
+   }
+  },
+  {
+   "id": "LBLXymh652r8mqDB",
+   "type": "shape",
+   "top": 6369.7,
+   "left": 729,
+   "w": 559.9,
+   "h": 381.1,
+   "media": {
+    "kind": "image",
+    "id": "MAHW3yblEr0"
+   }
+  },
+  {
+   "id": "LBSYRjWmxZkhYRTt",
+   "type": "text",
+   "top": 6768.1,
+   "left": 105.7,
+   "w": 560.1,
+   "h": 101.6,
+   "runs": [
+    {
+     "text": "The redesigned Pip-Boy transforms the iconic wearable device from the Fallout universe into a multifunctional desktop clock. Designed for everyday use, it allows users to check the time while incorporating additional features into a single, compact product, bringing the game's recognizable retro-futuristic interface into their living space.\n",
+     "size": 17.1,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBnG5959nzC0lJtb",
+   "type": "text",
+   "top": 6768.1,
+   "left": 729,
+   "w": 560.1,
+   "h": 85.2,
+   "runs": [
+    {
+     "text": "By reimagining a fictional wearable prop as a functional desktop accessory, the product bridges pop-culture nostalgia and practical utility. It serves not only as a timekeeping device but also as a display piece that celebrates the Fallout universe, offering fans a product that is both useful and visually distinctive.\n",
+     "size": 17.1,
+     "weight": "normal",
+     "color": "#1e1e1e",
+     "align": "justify",
+     "lh": 1,
+     "ls": -0.02,
+     "font": "YAFcfgcNhWk,3"
+    }
+   ]
+  },
+  {
+   "id": "LBHlCGXnwm46H6H2",
+   "type": "text",
+   "top": 6872.1,
+   "left": 1130.9,
+   "w": 235.1,
+   "h": 23,
+   "runs": [
+    {
+     "text": "CLICK ME TO CONTINUE",
+     "size": 19.9,
+     "weight": "bold",
+     "color": "#1e1e1e",
+     "align": "start",
+     "lh": 1,
+     "ls": -0.06,
+     "font": "YAFcfgcNhWk,3",
+     "link": "#page-2",
+     "deco": "underline"
+    }
+   ]
+  },
+  {
+   "id": "LB5CHRzNhSHVPcqh",
+   "type": "rect",
+   "top": 6877.4,
+   "left": 1107.1,
+   "w": 20.1,
+   "h": 9.5,
+   "rot": 90,
+   "media": {
+    "kind": "image",
+    "id": "MADgjVqX00o",
+    "recolor": {
+     "#000000": "#242424"
+    }
+   }
+  }
+ ]
+}
