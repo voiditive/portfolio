@@ -1,0 +1,167 @@
+---
+// The Canva website header: logo on the left, page links on the right.
+import { Image } from 'astro:assets';
+import logo from '../assets/images/site/logo.webp';
+import type { NavItem } from '../lib/nav';
+
+interface Props {
+	items: NavItem[];
+	current: string;
+}
+
+const { items, current } = Astro.props;
+const isCurrent = (item: NavItem) => item.href === current || (current === '/' && item.href === '/#about');
+---
+
+<header class="site-header">
+	<a class="logo" href="/" aria-label="Home">
+		<Image src={logo} alt="" width={40} height={40} />
+	</a>
+	<button class="toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+		<span class="visually-hidden">Menu</span>
+		<span class="bars" aria-hidden="true"></span>
+	</button>
+	<nav id="site-nav" aria-label="Pages">
+		<ul>
+			{
+				items.map((item) => (
+					<li>
+						<a href={item.href} aria-current={isCurrent(item) ? 'page' : undefined}>
+							{item.label}
+						</a>
+					</li>
+				))
+			}
+		</ul>
+	</nav>
+</header>
+
+<script>
+	const toggle = document.querySelector<HTMLButtonElement>('.site-header .toggle');
+	toggle?.addEventListener('click', () => {
+		const open = toggle.getAttribute('aria-expanded') !== 'true';
+		toggle.setAttribute('aria-expanded', String(open));
+	});
+</script>
+
+<style>
+	.site-header {
+		position: sticky;
+		top: 0;
+		z-index: 50;
+		display: flex;
+		align-items: center;
+		height: var(--nav-height);
+		padding: 0 16px 0 10px;
+		background: var(--white);
+	}
+
+	.logo {
+		display: block;
+		width: 40px;
+		height: 40px;
+	}
+
+	nav ul {
+		display: flex;
+		gap: 25px;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	nav a {
+		color: #828d98;
+		font-family: var(--font-spartan);
+		font-size: 24px;
+		font-weight: 500;
+		letter-spacing: -0.02em;
+		text-decoration: none;
+	}
+
+	nav a[aria-current='page'] {
+		color: #304254;
+		font-weight: 600;
+	}
+
+	nav a:hover,
+	nav a:focus-visible {
+		color: #304254;
+	}
+
+	.visually-hidden {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+		clip-path: inset(50%);
+		white-space: nowrap;
+	}
+
+	@media (min-width: 1024px) {
+		.toggle {
+			display: none;
+		}
+
+		nav {
+			margin-left: auto;
+		}
+	}
+
+	@media (max-width: 1023.98px) {
+		.toggle {
+			display: grid;
+			place-items: center;
+			width: 44px;
+			height: 44px;
+			margin-left: auto;
+			border: 0;
+			background: none;
+			cursor: pointer;
+		}
+
+		.bars,
+		.bars::before {
+			display: block;
+			width: 26px;
+			height: 2px;
+			background: var(--ink);
+		}
+
+		.bars {
+			position: relative;
+			top: -4px;
+		}
+
+		.bars::before {
+			content: '';
+			position: relative;
+			top: 8px;
+		}
+
+		nav {
+			display: none;
+			position: absolute;
+			top: var(--nav-height);
+			right: 0;
+			left: 0;
+			padding: 8px 16px 16px;
+			background: var(--white);
+			box-shadow: 0 8px 16px rgb(0 0 0 / 0.08);
+		}
+
+		.toggle[aria-expanded='true'] + nav {
+			display: block;
+		}
+
+		nav ul {
+			flex-direction: column;
+			gap: 4px;
+		}
+
+		nav a {
+			display: block;
+			padding: 8px 0;
+		}
+	}
+</style>

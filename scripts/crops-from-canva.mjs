@@ -18,9 +18,13 @@ const PAGES = [
 	['ishda', 5, 'ishda'],
 	['yume', 6, 'yume'],
 ];
-// Backgrounds that are not elements: a tile of the illustrations grid paper,
-// taken from an empty stretch of page 4.
-const EXTRAS = [{ page: 4, out: 'illustrations/grid-paper.webp', x: 0, y: 56 + 1536 + 240, w: 1366, h: 360 }];
+// Pieces that are not elements: a tile of the illustrations grid paper (from an
+// empty stretch of page 4) and the header logo.
+const EXTRAS = [
+	{ page: 4, out: 'illustrations/grid-paper.webp', x: 0, y: 56 + 1536 + 240, w: 1366, h: 360 },
+	// The bird logo in the Canva website header.
+	{ page: 2, out: 'site/logo.webp', x: 10, y: 8, w: 40, h: 40 },
+];
 
 const r1 = (n) => Math.round(n * 10) / 10;
 

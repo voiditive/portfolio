@@ -1,0 +1,43 @@
+---
+// The Canva "click me to continue" / "click to go back up" pair, for pages whose
+// own content does not already carry them (new projects).
+import type { NavItem } from '../lib/nav';
+
+interface Props {
+	next: NavItem | undefined;
+}
+
+const { next } = Astro.props;
+---
+
+<nav class="continue" aria-label="Continue">
+	<a href="#top">CLICK TO GO BACK UP</a>
+	{next && <a href={next.href}>CLICK ME TO CONTINUE</a>}
+</nav>
+
+<style>
+	.continue {
+		display: flex;
+		justify-content: space-between;
+		gap: 16px;
+		padding: 24px 16px 40px;
+	}
+
+	a {
+		color: var(--ink);
+		font-family: var(--font-spartan);
+		font-size: 16px;
+		text-decoration: none;
+	}
+
+	a:hover,
+	a:focus-visible {
+		text-decoration: underline;
+	}
+
+	@media (min-width: 1024px) {
+		.continue {
+			padding: calc(24 * var(--u)) calc(66 * var(--u)) calc(40 * var(--u));
+		}
+	}
+</style>

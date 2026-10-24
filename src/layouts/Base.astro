@@ -4,14 +4,24 @@ import '@fontsource-variable/montserrat';
 import '@fontsource/arimo/400.css';
 import '@fontsource/arimo/700.css';
 import '../styles/tokens.css';
+import { getCollection, getEntry } from 'astro:content';
+import Nav from '../components/Nav.astro';
+import { navItems } from '../lib/nav';
 
 interface Props {
 	title: string;
 	description: string;
+	/** The nav href of this page: "/" for home, "/pipboy" and so on. */
 	current: string;
 }
 
-const { title, description } = Astro.props;
+const { title, description, current } = Astro.props;
+const projects = await getCollection('projects');
+const illustrations = await getEntry('illustrations', 'illustrations');
+const items = navItems(
+	projects.map((p) => ({ slug: p.id, navLabel: p.data.navLabel, order: p.data.order })),
+	illustrations!.data,
+);
 ---
 
 <html lang="en">
@@ -25,7 +35,7 @@ const { title, description } = Astro.props;
 	</head>
 	<body>
 		<a id="top"></a>
-		<slot name="nav" />
+		<Nav items={items} current={current} />
 		<main>
 			<slot />
 		</main>

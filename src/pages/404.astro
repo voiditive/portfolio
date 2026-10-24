@@ -1,0 +1,40 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="Page not found · Andrew Matthew Uy" description="This page does not exist." current="">
+	<section class="not-found">
+		<h1>Page not found</h1>
+		<p>That page isn't part of the portfolio.</p>
+		<a href="/">Back to the portfolio</a>
+	</section>
+</Base>
+
+<style>
+	.not-found {
+		min-height: calc(100vh - var(--nav-height));
+		display: grid;
+		place-content: center;
+		gap: 12px;
+		padding: 16px;
+		background: var(--red);
+		color: var(--white);
+		text-align: center;
+	}
+
+	h1 {
+		margin: 0;
+		font-size: clamp(40px, 8vw, 96px);
+		line-height: 0.9;
+		letter-spacing: -0.05em;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	a {
+		color: var(--white);
+		font-weight: 700;
+	}
+</style>
