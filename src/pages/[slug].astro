@@ -1,6 +1,7 @@
 ---
 import { getCollection, type CollectionEntry } from 'astro:content';
 import Base from '../layouts/Base.astro';
+import CanvaPage from '../components/CanvaPage.astro';
 
 export async function getStaticPaths() {
 	const projects = await getCollection('projects');
@@ -19,5 +20,5 @@ const { project } = Astro.props;
 	description={`${project.data.title}: an industrial design project by Andrew Matthew Uy.`}
 	current={`/${project.id}`}
 >
-	<h1>{project.data.title}</h1>
+	<CanvaPage sections={project.data.sections} current={`/${project.id}`} />
 </Base>

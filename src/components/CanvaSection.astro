@@ -30,7 +30,8 @@ const blocks = section.blocks.map((block, i) => {
 	const place = `--x:${block.x};--y:${block.y};--w:${block.w};--o:${rank.get(i)};`;
 	if (block.kind === 'text') {
 		const s = block.style;
-		let html = renderInline(block.text, { next, external: true });
+		// A block whose text was cleared in the CMS is left out, never an empty heading.
+		let html = block.text.trim() ? renderInline(block.text, { next, external: true }) : null;
 		if (html !== null && block.link) {
 			const href = block.link === 'next' ? next : block.link;
 			html = href ? `<a href="${href}">${html}</a>` : null;
@@ -62,58 +63,65 @@ const blocks = section.blocks.map((block, i) => {
 		sizes: `(min-width: 1024px) min(${((block.w / CANVA_WIDTH) * 100).toFixed(2)}vw, ${Math.round((block.w / CANVA_WIDTH) * 1600)}px), min(calc(100vw - 32px), ${Math.round(block.w)}px)`,
 	};
 });
+
+// A section emptied in the CMS leaves no blank frame behind.
+const visible = section.background !== undefined || blocks.some((b) => b.kind === 'media' || b.html !== null);
 ---
 
-<section class="cs" id={section.anchor} style={`--h:${section.height};--bg:${section.color};`}>
-	<div class="cs-inner">
-		{
-			section.background && (
-				<Image
-					class="cs-bg"
-					src={section.background}
-					alt=""
-					widths={[1366, 2732]}
-					sizes="min(100vw, 1600px)"
-					loading={eager ? 'eager' : 'lazy'}
-				/>
-			)
-		}
-		{
-			blocks.map((b) => {
-				if (b.kind === 'text') {
-					if (b.html === null) return null;
-					const Tag = b.block.as;
-					return (
-						<Tag
-							class:list={['b', 't', `f-${b.font}`, { decor: b.block.decor, keep: b.keep }]}
-							style={b.style}
-							aria-hidden={b.block.decor ? 'true' : undefined}
-							set:html={b.html}
+{
+	visible && (
+		<section class="cs" id={section.anchor} style={`--h:${section.height};--bg:${section.color};`}>
+			<div class="cs-inner">
+				{
+					section.background && (
+						<Image
+							class="cs-bg"
+							src={section.background}
+							alt=""
+							widths={[1366, 2732]}
+							sizes="min(100vw, 1600px)"
+							loading={eager ? 'eager' : 'lazy'}
 						/>
-					);
+					)
 				}
-				const img = (
-					<Image
-						src={b.block.image}
-						alt={b.block.alt}
-						widths={b.widths}
-						sizes={b.sizes}
-						loading={eager ? 'eager' : 'lazy'}
-					/>
-				);
-				return b.href ? (
-					<a class:list={['b', 'm', { decor: b.block.decor }]} style={b.style} href={b.href}>
-						{img}
-					</a>
-				) : (
-					<div class:list={['b', 'm', { decor: b.block.decor }]} style={b.style}>
-						{img}
-					</div>
-				);
-			})
-		}
-	</div>
-</section>
+				{
+					blocks.map((b) => {
+						if (b.kind === 'text') {
+							if (b.html === null) return null;
+							const Tag = b.block.as;
+							return (
+								<Tag
+									class:list={['b', 't', `f-${b.font}`, { decor: b.block.decor, keep: b.keep }]}
+									style={b.style}
+									aria-hidden={b.block.decor ? 'true' : undefined}
+									set:html={b.html}
+								/>
+							);
+						}
+						const img = (
+							<Image
+								src={b.block.image}
+								alt={b.block.alt}
+								widths={b.widths}
+								sizes={b.sizes}
+								loading={eager ? 'eager' : 'lazy'}
+							/>
+						);
+						return b.href ? (
+							<a class:list={['b', 'm', { decor: b.block.decor }]} style={b.style} href={b.href}>
+								{img}
+							</a>
+						) : (
+							<div class:list={['b', 'm', { decor: b.block.decor }]} style={b.style}>
+								{img}
+							</div>
+						);
+					})
+				}
+			</div>
+		</section>
+	)
+}
 
 <style>
 	.cs {
@@ -159,9 +167,11 @@ const blocks = section.blocks.map((block, i) => {
 		color: var(--red);
 	}
 
+	/* A photo of any shape fills its slot, cropped; the slot keeps its Canva size. */
 	.m :global(img) {
 		width: 100%;
-		height: auto;
+		height: 100%;
+		object-fit: cover;
 	}
 
 	/* Phones and tablets: one column in reading order, no background art. */
@@ -190,6 +200,9 @@ const blocks = section.blocks.map((block, i) => {
 
 		.m {
 			width: min(100%, calc(var(--w) * 1px));
+			aspect-ratio: var(--w) / var(--h);
+			/* Without this a taller photo stretches the box past its ratio. */
+			min-height: 0;
 		}
 	}
 
@@ -252,9 +265,5 @@ const blocks = section.blocks.map((block, i) => {
 			height: calc(var(--h) * var(--u));
 		}
 
-		.m :global(img) {
-			height: 100%;
-			object-fit: cover;
-		}
 	}
 </style>

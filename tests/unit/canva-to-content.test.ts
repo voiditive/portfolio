@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest';
-import { fontKey, linkFor, mapLink, runsToText } from '../../scripts/canva-to-content.mjs';
+import { fontKey, headingTags, linkFor, mapLink, runsToText } from '../../scripts/canva-to-content.mjs';
 
 const run = (text: string, extra: Record<string, unknown> = {}) => ({
 	text,
@@ -70,5 +70,22 @@ describe('runsToText base colour', () => {
 		const result = runsToText([run('I’M', { color: '#df2200' }), run(' ANDREW')]);
 		expect(result.color).toBe('#1e1e1e');
 		expect(result.text).toBe('==I’M== ANDREW');
+	});
+});
+
+describe('headingTags', () => {
+	const t = (text: string, size: number, y: number, decor = false) => ({ text, size, y, decor });
+	const page = [t('PROBLEM', 99.8, 2078), t('PIP-BOY 3000', 83.7, 914), t('start', 60.7, 3201), t('+', 86.3, 700), t('Body text', 17, 950)];
+
+	test('on a case study the first big title is the h1, later big titles are h2', () => {
+		expect(headingTags(page, 'first')).toEqual(['h2', 'h1', 'p', 'p', 'p']);
+	});
+
+	test('on the home page the largest title is the h1', () => {
+		expect(headingTags([t('MY INDUSTRIAL DESIGN', 59.3, 128), t('PORTFOLIO', 161.9, 163)], 'largest')).toEqual(['h2', 'h1']);
+	});
+
+	test('lowercase labels, symbols and decorative giant glyphs are never headings', () => {
+		expect(headingTags([t('sample videos', 57.5, 10), t('+', 86.3, 20), t('A', 900, 0, true), t('MY ROLE', 91, 30)], 'first')).toEqual(['p', 'p', 'p', 'h1']);
 	});
 });

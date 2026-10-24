@@ -120,7 +120,7 @@ sections:
       - kind: text
         label: +
         text: +
-        as: h2
+        as: p
         x: 660.7
         y: 644.7
         w: 44.5

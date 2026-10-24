@@ -139,7 +139,7 @@ sections:
       - kind: text
         label: WORLD INDUSTRIAL DESIGN WEEK 2026
         text: WORLD INDUSTRIAL DESIGN WEEK 2026
-        as: h2
+        as: h1
         x: 77.1
         y: 46.2
         w: 542.5
@@ -199,7 +199,7 @@ sections:
       - kind: text
         label: PROBLEM
         text: PROBLEM
-        as: h1
+        as: h2
         x: 50.5
         y: 542.3
         w: 489.9
@@ -528,7 +528,7 @@ sections:
       - kind: text
         label: start
         text: start
-        as: h2
+        as: p
         x: 131.9
         y: 129.8
         w: 95
@@ -769,7 +769,7 @@ sections:
       - kind: text
         label: finish
         text: finish
-        as: h2
+        as: p
         x: 235.2
         y: 618.9
         w: 113.9
@@ -869,7 +869,7 @@ sections:
       - kind: text
         label: sample videos
         text: sample videos
-        as: h2
+        as: p
         x: 293.7
         y: 246.3
         w: 778.5

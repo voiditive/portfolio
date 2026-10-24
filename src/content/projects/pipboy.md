@@ -107,7 +107,7 @@ sections:
       - kind: text
         label: PIP-BOY 3000
         text: PIP-BOY 3000
-        as: h2
+        as: h1
         x: 77.1
         y: 146.5
         w: 542.5
@@ -151,7 +151,7 @@ sections:
       - kind: text
         label: PROBLEM
         text: PROBLEM
-        as: h1
+        as: h2
         x: 50.5
         y: 542.3
         w: 489.9
@@ -328,7 +328,7 @@ sections:
       - kind: text
         label: start
         text: start
-        as: h2
+        as: p
         x: 131.9
         y: 129.8
         w: 95
@@ -552,7 +552,7 @@ sections:
       - kind: text
         label: demo
         text: demo
-        as: h2
+        as: p
         x: 616.3
         y: 160.9
         w: 133.3
@@ -568,7 +568,7 @@ sections:
       - kind: text
         label: finish
         text: finish
-        as: h2
+        as: p
         x: 245
         y: 4.5
         w: 114

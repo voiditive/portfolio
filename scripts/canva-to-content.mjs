@@ -102,12 +102,30 @@ const PROJECTS = {
 };
 const CARD_IDS = { pipboy: 'LB2NDGQMDsBH8jZM', widw: 'LBKcsXtCrNNhLrfq', yume: 'LBPJQT9GycFGfL5f', ishda: 'LBhSyCV3hnLfZw20' };
 
+/**
+ * Heading tags for a page's text blocks ({ text, size, y, decor }). Big (34 px+) all-caps
+ * titles are headings; lowercase labels ("start", "finish"), symbols and decorative
+ * glyphs are not. The h1 is the first title on a case study, the largest on the home page.
+ */
+export function headingTags(blocks, h1 = 'first') {
+	const isTitle = (b) => !b.decor && b.size >= 34 && /[A-Z]/.test(b.text) && b.text === b.text.toUpperCase();
+	const titles = blocks.map((b, i) => ({ ...b, i })).filter(isTitle);
+	const pick = h1 === 'largest' ? [...titles].sort((a, b) => b.size - a.size)[0] : [...titles].sort((a, b) => a.y - b.y)[0];
+	return blocks.map((b, i) => (i === pick?.i ? 'h1' : isTitle(b) ? 'h2' : 'p'));
+}
+
 function buildSections(data, crops, alt, slug) {
+	const textEls = data.elements.filter((e) => e.runs && e.runs.some((r) => r.text.trim()));
+	const tags = headingTags(
+		textEls.map((e) => {
+			const size = r1(Math.max(...e.runs.map((r) => r.size ?? 0)));
+			return { text: runsToText(e.runs).text.replace(/\*\*|==|\[|\]\([^)]*\)/g, ''), size, y: e.top, decor: size > 400 };
+		}),
+		slug === 'home' ? 'largest' : 'first',
+	);
+	const tagById = new Map(textEls.map((e, i) => [e.id, tags[i]]));
 	const order = new Map(data.elements.map((e, i) => [e.id, i]));
 	const cropById = new Map(crops.map((c) => [c.canvaId, c]));
-	const sizes = data.elements.filter((e) => e.runs).flatMap((e) => e.runs.map((r) => r.size ?? 0));
-	const maxSize = r1(Math.max(...sizes.filter((s) => s < 400)));
-	let h1Done = false;
 	let imageCount = 0;
 	const sections = data.sections.map((s, i) => ({
 		background: `../../assets/images/${slug}/decor-${String(i + 1).padStart(2, '0')}.webp`,
@@ -133,11 +151,7 @@ function buildSections(data, crops, alt, slug) {
 			const size = r1(Math.max(...e.runs.map((r) => r.size ?? 0)));
 			const decor = size > 400;
 			const section = sectionOf(e.top);
-			let as = 'p';
-			if (!decor && !h1Done && size === maxSize) {
-				as = 'h1';
-				h1Done = true;
-			} else if (!decor && size >= 34) as = 'h2';
+			const as = tagById.get(e.id);
 			const block = {
 				kind: 'text',
 				label: oneLine(text.replace(/\*\*|==|\[|\]\([^)]*\)/g, '')),

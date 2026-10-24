@@ -125,7 +125,7 @@ sections:
       - kind: text
         label: YUMEPH
         text: YUMEPH
-        as: h2
+        as: h1
         x: 77.1
         y: 146.5
         w: 542.5
@@ -226,7 +226,7 @@ sections:
       - kind: text
         label: start
         text: start
-        as: h2
+        as: p
         x: 131.9
         y: 129.8
         w: 95
@@ -390,7 +390,7 @@ sections:
       - kind: text
         label: finish
         text: finish
-        as: h2
+        as: p
         x: 235.2
         y: 618.9
         w: 113.9
@@ -679,7 +679,7 @@ sections:
       - kind: text
         label: THANK YOU :)
         text: THANK YOU :)
-        as: h1
+        as: h2
         x: 222.4
         y: 163.6
         w: 921.1
@@ -763,7 +763,7 @@ sections:
       - kind: text
         label: +
         text: +
-        as: h2
+        as: p
         x: 662.1
         y: 644.7
         w: 41.8

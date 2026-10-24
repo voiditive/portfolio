@@ -115,7 +115,7 @@ sections:
       - kind: text
         label: ISHDA
         text: ISHDA
-        as: h2
+        as: h1
         x: 77.1
         y: 146.5
         w: 542.5
@@ -159,7 +159,7 @@ sections:
       - kind: text
         label: OBJECTIVE
         text: OBJECTIVE
-        as: h1
+        as: h2
         x: 50.5
         y: 542.3
         w: 489.9
@@ -300,7 +300,7 @@ sections:
       - kind: text
         label: start
         text: start
-        as: h2
+        as: p
         x: 115.3
         y: 127.1
         w: 95
@@ -380,7 +380,7 @@ sections:
       - kind: text
         label: finish
         text: finish
-        as: h2
+        as: p
         x: 259.6
         y: 691.2
         w: 113.9
