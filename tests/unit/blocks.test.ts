@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest';
-import { fitsWithoutWrapping, phoneColor, phoneOrder, renderInline } from '../../src/lib/blocks';
+import { canvaFit, fitsWithoutWrapping, phoneColor, phoneOrder, renderInline } from '../../src/lib/blocks';
 
 describe('renderInline', () => {
 	test('turns markers into bold, accent and links, escaping HTML', () => {
@@ -58,5 +58,30 @@ describe('fitsWithoutWrapping', () => {
 
 	test('without a Canva height, text wraps', () => {
 		expect(fitsWithoutWrapping({ text: 'NEW', size: 20, lh: 1 })).toBe(false);
+	});
+});
+
+describe('canvaFit', () => {
+	// Measured on the Canva export of the home page: Canva puts the first baseline at a
+	// fixed depth below the box top whatever the line height, and its headline font has
+	// capitals about 1.1x taller than League Spartan at the same width.
+	test('League Spartan is drawn 1.1x taller and squeezed back to its width', () => {
+		expect(canvaFit('spartan', 0.8).k).toBeCloseTo(1.1, 2);
+		expect(canvaFit('arimo', 0.8).k).toBe(1);
+		expect(canvaFit('montserrat', 1.2).k).toBe(1);
+	});
+
+	test('shifts text down so its first baseline sits where Canva drew it', () => {
+		// PORTFOLIO (spartan, line height 0.8): baseline 0.918em below the box top in
+		// Canva, 0.638em on the web before the fit.
+		expect(canvaFit('spartan', 0.8).dy).toBeCloseTo(0.918 - 0.638 - 0.1 * 0.698 + 0.05 * 0.92, 2);
+		// MY DESIGN PROCESS (arimo, 0.8): 0.827em in Canva, 0.749em on the web.
+		expect(canvaFit('arimo', 0.8).dy).toBeCloseTo(0.078, 2);
+		// EDUCATION (montserrat, 1): 0.92em in Canva, 0.859em on the web.
+		expect(canvaFit('montserrat', 1).dy).toBeCloseTo(0.061, 2);
+	});
+
+	test('a taller line height moves web text down, so the shift shrinks', () => {
+		expect(canvaFit('arimo', 1.4).dy).toBeCloseTo(canvaFit('arimo', 0.8).dy - 0.3, 5);
 	});
 });

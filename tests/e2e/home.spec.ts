@@ -1,4 +1,26 @@
-import { test, expect } from '@playwright/test';
+import { test, expect, type Page } from '@playwright/test';
+import sharp from 'sharp';
+
+/** Extent of the white text ink in a clip: rows with at least `min` white pixels, and the columns they cover. */
+async function ink(page: Page, clip: { x: number; y: number; width: number; height: number }, min = 300) {
+	const png = await page.screenshot({ clip, fullPage: true });
+	const { data, info } = await sharp(png).resize({ width: clip.width }).raw().toBuffer({ resolveWithObject: true });
+	const rows: number[] = [];
+	let left = Infinity;
+	let right = -Infinity;
+	for (let y = 0; y < info.height; y++) {
+		const xs: number[] = [];
+		for (let x = 0; x < info.width; x++) {
+			const i = (y * info.width + x) * info.channels;
+			if (data[i] > 235 && data[i + 1] > 235 && data[i + 2] > 235) xs.push(x);
+		}
+		if (xs.length < min) continue;
+		rows.push(clip.y + y);
+		left = Math.min(left, clip.x + xs[0]);
+		right = Math.max(right, clip.x + xs.at(-1)!);
+	}
+	return { top: rows[0], bottom: rows.at(-1), left, right };
+}
 
 test('the cover shows the portfolio title', async ({ page }) => {
 	await page.goto('/');
@@ -48,10 +70,17 @@ test('on desktop, blocks sit at their Canva position', async ({ page }) => {
 	await page.goto('/');
 	await page.evaluate(() => document.fonts.ready);
 	const box = (await page.getByRole('heading', { level: 1 }).boundingBox())!;
-	// Canva: PORTFOLIO at left 350.9, top 163.4 in the first frame, below the 56 px nav.
-	expect(Math.abs(box.x - 350.9)).toBeLessThanOrEqual(2);
-	expect(Math.abs(box.y - (56 + 163.4))).toBeLessThanOrEqual(2);
-	expect(Math.abs(box.width - 664.3)).toBeLessThanOrEqual(2);
+	// Canva: PORTFOLIO at left 350.9, top 163.4, width 664.3 in the first frame, below
+	// the 56 px nav. One-line centred text is anchored by its centre, so a slightly
+	// wider web font spills evenly: check the centre, not the edges.
+	expect(Math.abs(box.x + box.width / 2 - (350.9 + 664.3 / 2))).toBeLessThanOrEqual(2);
+	// Its capitals span the rows they do in the Canva export (measured at 1366: rows 248
+	// to 368, columns 352 to 1019), centred on the same column.
+	const text = await ink(page, { x: 320, y: 242, width: 740, height: 135 });
+	expect(Math.abs(text.top! - 248)).toBeLessThanOrEqual(3);
+	// Within the plan's 4 px: League Spartan's side bearings differ a little from Canva's font.
+	expect(Math.abs((text.left + text.right) / 2 - (352 + 1019) / 2)).toBeLessThanOrEqual(4);
+	expect(Math.abs(text.bottom! - 368)).toBeLessThanOrEqual(3);
 });
 
 test('on phones, body text is at least 16px', async ({ page }) => {

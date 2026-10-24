@@ -5,7 +5,7 @@
 // background art is dropped and the blocks stack in reading order.
 import { Image } from 'astro:assets';
 import type { CollectionEntry } from 'astro:content';
-import { fitsWithoutWrapping, phoneColor, phoneOrder, renderInline } from '../lib/blocks';
+import { canvaFit, fitsWithoutWrapping, phoneColor, phoneOrder, renderInline } from '../lib/blocks';
 
 type Section = CollectionEntry<'projects'>['data']['sections'][number];
 
@@ -41,9 +41,13 @@ const blocks = section.blocks.map((block, i) => {
 		const keep = fitsWithoutWrapping({ text: block.text, h: block.h, size: s.size, lh: s.lh });
 		const anchor = s.align === 'center' ? 0.5 : s.align === 'end' ? 1 : 0;
 		const left = keep ? block.x + block.w * anchor : block.x - block.w * 0.03 * anchor;
+		// Drawn k times larger, squeezed back to width around its centre, then shifted so the
+		// visible text starts at its anchor and its first baseline sits where Canva's does.
+		const { k, dy } = canvaFit(s.font, s.lh);
+		const tx = -((keep ? anchor : 0) / k + (1 - 1 / k) / 2) * 100;
 		const style =
 			place +
-			`--ml:${left};--tx:${keep ? -anchor * 100 : 0}%;` +
+			`--ml:${left};--tx:${tx.toFixed(3)}%;--k:${k};--dy:${dy.toFixed(4)};` +
 			`--size:${s.size};--weight:${s.weight};--color:${s.color};--pcolor:${phoneColor(s.color, section.color)};` +
 			`--align:${s.align};--lh:${s.lh};--plh:${phoneLh};--ls:${s.ls}em;--rot:${block.rot ?? 0}deg;`;
 		return { kind: 'text' as const, block, html, style, font: s.font, keep };
@@ -222,17 +226,21 @@ const blocks = section.blocks.map((block, i) => {
 			z-index: 1;
 			align-self: start;
 			justify-self: start;
-			width: calc(var(--w) * 1.03 * var(--u));
+			width: calc(var(--w) * 1.03 * var(--k) * var(--u));
 			margin: calc(var(--y) * var(--u)) 0 0 calc(var(--ml) * var(--u));
 			color: var(--color);
-			font-size: calc(var(--size) * var(--u));
-			line-height: var(--lh);
-			transform: translateX(var(--tx)) rotate(var(--rot));
+			font-size: calc(var(--size) * var(--k) * var(--u));
+			line-height: calc(var(--lh) / var(--k));
+			/* Browsers add letter spacing after the last letter too, Canva does not: give
+			   it back so centred and wrapped lines measure as they do in Canva. */
+			padding-inline-end: calc(-1 * var(--ls));
+			transform: translate(var(--tx), calc(var(--dy) * var(--size) * var(--u))) rotate(var(--rot))
+				scaleX(calc(1 / var(--k)));
 		}
 
 		.t.keep {
 			width: max-content;
-			min-width: calc(var(--w) * var(--u));
+			min-width: calc(var(--w) * var(--k) * var(--u));
 			white-space: pre;
 		}
 

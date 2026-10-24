@@ -65,3 +65,29 @@ export function phoneColor(color: string, background: string): string {
 	if (contrast(color, background) >= 3) return color;
 	return contrast('#1e1e1e', background) >= contrast('#ffffff', background) ? '#1e1e1e' : '#ffffff';
 }
+
+/**
+ * How each web font is fitted to Canva's text. Canva puts a text box's first
+ * baseline `canvaAscent` em below its top whatever the line height (later lines
+ * follow at the line height). `ascent` and `descent` are the web font's own
+ * metrics, measured in Chromium. Canva's headline font has capitals 1.103x
+ * taller than League Spartan at the same width, so League Spartan is drawn `k`
+ * times larger and squeezed back horizontally.
+ */
+const FONT_FIT = {
+	spartan: { canvaAscent: 0.918, ascent: 0.698, descent: 0.222, k: 1.103 },
+	arimo: { canvaAscent: 0.827, ascent: 0.908, descent: 0.21, k: 1 },
+	montserrat: { canvaAscent: 0.92, ascent: 0.97, descent: 0.253, k: 1 },
+} as const;
+
+export type FontKey = keyof typeof FONT_FIT;
+
+/**
+ * The size factor `k` and the downward shift `dy` (in em of the Canva size) that put
+ * web text on Canva's first baseline, for text drawn at k × size with line height lh / k.
+ */
+export function canvaFit(font: FontKey, lh: number): { k: number; dy: number } {
+	const { canvaAscent, ascent, descent, k } = FONT_FIT[font];
+	const webBaseline = (lh - k * (ascent + descent)) / 2 + k * ascent;
+	return { k, dy: canvaAscent - webBaseline };
+}
