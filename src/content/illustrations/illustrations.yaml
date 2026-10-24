@@ -1,0 +1,221 @@
+navLabel: illustrations
+order: 3
+sections:
+  - background: ../../assets/images/illustrations/decor-01.webp
+    color: "#ffffff"
+    height: 768
+    blocks:
+      - kind: image
+        label: Image 1
+        image: ../../assets/images/illustrations/03-MAHVnt-_Kd8.webp
+        alt: Illustration – image 1
+        x: 127.1
+        y: 349.5
+        w: 523.7
+        h: 418.5
+      - kind: image
+        label: Image 2
+        image: ../../assets/images/illustrations/02-MAHVng-atF0.webp
+        alt: Illustration – image 2
+        x: 668.7
+        y: 0
+        w: 620.5
+        h: 768
+      - kind: image
+        label: Image 3
+        image: ../../assets/images/illustrations/01-MAHX5p2i5zc.webp
+        alt: Illustration – image 3
+        x: 127.1
+        y: 0
+        w: 523.7
+        h: 326.3
+  - background: ../../assets/images/illustrations/decor-02.webp
+    color: "#fafafa"
+    height: 768
+    blocks:
+      - kind: image
+        label: Image 4
+        image: ../../assets/images/illustrations/04-MAHVn15YrnQ.webp
+        alt: Illustration – image 4
+        x: 129
+        y: 23.4
+        w: 362.8
+        h: 454
+      - kind: image
+        label: Image 5
+        image: ../../assets/images/illustrations/06-MAHVnt2yTIU.webp
+        alt: Illustration – image 5
+        x: 835.2
+        y: 23.4
+        w: 454
+        h: 454
+      - kind: image
+        label: Image 6
+        image: ../../assets/images/illustrations/05-MAHX5jnMKDU.webp
+        alt: Illustration – image 6
+        x: 503.6
+        y: 23.4
+        w: 319.8
+        h: 454
+      - kind: image
+        label: Image 7
+        image: ../../assets/images/illustrations/07-MAHX5twmmOs.webp
+        alt: Illustration – image 7
+        x: 131.7
+        y: 501.1
+        w: 385.8
+        h: 482.8
+      - kind: image
+        label: Image 8
+        image: ../../assets/images/illustrations/08-MAHX5pPzBwI.webp
+        alt: Illustration – image 8
+        x: 517.6
+        y: 501.1
+        w: 385.8
+        h: 482.8
+      - kind: image
+        label: Image 9
+        image: ../../assets/images/illustrations/09-MAHX5tDnbN0.webp
+        alt: Illustration – image 9
+        x: 903.4
+        y: 501.1
+        w: 385.8
+        h: 482.8
+  - background: ../../assets/images/illustrations/decor-03.webp
+    color: "#fafafa"
+    height: 768
+    blocks:
+      - kind: image
+        label: Image 10
+        image: ../../assets/images/illustrations/10-MAHX59zzJHc.webp
+        alt: Illustration – image 10
+        x: 117.7
+        y: 630.9
+        w: 586.5
+        h: 404.2
+      - kind: image
+        label: Image 11
+        image: ../../assets/images/illustrations/11-MAHX5wraeQI.webp
+        alt: Illustration – image 11
+        x: 719.2
+        y: 630.9
+        w: 586.5
+        h: 404.2
+      - kind: text
+        label: ILLUSTRATIONS/ART/STUDIES
+        text: ILLUSTRATIONS/ART/STUDIES
+        as: h1
+        x: 324.7
+        y: 251
+        w: 714.8
+        style:
+          font: spartan
+          size: 42.7
+          weight: 700
+          color: "#000000"
+          align: center
+          lh: 1.4
+          ls: 0
+  - background: ../../assets/images/illustrations/decor-04.webp
+    color: "#fafafa"
+    height: 768
+    blocks:
+      - kind: image
+        label: Image 12
+        image: ../../assets/images/illustrations/12-MAHX55fO9gU.webp
+        alt: Illustration – image 12
+        x: 117.2
+        y: 280.3
+        w: 586.5
+        h: 404.2
+      - kind: image
+        label: Image 13
+        image: ../../assets/images/illustrations/13-MAHX5xbD1is.webp
+        alt: Illustration – image 13
+        x: 718.7
+        y: 280.3
+        w: 586.5
+        h: 468.7
+  - background: ../../assets/images/illustrations/decor-05.webp
+    color: "#fafafa"
+    height: 768
+    blocks:
+      - kind: image
+        label: Image 14
+        image: ../../assets/images/illustrations/15-MAHX596WMzY.webp
+        alt: Illustration – image 14
+        x: 697.9
+        y: 26.7
+        w: 526
+        h: 362.5
+      - kind: image
+        label: Image 15
+        image: ../../assets/images/illustrations/16-MAHX5-qctk4.webp
+        alt: Illustration – image 15
+        x: 697.9
+        y: 378.8
+        w: 526
+        h: 362.5
+      - kind: image
+        label: Image 16
+        image: ../../assets/images/illustrations/14-MAHX59M5kzg.webp
+        alt: Illustration – image 16
+        x: 142.1
+        y: 26.7
+        w: 504.9
+        h: 714.5
+  - background: ../../assets/images/illustrations/decor-06.webp
+    color: "#fafafa"
+    height: 768
+    blocks:
+      - kind: image
+        label: Image 17
+        image: ../../assets/images/illustrations/17-MAHX54qiSws.webp
+        alt: Illustration – image 17
+        x: 92.6
+        y: 0
+        w: 400.4
+        h: 573.6
+      - kind: image
+        label: Image 18
+        image: ../../assets/images/illustrations/18-MAHX53O4U54.webp
+        alt: Illustration – image 18
+        x: 516.5
+        y: 0
+        w: 772.7
+        h: 556.7
+      - kind: image
+        label: Image 19
+        image: ../../assets/images/illustrations/19-MAHX5z7AXwo.webp
+        alt: Illustration – image 19
+        x: 94.3
+        y: 582.3
+        w: 746.8
+        h: 560.1
+  - background: ../../assets/images/illustrations/decor-07.webp
+    color: "#fafafa"
+    height: 768
+    blocks:
+      - kind: image
+        label: Image 20
+        image: ../../assets/images/illustrations/20-MAHX58vQtuc.webp
+        alt: Illustration – image 20
+        x: 619.2
+        y: 76.8
+        w: 746.8
+        h: 560.1
+      - kind: text
+        label: SKETCHES/CONCEPTS/EXPERIMENTS
+        text: SKETCHES/CONCEPTS/EXPERIMENTS
+        as: h2
+        x: 94.3
+        y: 411.6
+        w: 481.6
+        style:
+          font: spartan
+          size: 42.7
+          weight: 700
+          color: "#000000"
+          align: center
+          lh: 1.4
+          ls: 0

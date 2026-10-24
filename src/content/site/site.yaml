@@ -1,0 +1,1144 @@
+name: Andrew Matthew Uy
+email: uy.andreuy@gmail.com
+phone: +63 939 357 3880
+cvUrl: https://drive.google.com/file/d/17BG8bozSRukMAXM4ZNurV2sGvoGaW5i2/view?usp=sharing
+sections:
+  - background: ../../assets/images/home/decor-01.webp
+    color: "#df2200"
+    height: 768
+    blocks:
+      - kind: image
+        label: Decoration
+        image: ../../assets/images/home/06-MADgjVqX00o.webp
+        alt: ""
+        x: 1178
+        y: 728.1
+        w: 9.5
+        h: 20.1
+        decor: true
+      - kind: text
+        label: MY INDUSTRIAL DESIGN
+        text: MY INDUSTRIAL DESIGN
+        as: h2
+        x: 428.1
+        y: 128.1
+        w: 509.7
+        style:
+          font: spartan
+          size: 59.3
+          weight: 700
+          color: "#ffffff"
+          align: center
+          lh: 0.8
+          ls: -0.1
+      - kind: text
+        label: PORTFOLIO
+        text: PORTFOLIO
+        as: h1
+        x: 350.9
+        y: 163.4
+        w: 664.3
+        style:
+          font: spartan
+          size: 161.9
+          weight: 700
+          color: "#ffffff"
+          align: center
+          lh: 0.8
+          ls: -0.1
+      - kind: text
+        label: MY DESIGN PROCESS
+        text: |-
+          
+          MY DESIGN 
+          PROCESS
+        as: h2
+        x: 473.3
+        y: 421.6
+        w: 422.1
+        style:
+          font: arimo
+          size: 86.3
+          weight: 400
+          color: "#ffffff"
+          align: center
+          lh: 0.8
+          ls: -0.1
+      - kind: image
+        label: Image 1
+        image: ../../assets/images/home/04-MAHW4ALPIKc.webp
+        alt: Portfolio – image 1
+        x: 694
+        y: 273
+        w: 297.3
+        h: 297.3
+      - kind: image
+        label: Image 2
+        image: ../../assets/images/home/01-MAHW4G8Wrf0.webp
+        alt: Portfolio – image 2
+        x: 119.5
+        y: 206
+        w: 438.8
+        h: 438.8
+      - kind: image
+        label: Image 3
+        image: ../../assets/images/home/03-MAHW4FTF7MQ.webp
+        alt: Portfolio – image 3
+        x: 402.9
+        y: 246
+        w: 358.7
+        h: 358.7
+      - kind: image
+        label: Image 4
+        image: ../../assets/images/home/02-MAHW4Lj-aUU.webp
+        alt: Portfolio – image 4
+        x: 878.8
+        y: 233.5
+        w: 383.6
+        h: 383.6
+      - kind: text
+        label: THIS DESIGN PORTFOLIO INCLUDES THE DESIGNS
+        text: |-
+          THIS DESIGN PORTFOLIO INCLUDES
+          THE DESIGNS
+        as: p
+        x: 364.1
+        y: 666.6
+        w: 218.1
+        style:
+          font: spartan
+          size: 19.9
+          weight: 400
+          color: "#ffffff"
+          align: start
+          lh: 1
+          ls: -0.06
+      - kind: text
+        label: +
+        text: +
+        as: h2
+        x: 660.7
+        y: 644.7
+        w: 44.5
+        style:
+          font: spartan
+          size: 86.3
+          weight: 400
+          color: "#ffffff"
+          align: center
+          lh: 0.8
+          ls: -0.1
+      - kind: text
+        label: (UY, ANDREW MATTHEW)
+        text: (UY, ANDREW MATTHEW)
+        as: p
+        x: 520.9
+        y: 101.8
+        w: 321.7
+        style:
+          font: spartan
+          size: 22.9
+          weight: 400
+          color: "#ffffff"
+          align: center
+          lh: 1
+          ls: -0.06
+      - kind: text
+        label: LET’S START
+        text: LET’S START
+        as: p
+        x: 1195.3
+        y: 728.1
+        w: 156.8
+        style:
+          font: spartan
+          size: 19.9
+          weight: 400
+          color: "#ffffff"
+          align: start
+          lh: 1
+          ls: -0.06
+      - kind: text
+        label: THE PROCESSES OVER THE PAST YEARS
+        text: |-
+          THE PROCESSES
+          OVER THE PAST
+          **YEARS**
+        as: p
+        x: 842.6
+        y: 666.6
+        w: 156.8
+        style:
+          font: spartan
+          size: 19.9
+          weight: 400
+          color: "#ffffff"
+          align: start
+          lh: 1
+          ls: -0.06
+      - kind: text
+        label: CLICK ON ICONS
+        text: "CLICK ON ICONS "
+        as: p
+        x: 77.1
+        y: 726.6
+        w: 156.8
+        style:
+          font: spartan
+          size: 19.9
+          weight: 400
+          color: "#ffffff"
+          align: start
+          lh: 1
+          ls: -0.06
+      - kind: image
+        label: Decoration
+        image: ../../assets/images/home/05-MADgjVqX00o.webp
+        alt: ""
+        x: 229.2
+        y: 726.6
+        w: 9.5
+        h: 20.1
+        decor: true
+  - background: ../../assets/images/home/decor-02.webp
+    color: "#ffffff"
+    height: 768
+    blocks:
+      - kind: image
+        label: Image 5
+        image: ../../assets/images/home/07-MAHVGy4PgFI.webp
+        alt: Portfolio – image 5
+        x: 526.2
+        y: 210.1
+        w: 313.6
+        h: 313.3
+      - kind: text
+        label: I’M ANDREW
+        text: I’M ==ANDREW==
+        as: h2
+        x: 356.8
+        y: 62.2
+        w: 652.5
+        style:
+          font: spartan
+          size: 136.5
+          weight: 700
+          color: "#df2200"
+          align: center
+          lh: 0.8
+          ls: -0.1
+      - kind: text
+        label: +63 939 357 3880
+        text: +63 939 357 3880
+        as: p
+        x: 287
+        y: 292.6
+        w: 157.1
+        style:
+          font: spartan
+          size: 17.1
+          weight: 400
+          color: "#1e1e1e"
+          align: center
+          lh: 1
+          ls: -0.02
+        link: tel:+639393573880
+      - kind: text
+        label: hello everyone!
+        text: hello everyone!
+        as: p
+        x: 606.8
+        y: 53.6
+        w: 156.8
+        style:
+          font: spartan
+          size: 19.9
+          weight: 700
+          color: "#1e1e1e"
+          align: start
+          lh: 1
+          ls: -0.06
+      - kind: text
+        label: PHONE
+        text: PHONE
+        as: p
+        x: 287.3
+        y: 259.6
+        w: 156.8
+        style:
+          font: spartan
+          size: 19.9
+          weight: 700
+          color: "#1e1e1e"
+          align: start
+          lh: 1
+          ls: -0.06
+      - kind: text
+        label: EMAIL
+        text: EMAIL
+        as: p
+        x: 906.1
+        y: 259.6
+        w: 172.7
+        style:
+          font: spartan
+          size: 19.9
+          weight: 700
+          color: "#1e1e1e"
+          align: end
+          lh: 1
+          ls: -0.06
+      - kind: text
+        label: uy.andreuy@gmail.com
+        text: uy.andreuy@gmail.com
+        as: p
+        x: 879.8
+        y: 292.6
+        w: 198.9
+        style:
+          font: spartan
+          size: 17.1
+          weight: 400
+          color: "#1e1e1e"
+          align: center
+          lh: 1
+          ls: -0.02
+        link: mailto:uy.andreuy@gmail.com
+      - kind: text
+        label: "I’m 21 years old, currently studying Industrial "
+        text: |-
+          I’m 21 years old, currently studying Industrial Design at De La Salle-College of Saint Benilde. I enjoy turning ideas into meaningful products and experiences through sketching, illustration, 3D modeling, and experimentation.
+           
+          I believe that **to design is to serve**—to understand people, solve problems, and create things that are purposeful and enjoyable.
+        as: p
+        x: 472.8
+        y: 542.3
+        w: 424.8
+        style:
+          font: spartan
+          size: 17.1
+          weight: 400
+          color: "#1e1e1e"
+          align: justify
+          lh: 1
+          ls: -0.02
+  - background: ../../assets/images/home/decor-03.webp
+    color: "#ffffff"
+    height: 768
+    blocks:
+      - kind: text
+        label: DE LA SALLE-COLLEGE OF SAINT BENILDE
+        text: DE LA SALLE-COLLEGE OF SAINT BENILDE
+        as: p
+        x: 86.6
+        y: 164
+        w: 283.5
+        style:
+          font: montserrat
+          size: 12.8
+          weight: 700
+          color: "#0b0b0d"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: INDUSTRIAL DESIGN
+        text: INDUSTRIAL DESIGN
+        as: p
+        x: 152.9
+        y: 182.5
+        w: 140
+        style:
+          font: montserrat
+          size: 13.3
+          weight: 400
+          color: "#010102"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: 2024-2028 (EXPECTED)
+        text: 2024-2028 (EXPECTED)
+        as: p
+        x: 141.8
+        y: 201.3
+        w: 162.2
+        style:
+          font: montserrat
+          size: 13.9
+          weight: 400
+          color: "#000001"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: INTERMEDIATE
+        text: INTERMEDIATE
+        as: p
+        x: 158.8
+        y: 450.7
+        w: 106.5
+        style:
+          font: montserrat
+          size: 13.3
+          weight: 700
+          color: "#08090a"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: FILIPINO
+        text: FILIPINO
+        as: p
+        x: 179.1
+        y: 469.9
+        w: 59.9
+        style:
+          font: montserrat
+          size: 13.3
+          weight: 400
+          color: "#010103"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: NATIVE
+        text: NATIVE
+        as: p
+        x: 184.9
+        y: 498.9
+        w: 54.6
+        style:
+          font: montserrat
+          size: 13.9
+          weight: 700
+          color: "#09090a"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: ENGLISH
+        text: ENGLISH
+        as: p
+        x: 178.5
+        y: 518.4
+        w: 63.4
+        style:
+          font: montserrat
+          size: 13.9
+          weight: 400
+          color: "#010102"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: BENILDEAN INDUSTRIAL DESIGNERS
+        text: BENILDEAN INDUSTRIAL DESIGNERS
+        as: p
+        x: 554.3
+        y: 164
+        w: 257.6
+        style:
+          font: montserrat
+          size: 13.3
+          weight: 700
+          color: "#0d0d0f"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: WORLD INDUSTRIAL DESIGN WEEK 2026
+        text: WORLD INDUSTRIAL DESIGN WEEK 2026
+        as: p
+        x: 546.2
+        y: 217.1
+        w: 286.8
+        style:
+          font: montserrat
+          size: 13.3
+          weight: 700
+          color: "#0b0c0d"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: CREATIVE LEAD/PUBLICATIONS HEAD/2026
+        text: CREATIVE LEAD/PUBLICATIONS HEAD/2026
+        as: p
+        x: 519.3
+        y: 233.9
+        w: 319.9
+        style:
+          font: montserrat
+          size: 14.4
+          weight: 400
+          color: "#050506"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: CV/RESUME
+        text: CV/RESUME
+        as: p
+        x: 626.1
+        y: 451.4
+        w: 81
+        style:
+          font: montserrat
+          size: 12.8
+          weight: 700
+          color: "#000000"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: LEARN MORE HERE
+        text: "[LEARN MORE HERE](https://drive.google.com/file/d/17BG8bozSRukMAXM4ZNurV2sGvoGaW5i2/view?usp=sharing)"
+        as: p
+        x: 594
+        y: 469.2
+        w: 145.3
+        style:
+          font: montserrat
+          size: 14.4
+          weight: 400
+          color: "#050506"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: 2D SKILLS
+        text: 2D SKILLS
+        as: p
+        x: 1093.6
+        y: 152.6
+        w: 72.8
+        style:
+          font: montserrat
+          size: 13.9
+          weight: 700
+          color: "#08090a"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: ADOBE ILLUSTRATOR/
+        text: ADOBE ILLUSTRATOR/
+        as: p
+        x: 1054.9
+        y: 171.5
+        w: 152.4
+        style:
+          font: montserrat
+          size: 13.3
+          weight: 400
+          color: "#020203"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: ADOBE PHOTOSHOP/
+        text: ADOBE PHOTOSHOP/
+        as: p
+        x: 1059.2
+        y: 189.3
+        w: 148.8
+        style:
+          font: montserrat
+          size: 13.3
+          weight: 400
+          color: "#010102"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: AUTOCAD/
+        text: AUTOCAD/
+        as: p
+        x: 1096.1
+        y: 206.7
+        w: 76.5
+        style:
+          font: montserrat
+          size: 13.9
+          weight: 400
+          color: "#010102"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: FIGMA/PROCREATE/ CLIP STUDIO PAINT
+        text: |-
+          FIGMA/PROCREATE/
+          CLIP STUDIO PAINT
+        as: p
+        x: 1065.1
+        y: 224.8
+        w: 138.6
+        style:
+          font: montserrat
+          size: 13.3
+          weight: 400
+          color: "#020203"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: 3D SKILLS
+        text: 3D SKILLS
+        as: p
+        x: 1093.6
+        y: 275
+        w: 72.8
+        style:
+          font: montserrat
+          size: 13.9
+          weight: 700
+          color: "#0a0b0c"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: 3DS MAX
+        text: 3DS MAX
+        as: p
+        x: 1094.8
+        y: 293.5
+        w: 61.2
+        style:
+          font: montserrat
+          size: 13.3
+          weight: 400
+          color: "#000002"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: SOLIDWORKS
+        text: SOLIDWORKS
+        as: p
+        x: 1081.9
+        y: 311
+        w: 95.5
+        style:
+          font: montserrat
+          size: 13.3
+          weight: 400
+          color: "#000002"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: RENDERING/TEAMWORK
+        text: RENDERING/TEAMWORK
+        as: p
+        x: 1035.1
+        y: 471.7
+        w: 172.5
+        style:
+          font: montserrat
+          size: 13.3
+          weight: 400
+          color: "#020203"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: /CREATIVE THINKING/
+        text: /CREATIVE THINKING/
+        as: p
+        x: 1057.5
+        y: 489.6
+        w: 147.9
+        style:
+          font: montserrat
+          size: 13.3
+          weight: 400
+          color: "#010102"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: PROTOTYPING/LEADERSHIP/
+        text: PROTOTYPING/LEADERSHIP/
+        as: p
+        x: 1034.6
+        y: 507.2
+        w: 197.4
+        style:
+          font: montserrat
+          size: 13.3
+          weight: 400
+          color: "#010102"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: DESIGN AND ILLUSTRATION
+        text: DESIGN AND ILLUSTRATION
+        as: p
+        x: 1039.4
+        y: 525.4
+        w: 183.1
+        style:
+          font: montserrat
+          size: 12.8
+          weight: 400
+          color: "#010103"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: SKETCHING/HAND/DIGITAL
+        text: SKETCHING/HAND/DIGITAL
+        as: p
+        x: 1040.6
+        y: 454.1
+        w: 185.3
+        style:
+          font: montserrat
+          size: 13.3
+          weight: 400
+          color: "#020203"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: PUBLICATIONS/2025-2026
+        text: "PUBLICATIONS/2025-2026 "
+        as: p
+        x: 585.6
+        y: 181.3
+        w: 194
+        style:
+          font: montserrat
+          size: 14.4
+          weight: 400
+          color: "#050506"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: EDUCATION
+        text: EDUCATION
+        as: h2
+        x: 99.8
+        y: 95.3
+        w: 224.5
+        style:
+          font: montserrat
+          size: 34.1
+          weight: 700
+          color: "#1e1e1e"
+          align: end
+          lh: 1
+          ls: -0.06
+      - kind: text
+        label: EXPERIENCE
+        text: EXPERIENCE
+        as: h2
+        x: 548.4
+        y: 95.3
+        w: 224.5
+        style:
+          font: montserrat
+          size: 34.1
+          weight: 700
+          color: "#1e1e1e"
+          align: end
+          lh: 1
+          ls: -0.06
+      - kind: text
+        label: SKILLS
+        text: SKILLS
+        as: h2
+        x: 964.1
+        y: 95.3
+        w: 224.5
+        style:
+          font: montserrat
+          size: 34.1
+          weight: 700
+          color: "#1e1e1e"
+          align: end
+          lh: 1
+          ls: -0.06
+      - kind: text
+        label: LANGUAGES
+        text: LANGUAGES
+        as: h2
+        x: 99.9
+        y: 381.9
+        w: 224.5
+        style:
+          font: montserrat
+          size: 34.1
+          weight: 700
+          color: "#1e1e1e"
+          align: end
+          lh: 1
+          ls: -0.06
+      - kind: text
+        label: REFERENCES
+        text: REFERENCES
+        as: h2
+        x: 554.3
+        y: 381.9
+        w: 224.5
+        style:
+          font: montserrat
+          size: 34.1
+          weight: 700
+          color: "#1e1e1e"
+          align: end
+          lh: 1
+          ls: -0.06
+      - kind: text
+        label: OTHER SKILLS
+        text: OTHER SKILLS
+        as: h2
+        x: 1015.8
+        y: 381.9
+        w: 235
+        style:
+          font: montserrat
+          size: 34.1
+          weight: 700
+          color: "#1e1e1e"
+          align: end
+          lh: 1
+          ls: -0.06
+  - background: ../../assets/images/home/decor-04.webp
+    color: "#ffffff"
+    height: 768
+    blocks:
+      - kind: image
+        label: Image 6
+        image: ../../assets/images/home/09-MAHW3yblEr0.webp
+        alt: Portfolio – image 6
+        x: 48.9
+        y: 205.2
+        w: 271.4
+        h: 228
+        link: /pipboy
+      - kind: image
+        label: Image 7
+        image: ../../assets/images/home/08-MAHW39iiVGY.webp
+        alt: Portfolio – image 7
+        x: 1037.6
+        y: 123
+        w: 324
+        h: 349.6
+        link: /ishda
+      - kind: image
+        label: Image 8
+        image: ../../assets/images/home/12-MAHW4G8Wrf0.webp
+        alt: Portfolio – image 8
+        x: 4.5
+        y: 322.1
+        w: 161.5
+        h: 161.5
+      - kind: image
+        label: Image 9
+        image: ../../assets/images/home/10-MAHW4sh93ws.webp
+        alt: Portfolio – image 9
+        x: 776.4
+        y: 213.8
+        w: 173.5
+        h: 205.2
+        link: /yume
+      - kind: image
+        label: Image 10
+        image: ../../assets/images/home/13-MAHW4Lj-aUU.webp
+        alt: Portfolio – image 10
+        x: 730.6
+        y: 322.9
+        w: 143.4
+        h: 143.4
+      - kind: image
+        label: Image 11
+        image: ../../assets/images/home/11-MAG3o8QZnBU.webp
+        alt: Portfolio – image 11
+        x: 380.8
+        y: 227.6
+        w: 299.2
+        h: 188.7
+        link: /widw
+      - kind: image
+        label: Image 12
+        image: ../../assets/images/home/14-MAHW4FTF7MQ.webp
+        alt: Portfolio – image 12
+        x: 336.2
+        y: 350.9
+        w: 103.9
+        h: 103.9
+      - kind: text
+        label: (01)
+        text: (01)
+        as: p
+        x: 27.7
+        y: 169.6
+        w: 169.1
+        style:
+          font: spartan
+          size: 30.7
+          weight: 700
+          color: "#1e1e1e"
+          align: start
+          lh: 1
+          ls: -0.06
+      - kind: text
+        label: (03)
+        text: (03)
+        as: p
+        x: 714.8
+        y: 169.6
+        w: 169.1
+        style:
+          font: spartan
+          size: 30.7
+          weight: 700
+          color: "#1e1e1e"
+          align: start
+          lh: 1
+          ls: -0.06
+      - kind: text
+        label: (04)
+        text: (04)
+        as: p
+        x: 1068.1
+        y: 169.6
+        w: 169.1
+        style:
+          font: spartan
+          size: 30.7
+          weight: 700
+          color: "#1e1e1e"
+          align: start
+          lh: 1
+          ls: -0.06
+      - kind: text
+        label: PIP-BOY MULTIFUNCTIONAL CLOCK
+        text: PIP-BOY MULTIFUNCTIONAL CLOCK
+        as: p
+        x: 27.7
+        y: 439.8
+        w: 221.8
+        style:
+          font: spartan
+          size: 13.7
+          weight: 400
+          color: "#010103"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: "DESIGN DATE: 2026"
+        text: "DESIGN DATE: 2026"
+        as: p
+        x: 27.7
+        y: 483.6
+        w: 270.2
+        style:
+          font: spartan
+          size: 13.7
+          weight: 400
+          color: "#010103"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: (02)
+        text: (02)
+        as: p
+        x: 371.2
+        y: 169.6
+        w: 169.1
+        style:
+          font: spartan
+          size: 30.7
+          weight: 700
+          color: "#1e1e1e"
+          align: start
+          lh: 1
+          ls: -0.06
+      - kind: text
+        label: WORLD INDUSTRIAL DESIGN WEEK 2026
+        text: WORLD INDUSTRIAL DESIGN WEEK 2026
+        as: p
+        x: 371.2
+        y: 439.8
+        w: 259.6
+        style:
+          font: spartan
+          size: 13.7
+          weight: 400
+          color: "#010103"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: "DESIGN DATE: 2026"
+        text: "DESIGN DATE: 2026"
+        as: p
+        x: 371.2
+        y: 483.6
+        w: 296.8
+        style:
+          font: spartan
+          size: 13.7
+          weight: 400
+          color: "#010103"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: "DESIGN DATE: 2020-2022"
+        text: "DESIGN DATE: 2020-2022"
+        as: p
+        x: 714.8
+        y: 483.6
+        w: 296.8
+        style:
+          font: spartan
+          size: 13.7
+          weight: 400
+          color: "#010103"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: "DESIGN DATE: 2025"
+        text: "DESIGN DATE: 2025"
+        as: p
+        x: 1058.4
+        y: 483.6
+        w: 296.8
+        style:
+          font: spartan
+          size: 13.7
+          weight: 400
+          color: "#010103"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: YUMEPH CLOTHING BRAND
+        text: YUMEPH CLOTHING BRAND
+        as: p
+        x: 714.8
+        y: 439.8
+        w: 176.2
+        style:
+          font: spartan
+          size: 13.7
+          weight: 400
+          color: "#010103"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: "ISHDA: ARTISAN UTENSIL PACKAGING"
+        text: "ISHDA: ARTISAN UTENSIL PACKAGING"
+        as: p
+        x: 1058.4
+        y: 439.8
+        w: 243.2
+        style:
+          font: spartan
+          size: 13.7
+          weight: 400
+          color: "#010103"
+          align: start
+          lh: 1.2
+          ls: 0
+      - kind: text
+        label: PIPBOY
+        text: PIPBOY
+        as: p
+        x: 155.3
+        y: 169.6
+        w: 169.1
+        style:
+          font: spartan
+          size: 30.7
+          weight: 700
+          color: "#1e1e1e"
+          align: end
+          lh: 1
+          ls: -0.06
+        link: /pipboy
+      - kind: text
+        label: WIDW- WIDO
+        text: |-
+          WIDW-
+          WIDO
+        as: p
+        x: 440
+        y: 169.6
+        w: 228
+        style:
+          font: spartan
+          size: 30.7
+          weight: 700
+          color: "#1e1e1e"
+          align: end
+          lh: 1
+          ls: -0.06
+        link: /widw
+      - kind: text
+        label: ISHDA
+        text: ISHDA
+        as: p
+        x: 1127.2
+        y: 169.6
+        w: 228
+        style:
+          font: spartan
+          size: 30.7
+          weight: 700
+          color: "#1e1e1e"
+          align: end
+          lh: 1
+          ls: -0.06
+        link: /ishda
+      - kind: text
+        label: YUMEPH
+        text: YUMEPH
+        as: p
+        x: 783.8
+        y: 169.6
+        w: 228
+        style:
+          font: spartan
+          size: 30.7
+          weight: 700
+          color: "#1e1e1e"
+          align: end
+          lh: 1
+          ls: -0.06
+        link: /yume
+      - kind: text
+        label: CLICK ME TO CONTINUE
+        text: "[CLICK ME TO CONTINUE](next)"
+        as: p
+        x: 1130.9
+        y: 728.1
+        w: 235.1
+        style:
+          font: spartan
+          size: 19.9
+          weight: 700
+          color: "#1e1e1e"
+          align: start
+          lh: 1
+          ls: -0.06
+      - kind: image
+        label: Decoration
+        image: ../../assets/images/home/15-MADgjVqX00o.webp
+        alt: ""
+        x: 1112.4
+        y: 728.1
+        w: 9.5
+        h: 20.1
+        decor: true
