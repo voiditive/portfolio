@@ -1,5 +1,9 @@
 ---
+import { getEntry } from 'astro:content';
 import Base from '../layouts/Base.astro';
+import CanvaPage from '../components/CanvaPage.astro';
+
+const illustrations = (await getEntry('illustrations', 'illustrations'))!.data;
 ---
 
 <Base
@@ -7,5 +11,5 @@ import Base from '../layouts/Base.astro';
 	description="Illustrations, art studies, sketches, concepts and experiments by Andrew Matthew Uy."
 	current="/illustrations"
 >
-	<h1>Illustrations</h1>
+	<CanvaPage sections={illustrations.sections} current="/illustrations" />
 </Base>

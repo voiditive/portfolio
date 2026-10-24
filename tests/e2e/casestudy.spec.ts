@@ -127,7 +127,8 @@ test.describe('at the Canva width every frame keeps its Canva height', () => {
 			expect(off).toEqual([]);
 			// Nothing spills past the last frame either: the page is as tall as the Canva export.
 			const { page: height, frames } = await page.evaluate(() => ({
-				page: document.documentElement.scrollHeight,
+				// Pages without Canva continue links get a continue bar under the frames.
+				page: document.documentElement.scrollHeight - (document.querySelector('nav.continue')?.getBoundingClientRect().height ?? 0),
 				frames: [...document.querySelectorAll('main section.cs')].reduce((sum, s) => sum + parseFloat(getComputedStyle(s).getPropertyValue('--h')), 0),
 			}));
 			if (frames > 0) expect(Math.abs(height - (56 + frames))).toBeLessThanOrEqual(2);
