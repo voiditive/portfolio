@@ -18,6 +18,7 @@ sections:
         x: 625.6
         y: 225.7
         w: 114.7
+        h: 35.9
         style:
           font: montserrat
           size: 30.3
@@ -33,6 +34,7 @@ sections:
         x: 591.1
         y: 254.8
         w: 209.1
+        h: 18.5
         style:
           font: montserrat
           size: 15.8
@@ -56,6 +58,7 @@ sections:
         x: 412.7
         y: 227.5
         w: 554.8
+        h: 36.1
         style:
           font: arimo
           size: 30.3
@@ -71,6 +74,7 @@ sections:
         x: 548.3
         y: 263.6
         w: 498.8
+        h: 18.5
         style:
           font: arimo
           size: 15.8
@@ -86,6 +90,7 @@ sections:
         x: 1137.9
         y: 12.2
         w: 235.1
+        h: 23
         style:
           font: spartan
           size: 19.9
@@ -122,6 +127,7 @@ sections:
         x: 84.6
         y: 348
         w: 370
+        h: 199.7
         style:
           font: spartan
           size: 17.1
@@ -137,6 +143,7 @@ sections:
         x: 77.1
         y: 46.2
         w: 542.5
+        h: 300.8
         style:
           font: spartan
           size: 83.7
@@ -152,6 +159,7 @@ sections:
         x: 84.6
         y: 603.9
         w: 370
+        h: 19.8
         style:
           font: spartan
           size: 17.1
@@ -195,6 +203,7 @@ sections:
         x: 50.5
         y: 542.3
         w: 489.9
+        h: 119.6
         style:
           font: spartan
           size: 99.8
@@ -210,6 +219,7 @@ sections:
         x: 592.5
         y: 510.5
         w: 302.8
+        h: 217
         style:
           font: spartan
           size: 18.4
@@ -225,6 +235,7 @@ sections:
         x: 940.9
         y: 510.5
         w: 325.8
+        h: 207.2
         style:
           font: spartan
           size: 18.9
@@ -252,6 +263,7 @@ sections:
         x: 706.4
         y: 176.5
         w: 474.7
+        h: 108.9
         style:
           font: spartan
           size: 91
@@ -267,6 +279,7 @@ sections:
         x: 706.4
         y: 554.4
         w: 623
+        h: 99.2
         style:
           font: spartan
           size: 16.3
@@ -282,6 +295,7 @@ sections:
         x: 706.4
         y: 357.6
         w: 498
+        h: 51.3
         style:
           font: spartan
           size: 16.3
@@ -297,6 +311,7 @@ sections:
         x: 706.4
         y: 336.4
         w: 414.7
+        h: 21.2
         style:
           font: spartan
           size: 18.3
@@ -312,6 +327,7 @@ sections:
         x: 706.4
         y: 430.3
         w: 498
+        h: 51.3
         style:
           font: spartan
           size: 16.3
@@ -327,6 +343,7 @@ sections:
         x: 706.4
         y: 409.1
         w: 414.7
+        h: 21.2
         style:
           font: spartan
           size: 18.3
@@ -342,6 +359,7 @@ sections:
         x: 706.4
         y: 502.9
         w: 498
+        h: 51.3
         style:
           font: spartan
           size: 16.3
@@ -357,6 +375,7 @@ sections:
         x: 706.4
         y: 481.7
         w: 414.7
+        h: 21.2
         style:
           font: spartan
           size: 18.3
@@ -372,6 +391,7 @@ sections:
         x: 77.1
         y: 76.8
         w: 363.2
+        h: 23.2
         style:
           font: spartan
           size: 19.9
@@ -387,6 +407,7 @@ sections:
         x: 967.1
         y: 76.8
         w: 321.7
+        h: 18
         style:
           font: spartan
           size: 15.2
@@ -402,6 +423,7 @@ sections:
         x: 706.4
         y: 273.8
         w: 363.2
+        h: 23.2
         style:
           font: spartan
           size: 19.9
@@ -494,6 +516,7 @@ sections:
         x: 155.5
         y: 26.8
         w: 1055
+        h: 93
         style:
           font: arimo
           size: 77.9
@@ -509,6 +532,7 @@ sections:
         x: 131.9
         y: 129.8
         w: 95
+        h: 72.3
         style:
           font: arimo
           size: 60.7
@@ -524,6 +548,7 @@ sections:
         x: 415.2
         y: 174.2
         w: 257.9
+        h: 97
         style:
           font: arimo
           size: 15.7
@@ -539,6 +564,7 @@ sections:
         x: 757.1
         y: 376
         w: 259
+        h: 51.2
         style:
           font: arimo
           size: 16.2
@@ -554,6 +580,7 @@ sections:
         x: 1023
         y: 556.5
         w: 180.3
+        h: 48
         style:
           font: arimo
           size: 15.1
@@ -577,6 +604,7 @@ sections:
         x: 76.8
         y: 664.5
         w: 180.3
+        h: 62.7
         style:
           font: arimo
           size: 15.1
@@ -676,6 +704,7 @@ sections:
         x: 1127.7
         y: 169.3
         w: 180.3
+        h: 63
         style:
           font: arimo
           size: 15.1
@@ -691,6 +720,7 @@ sections:
         x: 1101.5
         y: 556.7
         w: 180.3
+        h: 63
         style:
           font: arimo
           size: 15.1
@@ -706,6 +736,7 @@ sections:
         x: 474.3
         y: 298.6
         w: 481.9
+        h: 18
         style:
           font: arimo
           size: 15.1
@@ -742,6 +773,7 @@ sections:
         x: 235.2
         y: 618.9
         w: 113.9
+        h: 71.8
         style:
           font: arimo
           size: 60.7
@@ -757,6 +789,7 @@ sections:
         x: 564.2
         y: 286.3
         w: 427.3
+        h: 18
         style:
           font: arimo
           size: 15.1
@@ -772,6 +805,7 @@ sections:
         x: 300.5
         y: 522.3
         w: 114.6
+        h: 63
         style:
           font: arimo
           size: 15.1
@@ -839,6 +873,7 @@ sections:
         x: 293.7
         y: 246.3
         w: 778.5
+        h: 68.7
         style:
           font: arimo
           size: 57.5
@@ -946,6 +981,7 @@ sections:
         x: 77.1
         y: 146.3
         w: 363.5
+        h: 63.2
         style:
           font: spartan
           size: 53.1
@@ -961,6 +997,7 @@ sections:
         x: 77.1
         y: 242.7
         w: 497
+        h: 122.5
         style:
           font: spartan
           size: 15.2
@@ -976,6 +1013,7 @@ sections:
         x: 74.5
         y: 722.7
         w: 198.9
+        h: 18
         style:
           font: spartan
           size: 15.2
@@ -992,6 +1030,7 @@ sections:
         x: 77.1
         y: 76.8
         w: 321.7
+        h: 23.2
         style:
           font: spartan
           size: 19.9
@@ -1007,6 +1046,7 @@ sections:
         x: -99.9
         y: 532.5
         w: 707.6
+        h: 1318.2
         rot: 8.2
         style:
           font: arimo
@@ -1028,6 +1068,7 @@ sections:
         x: 133.4
         y: 507
         w: 544.4
+        h: 261
         style:
           font: arimo
           size: 91
@@ -1043,6 +1084,7 @@ sections:
         x: 625.6
         y: 225.7
         w: 114.7
+        h: 35.9
         style:
           font: montserrat
           size: 30.3
@@ -1058,6 +1100,7 @@ sections:
         x: 591.1
         y: 254.8
         w: 209.1
+        h: 18.5
         style:
           font: montserrat
           size: 15.8
@@ -1073,6 +1116,7 @@ sections:
         x: 483.3
         y: 31.5
         w: 554.8
+        h: 36.1
         style:
           font: arimo
           size: 30.3
@@ -1088,6 +1132,7 @@ sections:
         x: 483.3
         y: 58.3
         w: 498.8
+        h: 18.5
         style:
           font: arimo
           size: 15.8
@@ -1103,6 +1148,7 @@ sections:
         x: 483.3
         y: 94.4
         w: 554.8
+        h: 36.1
         style:
           font: arimo
           size: 30.3
@@ -1118,6 +1164,7 @@ sections:
         x: 483.3
         y: 121.3
         w: 498.8
+        h: 18.5
         style:
           font: arimo
           size: 15.8
@@ -1133,6 +1180,7 @@ sections:
         x: 483.3
         y: 160
         w: 554.8
+        h: 36.1
         style:
           font: arimo
           size: 30.3
@@ -1148,6 +1196,7 @@ sections:
         x: 483.3
         y: 186.9
         w: 498.8
+        h: 18.5
         style:
           font: arimo
           size: 15.8
@@ -1163,6 +1212,7 @@ sections:
         x: 483.3
         y: 225.7
         w: 554.8
+        h: 36.1
         style:
           font: arimo
           size: 30.3
@@ -1178,6 +1228,7 @@ sections:
         x: 483.3
         y: 252.5
         w: 498.8
+        h: 18.5
         style:
           font: arimo
           size: 15.8
@@ -1193,6 +1244,7 @@ sections:
         x: 483.3
         y: 291.3
         w: 554.8
+        h: 36.1
         style:
           font: arimo
           size: 30.3
@@ -1208,6 +1260,7 @@ sections:
         x: 483.3
         y: 318.1
         w: 498.8
+        h: 18.5
         style:
           font: arimo
           size: 15.8
@@ -1223,6 +1276,7 @@ sections:
         x: 934.1
         y: 223.4
         w: 554.8
+        h: 36.1
         style:
           font: arimo
           size: 30.3
@@ -1238,6 +1292,7 @@ sections:
         x: 934.1
         y: 286.3
         w: 554.8
+        h: 36.1
         style:
           font: arimo
           size: 30.3
@@ -1253,6 +1308,7 @@ sections:
         x: 934.1
         y: 313.1
         w: 498.8
+        h: 18.5
         style:
           font: arimo
           size: 15.8
@@ -1268,6 +1324,7 @@ sections:
         x: 934.1
         y: 351.9
         w: 554.8
+        h: 36.1
         style:
           font: arimo
           size: 30.3
@@ -1283,6 +1340,7 @@ sections:
         x: 934.1
         y: 378.7
         w: 498.8
+        h: 18.5
         style:
           font: arimo
           size: 15.8
@@ -1298,6 +1356,7 @@ sections:
         x: 934.1
         y: 417.5
         w: 554.8
+        h: 36.1
         style:
           font: arimo
           size: 30.3
@@ -1313,6 +1372,7 @@ sections:
         x: 934.1
         y: 444.4
         w: 498.8
+        h: 18.5
         style:
           font: arimo
           size: 15.8
@@ -1328,6 +1388,7 @@ sections:
         x: 934.1
         y: 483.1
         w: 554.8
+        h: 36.1
         style:
           font: arimo
           size: 30.3
@@ -1343,6 +1404,7 @@ sections:
         x: 934.1
         y: 510
         w: 498.8
+        h: 18.5
         style:
           font: arimo
           size: 15.8
@@ -1358,6 +1420,7 @@ sections:
         x: 934.1
         y: 252.8
         w: 498.8
+        h: 18.5
         style:
           font: arimo
           size: 15.8
@@ -1373,6 +1436,7 @@ sections:
         x: 1142.7
         y: 724.9
         w: 235.1
+        h: 23
         style:
           font: spartan
           size: 19.9

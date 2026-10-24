@@ -1,5 +1,15 @@
 ---
+import { getCollection, getEntry } from 'astro:content';
 import Base from '../layouts/Base.astro';
+import CanvaPage from '../components/CanvaPage.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+import { cardOrder } from '../lib/nav';
+
+const site = (await getEntry('site', 'site'))!.data;
+const projects = await getCollection('projects');
+// The Canva layout already has cards for the original four projects.
+const linked = new Set(site.sections.flatMap((s) => s.blocks.map((b) => b.link)));
+const extra = cardOrder(projects.map((p) => ({ ...p.data, slug: p.id }))).filter((p) => !linked.has(`/${p.slug}`));
 ---
 
 <Base
@@ -7,5 +17,31 @@ import Base from '../layouts/Base.astro';
 	description="Industrial design portfolio of Andrew Matthew Uy: product design, packaging, branding and illustration."
 	current="/"
 >
-	<h1>Andrew Matthew Uy</h1>
+	<CanvaPage sections={site.sections} current="/" />
+	{
+		extra.length > 0 && (
+			<section class="more" aria-label="More projects">
+				{extra.map((p) => (
+					<ProjectCard number={p.number} title={p.cardTitle} designDate={p.designDate} image={p.cardImage} href={`/${p.slug}`} />
+				))}
+			</section>
+		)
+	}
 </Base>
+
+<style>
+	.more {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+		gap: 24px;
+		padding: 32px 16px;
+	}
+
+	@media (min-width: 1024px) {
+		.more {
+			width: calc(1366 * var(--u));
+			margin-inline: auto;
+			padding: calc(32 * var(--u)) calc(28 * var(--u));
+		}
+	}
+</style>

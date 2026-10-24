@@ -18,6 +18,7 @@ sections:
         x: 766.4
         y: 674.5
         w: 707.6
+        h: 1318.2
         rot: -11.4
         style:
           font: arimo
@@ -35,6 +36,7 @@ sections:
         x: 1137.9
         y: 12.2
         w: 235.1
+        h: 23
         style:
           font: spartan
           size: 19.9
@@ -59,6 +61,7 @@ sections:
         x: 409
         y: 225.3
         w: 554.8
+        h: 36.1
         style:
           font: arimo
           size: 30.3
@@ -74,6 +77,7 @@ sections:
         x: 598.1
         y: 261.3
         w: 498.8
+        h: 18
         style:
           font: arimo
           size: 15.8
@@ -109,6 +113,7 @@ sections:
         x: 85.8
         y: 280.1
         w: 370
+        h: 183.4
         style:
           font: spartan
           size: 17.1
@@ -124,6 +129,7 @@ sections:
         x: 77.1
         y: 146.5
         w: 542.5
+        h: 100.3
         style:
           font: spartan
           size: 83.7
@@ -160,6 +166,7 @@ sections:
         x: 155.5
         y: 26.8
         w: 1055
+        h: 93
         style:
           font: arimo
           size: 77.9
@@ -223,6 +230,7 @@ sections:
         x: 131.9
         y: 129.8
         w: 95
+        h: 72.3
         style:
           font: arimo
           size: 60.7
@@ -238,6 +246,7 @@ sections:
         x: 259.6
         y: 175.6
         w: 257.9
+        h: 50.1
         style:
           font: arimo
           size: 15.7
@@ -253,6 +262,7 @@ sections:
         x: 46.5
         y: 367
         w: 180.3
+        h: 77.7
         style:
           font: arimo
           size: 15.1
@@ -268,6 +278,7 @@ sections:
         x: 643.5
         y: 379.4
         w: 257.9
+        h: 50.1
         style:
           font: arimo
           size: 15.7
@@ -283,6 +294,7 @@ sections:
         x: 976.2
         y: 179.3
         w: 180.3
+        h: 62.7
         style:
           font: arimo
           size: 15.1
@@ -298,6 +310,7 @@ sections:
         x: 1199
         y: 367
         w: 151
+        h: 77.7
         style:
           font: arimo
           size: 15.1
@@ -381,6 +394,7 @@ sections:
         x: 235.2
         y: 618.9
         w: 113.9
+        h: 71.8
         style:
           font: arimo
           size: 60.7
@@ -396,6 +410,7 @@ sections:
         x: 111.8
         y: 110.3
         w: 180.3
+        h: 108
         style:
           font: arimo
           size: 15.1
@@ -411,6 +426,7 @@ sections:
         x: 771.3
         y: 279.8
         w: 401.5
+        h: 33
         style:
           font: arimo
           size: 15.1
@@ -426,6 +442,7 @@ sections:
         x: 496.7
         y: 647.3
         w: 401.5
+        h: 33
         style:
           font: arimo
           size: 15.1
@@ -565,6 +582,7 @@ sections:
         x: 77.1
         y: 568.2
         w: 641.5
+        h: 78
         style:
           font: spartan
           size: 15.2
@@ -580,6 +598,7 @@ sections:
         x: 77.1
         y: 449.2
         w: 423.7
+        h: 108.9
         style:
           font: spartan
           size: 91
@@ -595,6 +614,7 @@ sections:
         x: 57
         y: 673.2
         w: 198.9
+        h: 18
         style:
           font: spartan
           size: 15.2
@@ -611,6 +631,7 @@ sections:
         x: 77.1
         y: 76.8
         w: 321.7
+        h: 23.2
         style:
           font: spartan
           size: 19.9
@@ -626,6 +647,7 @@ sections:
         x: 967.1
         y: 76.8
         w: 321.7
+        h: 18
         style:
           font: spartan
           size: 15.2
@@ -645,6 +667,7 @@ sections:
         x: 383.3
         y: 128.1
         w: 599.5
+        h: 70.7
         style:
           font: arimo
           size: 59.3
@@ -660,6 +683,7 @@ sections:
         x: 222.4
         y: 163.6
         w: 921.1
+        h: 193.8
         style:
           font: arimo
           size: 161.9
@@ -677,6 +701,7 @@ sections:
         x: 209
         y: 499.6
         w: 948
+        h: 145.1
         style:
           font: arimo
           size: 72.8
@@ -726,6 +751,7 @@ sections:
         x: 364.1
         y: 666.6
         w: 218.1
+        h: 61
         style:
           font: arimo
           size: 19.9
@@ -741,6 +767,7 @@ sections:
         x: 662.1
         y: 644.7
         w: 41.8
+        h: 103.5
         style:
           font: arimo
           size: 86.3
@@ -756,6 +783,7 @@ sections:
         x: 88.3
         y: 24.9
         w: 594.7
+        h: 26.6
         style:
           font: spartan
           size: 22.9
@@ -774,6 +802,7 @@ sections:
         x: 842.6
         y: 666.6
         w: 156.8
+        h: 61
         style:
           font: arimo
           size: 19.9

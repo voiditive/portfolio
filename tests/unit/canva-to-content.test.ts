@@ -64,3 +64,11 @@ describe('linkFor', () => {
 		expect(linkFor('+63 939 357 3880', 'home')).toBe('tel:+639393573880');
 	});
 });
+
+describe('runsToText base colour', () => {
+	test('is the colour covering the most text, so a short red word becomes the accent', () => {
+		const result = runsToText([run('I’M', { color: '#df2200' }), run(' ANDREW')]);
+		expect(result.color).toBe('#1e1e1e');
+		expect(result.text).toBe('==I’M== ANDREW');
+	});
+});

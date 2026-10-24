@@ -28,9 +28,10 @@ export function mapLink(link, text) {
 	return /back up/i.test(text) ? '#top' : 'next';
 }
 
-function mostCommon(values) {
+/** The value of the key covering the most characters across runs. */
+function dominant(runs, key) {
 	const counts = new Map();
-	for (const v of values) counts.set(v, (counts.get(v) ?? 0) + 1);
+	for (const r of runs) counts.set(r[key], (counts.get(r[key]) ?? 0) + r.text.trim().length);
 	return [...counts.entries()].sort((a, b) => b[1] - a[1])[0][0];
 }
 
@@ -39,7 +40,7 @@ export function runsToText(runs) {
 	const visible = runs.filter((r) => r.text.trim());
 	const weights = visible.map((r) => r.weight);
 	const weight = weights.includes('normal') ? 'normal' : (weights[0] ?? runs[0].weight);
-	const color = mostCommon(visible.map((r) => r.color));
+	const color = dominant(visible, 'color');
 	let text = '';
 	for (const r of runs) {
 		let piece = r.text;
@@ -145,6 +146,7 @@ function buildSections(data, crops, alt, slug) {
 				x: r1(e.left),
 				y: r1(e.top - data.sections[section].top),
 				w: r1(e.w),
+				h: r1(e.h),
 				...(e.rot ? { rot: r1(e.rot) } : {}),
 				style: {
 					font: fontKey(first.font),
@@ -198,6 +200,8 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
 		const pageCrops = crops.filter((c) => c.page === p.page && c.canvaId);
 		const sections = buildSections(data, pageCrops, p.alt, p.slug);
 		if (p.slug === 'home') {
+			// The second Canva frame is "about me": the nav links to /#about.
+			sections[1] = { anchor: 'about', ...sections[1] };
 			const site = {
 				name: 'Andrew Matthew Uy',
 				email: 'uy.andreuy@gmail.com',

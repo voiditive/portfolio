@@ -1,0 +1,56 @@
+---
+// A home page card for a project that is not part of the Canva layout (added later).
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+
+interface Props {
+	number: number;
+	title: string;
+	designDate: string;
+	image: ImageMetadata;
+	href: string;
+}
+
+const { number, title, designDate, image, href } = Astro.props;
+---
+
+<a class="card" href={href}>
+	<span class="head">
+		<span>({String(number).padStart(2, '0')})</span>
+		<span class="title">{title}</span>
+	</span>
+	<Image src={image} alt="" widths={[400, 800]} sizes="(min-width: 1024px) 22vw, 100vw" />
+	<span class="date">{designDate}</span>
+</a>
+
+<style>
+	.card {
+		display: grid;
+		gap: 8px;
+		padding-top: 8px;
+		border-top: 1px solid var(--ink);
+		color: var(--ink);
+		text-decoration: none;
+	}
+
+	.head {
+		display: flex;
+		justify-content: space-between;
+		font-size: 20px;
+		font-weight: 700;
+	}
+
+	.title {
+		font-family: var(--font-arimo);
+	}
+
+	.date {
+		font-size: 16px;
+	}
+
+	img {
+		width: 100%;
+		aspect-ratio: 4 / 3;
+		object-fit: cover;
+	}
+</style>

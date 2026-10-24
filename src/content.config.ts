@@ -10,6 +10,8 @@ function sectionSchema(image: ImageFunction) {
 		kind: z.literal('text'),
 		...box,
 		text: z.string(),
+		/** Canva box height: tells whether Canva wrapped the text itself. */
+		h: z.number().optional(),
 		as: z.enum(['h1', 'h2', 'p']).default('p'),
 		rot: z.number().optional(),
 		style: z.object({
@@ -30,6 +32,7 @@ function sectionSchema(image: ImageFunction) {
 		alt: z.string(),
 	});
 	return z.object({
+		anchor: z.string().optional(),
 		background: image().optional(),
 		color: z.string().default('#ffffff'),
 		height: z.number().default(768),

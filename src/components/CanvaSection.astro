@@ -1,0 +1,252 @@
+---
+// One Canva frame. On desktop every block sits at its Canva box: images are
+// absolutely placed, text shares one grid cell offset by its Canva position, so a
+// longer text grows the frame instead of running into the next one. On phones the
+// background art is dropped and the blocks stack in reading order.
+import { Image } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+import { fitsWithoutWrapping, phoneColor, phoneOrder, renderInline } from '../lib/blocks';
+
+type Section = CollectionEntry<'projects'>['data']['sections'][number];
+
+interface Props {
+	section: Section;
+	/** Where "next" links go; undefined on the last page. */
+	next?: string;
+	/** Load images eagerly (the first frame of a page). */
+	eager?: boolean;
+}
+
+const { section, next, eager = false } = Astro.props;
+const order = phoneOrder(section.blocks);
+const rank = new Map(order.map((blockIndex, position) => [blockIndex, position]));
+const CANVA_WIDTH = 1366;
+
+function mediaWidths(w: number, natural: number) {
+	return [...new Set([Math.round(w), Math.round(w * 2), 750].map((x) => Math.min(x, natural)))].sort((a, b) => a - b);
+}
+
+const blocks = section.blocks.map((block, i) => {
+	const place = `--x:${block.x};--y:${block.y};--w:${block.w};--o:${rank.get(i)};`;
+	if (block.kind === 'text') {
+		const s = block.style;
+		let html = renderInline(block.text, { next, external: true });
+		if (html !== null && block.link) {
+			const href = block.link === 'next' ? next : block.link;
+			html = href ? `<a href="${href}">${html}</a>` : null;
+		}
+		const phoneLh = s.size >= 30 ? Math.max(s.lh, 0.95) : Math.max(s.lh, 1.35);
+		// Lines Canva broke by hand never wrap, and are anchored by their alignment
+		// so a slightly wider web font spills evenly. Paragraphs get 3 % slack.
+		const keep = fitsWithoutWrapping({ text: block.text, h: block.h, size: s.size, lh: s.lh });
+		const anchor = s.align === 'center' ? 0.5 : s.align === 'end' ? 1 : 0;
+		const left = keep ? block.x + block.w * anchor : block.x - block.w * 0.03 * anchor;
+		const style =
+			place +
+			`--ml:${left};--tx:${keep ? -anchor * 100 : 0}%;` +
+			`--size:${s.size};--weight:${s.weight};--color:${s.color};--pcolor:${phoneColor(s.color, section.color)};` +
+			`--align:${s.align};--lh:${s.lh};--plh:${phoneLh};--ls:${s.ls}em;--rot:${block.rot ?? 0}deg;`;
+		return { kind: 'text' as const, block, html, style, font: s.font, keep };
+	}
+	const href = block.link === 'next' ? next : block.link;
+	return {
+		kind: 'media' as const,
+		block,
+		href,
+		style: place + `--h:${block.h};`,
+		widths: mediaWidths(block.w, block.image.width),
+		sizes: `(min-width: 1024px) min(${((block.w / CANVA_WIDTH) * 100).toFixed(2)}vw, ${Math.round((block.w / CANVA_WIDTH) * 1600)}px), min(calc(100vw - 32px), ${Math.round(block.w)}px)`,
+	};
+});
+---
+
+<section class="cs" id={section.anchor} style={`--h:${section.height};--bg:${section.color};`}>
+	<div class="cs-inner">
+		{
+			section.background && (
+				<Image
+					class="cs-bg"
+					src={section.background}
+					alt=""
+					widths={[1366, 2732]}
+					sizes="min(100vw, 1600px)"
+					loading={eager ? 'eager' : 'lazy'}
+				/>
+			)
+		}
+		{
+			blocks.map((b) => {
+				if (b.kind === 'text') {
+					if (b.html === null) return null;
+					const Tag = b.block.as;
+					return (
+						<Tag
+							class:list={['b', 't', `f-${b.font}`, { decor: b.block.decor, keep: b.keep }]}
+							style={b.style}
+							aria-hidden={b.block.decor ? 'true' : undefined}
+							set:html={b.html}
+						/>
+					);
+				}
+				const img = (
+					<Image
+						src={b.block.image}
+						alt={b.block.alt}
+						widths={b.widths}
+						sizes={b.sizes}
+						loading={eager ? 'eager' : 'lazy'}
+					/>
+				);
+				return b.href ? (
+					<a class:list={['b', 'm', { decor: b.block.decor }]} style={b.style} href={b.href}>
+						{img}
+					</a>
+				) : (
+					<div class:list={['b', 'm', { decor: b.block.decor }]} style={b.style}>
+						{img}
+					</div>
+				);
+			})
+		}
+	</div>
+</section>
+
+<style>
+	.cs {
+		background: var(--bg);
+	}
+
+	.f-spartan {
+		font-family: var(--font-spartan);
+	}
+
+	.f-arimo {
+		font-family: var(--font-arimo);
+	}
+
+	.f-montserrat {
+		font-family: var(--font-montserrat);
+	}
+
+	.t {
+		margin: 0;
+		font-weight: var(--weight);
+		letter-spacing: var(--ls);
+		text-align: var(--align);
+		white-space: pre-line;
+		overflow-wrap: anywhere;
+	}
+
+	.t :global(a) {
+		color: inherit;
+		text-decoration: none;
+	}
+
+	.t :global(a:hover),
+	.t :global(a:focus-visible) {
+		text-decoration: underline;
+	}
+
+	.t :global(strong) {
+		font-weight: 700;
+	}
+
+	.t :global(.accent) {
+		color: var(--red);
+	}
+
+	.m :global(img) {
+		width: 100%;
+		height: auto;
+	}
+
+	/* Phones and tablets: one column in reading order, no background art. */
+	@media (max-width: 1023.98px) {
+		.cs-inner {
+			display: flex;
+			flex-direction: column;
+			gap: 12px;
+			padding: 32px 16px;
+		}
+
+		.cs-bg,
+		.decor {
+			display: none;
+		}
+
+		.b {
+			order: var(--o);
+		}
+
+		.t {
+			color: var(--pcolor);
+			font-size: max(16px, min(calc(var(--size) * 0.36px), 48px));
+			line-height: var(--plh);
+		}
+
+		.m {
+			width: min(100%, calc(var(--w) * 1px));
+		}
+	}
+
+	/* Desktop: the Canva frame, scaled by --u (one Canva pixel). */
+	@media (min-width: 1024px) {
+		.cs {
+			overflow-x: clip;
+		}
+
+		.cs-inner {
+			position: relative;
+			display: grid;
+			width: calc(1366 * var(--u));
+			min-height: calc(var(--h) * var(--u));
+			margin-inline: auto;
+		}
+
+		.cs-bg {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: calc(var(--h) * var(--u));
+		}
+
+		.b {
+			grid-area: 1 / 1;
+		}
+
+		/* Text always sits above images: Canva stickers over text were transparent,
+		   the crops here are not. */
+		.t {
+			position: relative;
+			z-index: 1;
+			align-self: start;
+			justify-self: start;
+			width: calc(var(--w) * 1.03 * var(--u));
+			margin: calc(var(--y) * var(--u)) 0 0 calc(var(--ml) * var(--u));
+			color: var(--color);
+			font-size: calc(var(--size) * var(--u));
+			line-height: var(--lh);
+			transform: translateX(var(--tx)) rotate(var(--rot));
+		}
+
+		.t.keep {
+			width: max-content;
+			min-width: calc(var(--w) * var(--u));
+			white-space: pre;
+		}
+
+		.m {
+			position: absolute;
+			top: calc(var(--y) * var(--u));
+			left: calc(var(--x) * var(--u));
+			width: calc(var(--w) * var(--u));
+			height: calc(var(--h) * var(--u));
+		}
+
+		.m :global(img) {
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+</style>

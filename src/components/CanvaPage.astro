@@ -1,0 +1,31 @@
+---
+// A page built from Canva frames, with "next" links resolved from the nav order.
+// Pages whose content has no continue link of their own (new projects) get one.
+import { getCollection, getEntry, type CollectionEntry } from 'astro:content';
+import { navItems, nextPage } from '../lib/nav';
+import CanvaSection from './CanvaSection.astro';
+import ContinueLink from './ContinueLink.astro';
+
+type Section = CollectionEntry<'projects'>['data']['sections'][number];
+
+interface Props {
+	sections: Section[];
+	/** The nav href of this page. */
+	current: string;
+}
+
+const { sections, current } = Astro.props;
+const projects = await getCollection('projects');
+const illustrations = await getEntry('illustrations', 'illustrations');
+const items = navItems(
+	projects.map((p) => ({ slug: p.id, navLabel: p.data.navLabel, order: p.data.order })),
+	illustrations!.data,
+);
+const next = nextPage(current, items);
+const hasOwnContinue = sections.some((s) =>
+	s.blocks.some((b) => b.link === 'next' || (b.kind === 'text' && b.text.includes('](next)'))),
+);
+---
+
+{sections.map((section, i) => <CanvaSection section={section} next={next?.href} eager={i === 0} />)}
+{!hasOwnContinue && <ContinueLink next={next} />}

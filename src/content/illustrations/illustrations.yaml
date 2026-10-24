@@ -108,6 +108,7 @@ sections:
         x: 324.7
         y: 251
         w: 714.8
+        h: 50.5
         style:
           font: spartan
           size: 42.7
@@ -211,6 +212,7 @@ sections:
         x: 94.3
         y: 411.6
         w: 481.6
+        h: 109.5
         style:
           font: spartan
           size: 42.7
