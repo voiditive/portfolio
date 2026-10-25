@@ -1,8 +1,8 @@
 ---
-title: PIP-BOY MULTIFUNCTIONAL CLOCKS
-navLabel: pipboy
 number: 1
 order: 1
+navLabel: pipboy
+title: PIP-BOY MULTIFUNCTIONAL CLOCK
 cardTitle: PIPBOY
 designDate: "DESIGN DATE: 2026"
 cardImage: ../../assets/images/home/09-MAHW3yblEr0.webp
@@ -19,7 +19,6 @@ sections:
         y: 240
         w: 342.8
         h: 287.9
-        decor: false
       - kind: text
         label: PIPBOY
         text: PIPBOY
@@ -28,7 +27,6 @@ sections:
         y: 225.7
         w: 114.7
         h: 35.9
-        decor: false
         style:
           font: arimo
           size: 30.3
@@ -45,7 +43,6 @@ sections:
         y: 254.8
         w: 206.7
         h: 18.5
-        decor: false
         style:
           font: arimo
           size: 15.8
@@ -62,7 +59,6 @@ sections:
         y: 12.2
         w: 235.1
         h: 23
-        decor: false
         style:
           font: futura
           size: 19.9
@@ -74,6 +70,7 @@ sections:
       - kind: image
         label: Decoration
         image: ../../assets/images/pipboy/01-MADgjVqX00o.webp
+        alt: ""
         x: 1112.4
         y: 12.2
         w: 9.5
@@ -91,21 +88,14 @@ sections:
         y: 46.7
         w: 602
         h: 602.6
-        decor: false
       - kind: text
         label: "Inspired by the iconic device from Fallout, the "
-        text: Inspired by the iconic device from Fallout, the Pip-Boy reimagines a
-          **fictional wearable as a functional everyday product.** Combining its
-          recognizable retro-futuristic design with practical features such as
-          **timekeeping, temperature and humidity monitoring, and an integrated
-          in-game radio,** it bridges the gap between gaming memorabilia and
-          functional product design.
+        text: Inspired by the iconic device from Fallout, the Pip-Boy reimagines a **fictional wearable as a functional everyday product.** Combining its recognizable retro-futuristic design with practical features such as **timekeeping, temperature and humidity monitoring, and an integrated in-game radio,** it bridges the gap between gaming memorabilia and functional product design.
         as: p
         x: 85.8
         y: 280.1
         w: 370
         h: 150.6
-        decor: false
         style:
           font: futura
           size: 17.1
@@ -122,7 +112,6 @@ sections:
         y: 146.5
         w: 542.5
         h: 100.3
-        decor: false
         style:
           font: futura
           size: 83.7
@@ -143,7 +132,6 @@ sections:
         y: 76.8
         w: 280.2
         h: 420
-        decor: false
       - kind: image
         label: Image 4
         image: ../../assets/images/pipboy/06-MAHXtmbYByM.webp
@@ -152,7 +140,6 @@ sections:
         y: 76.8
         w: 280.2
         h: 420
-        decor: false
       - kind: image
         label: Image 5
         image: ../../assets/images/pipboy/04-MAHW4jk7bI0.webp
@@ -161,7 +148,6 @@ sections:
         y: 49.7
         w: 583.2
         h: 616.6
-        decor: false
       - kind: text
         label: PROBLEM
         text: PROBLEM
@@ -170,7 +156,6 @@ sections:
         y: 542.3
         w: 489.9
         h: 119.6
-        decor: false
         style:
           font: futura
           size: 99.8
@@ -181,16 +166,12 @@ sections:
           ls: -0.1
       - kind: text
         label: The Pip-Boy is one of gaming's most recognizable
-        text: The Pip-Boy is one of gaming's most recognizable props, **but it's mostly
-          bought to be looked at:** a collectible or cosplay accessory **with
-          little use once the event is over.** Fans own a piece of the Fallout
-          world, yet it usually just sits on a shelf.
+        text: The Pip-Boy is one of gaming's most recognizable props, **but it's mostly bought to be looked at:** a collectible or cosplay accessory **with little use once the event is over.** Fans own a piece of the Fallout world, yet it usually just sits on a shelf.
         as: p
         x: 615.2
         y: 510.5
         w: 280.2
         h: 122.4
-        decor: false
         style:
           font: futura
           size: 17.1
@@ -201,17 +182,12 @@ sections:
           ls: -0.02
       - kind: text
         label: MY FIRST PLAN was a wearable, but the electronic
-        text: "MY FIRST PLAN was a wearable, but the **electronics I wanted wouldn't fit
-          inside at that size**, and cutting features to make it fit defeated
-          the purpose. I redesigned it as a **desktop clock** that keeps the
-          retro-futuristic look and gives fans three daily uses: **telling time,
-          monitoring temperature and humidity, and playing in-game radio.**"
+        text: "MY FIRST PLAN was a wearable, but the **electronics I wanted wouldn't fit inside at that size**, and cutting features to make it fit defeated the purpose. I redesigned it as a **desktop clock** that keeps the retro-futuristic look and gives fans three daily uses: **telling time, monitoring temperature and humidity, and playing in-game radio.**"
         as: p
         x: 940.9
         y: 510.5
         w: 280.2
         h: 156.4
-        decor: false
         style:
           font: futura
           size: 17.1
@@ -226,14 +202,12 @@ sections:
     blocks:
       - kind: text
         label: How can a fictional wearable become something fa
-        text: " How can a fictional wearable become something fans use every day
-          **without losing what makes it a Pip-Boy?**"
+        text: " How can a fictional wearable become something fans use every day **without losing what makes it a Pip-Boy?**"
         as: p
         x: 276.2
         y: 374.1
         w: 813.6
         h: 48.5
-        decor: false
         style:
           font: futura
           size: 22.4
@@ -254,7 +228,6 @@ sections:
         y: 293.2
         w: 158.1
         h: 158.1
-        decor: false
       - kind: image
         label: Image 7
         image: ../../assets/images/pipboy/11-MAFUqPSNORs.webp
@@ -263,7 +236,6 @@ sections:
         y: 289.3
         w: 197.1
         h: 197.1
-        decor: false
       - kind: image
         label: Image 8
         image: ../../assets/images/pipboy/16-MAFUqPSNORs.webp
@@ -272,7 +244,6 @@ sections:
         y: 494.1
         w: 197.1
         h: 197.1
-        decor: false
       - kind: image
         label: Image 9
         image: ../../assets/images/pipboy/10-MAFUqPSNORs.webp
@@ -281,7 +252,6 @@ sections:
         y: 255.9
         w: 208.2
         h: 208.2
-        decor: false
       - kind: image
         label: Image 10
         image: ../../assets/images/pipboy/09-MAFk9QSs9ds.webp
@@ -290,10 +260,10 @@ sections:
         y: 119.4
         w: 334.2
         h: 162.1
-        decor: false
       - kind: image
         label: Decoration
         image: ../../assets/images/pipboy/14-MAF_mI5iUeA.webp
+        alt: ""
         x: 993.3
         y: 454.3
         w: 262.4
@@ -307,7 +277,6 @@ sections:
         y: 481.6
         w: 209.6
         h: 209.6
-        decor: false
       - kind: image
         label: Image 12
         image: ../../assets/images/pipboy/17-MAFUqPSNORs.webp
@@ -316,7 +285,6 @@ sections:
         y: 494.1
         w: 209.6
         h: 209.6
-        decor: false
       - kind: text
         label: CREATIVE & FUN PROGRESS
         text: CREATIVE  &  FUN PROGRESS
@@ -325,7 +293,6 @@ sections:
         y: 2.6
         w: 1023.2
         h: 90.7
-        decor: false
         style:
           font: arimo
           size: 75.6
@@ -342,7 +309,6 @@ sections:
         y: 109.3
         w: 180
         h: 180
-        decor: false
       - kind: image
         label: Image 14
         image: ../../assets/images/pipboy/12-MAFUqPSNORs.webp
@@ -351,7 +317,6 @@ sections:
         y: 293.2
         w: 158.1
         h: 158.1
-        decor: false
       - kind: image
         label: Image 15
         image: ../../assets/images/pipboy/07-MAHW4G8Wrf0.webp
@@ -360,7 +325,6 @@ sections:
         y: 101
         w: 149.8
         h: 149.8
-        decor: false
       - kind: text
         label: start
         text: start
@@ -369,7 +333,6 @@ sections:
         y: 129.8
         w: 95
         h: 72.3
-        decor: false
         style:
           font: arimo
           size: 60.7
@@ -386,7 +349,6 @@ sections:
         y: 184.2
         w: 257.9
         h: 50.1
-        decor: false
         style:
           font: arimo
           size: 15.7
@@ -397,14 +359,12 @@ sections:
           ls: -0.02
       - kind: text
         label: I DECIDED TO ALTER THE DESIGN FOR A MULTIFUNCTIO
-        text: I DECIDED TO ALTER THE DESIGN FOR A **MULTIFUNCTIONAL DISPLAY CLOCK**
-          INSTEAD OF A WEARABLE PROP.
+        text: I DECIDED TO ALTER THE DESIGN FOR A **MULTIFUNCTIONAL DISPLAY CLOCK** INSTEAD OF A WEARABLE PROP.
         as: p
         x: 1028.1
         y: 357.2
         w: 192.8
         h: 97.1
-        decor: false
         style:
           font: arimo
           size: 16.2
@@ -415,14 +375,12 @@ sections:
           ls: -0.02
       - kind: text
         label: FINAL 3D PRINT USING PLA PLASTIC AND PIECES CAME
-        text: FINAL 3D PRINT USING **PLA PLASTIC** AND PIECES CAME OUT IN THE CORRECT
-          SIZING!
+        text: FINAL 3D PRINT USING **PLA PLASTIC** AND PIECES CAME OUT IN THE CORRECT SIZING!
         as: p
         x: 485.4
         y: 360
         w: 177.7
         h: 59.9
-        decor: false
         style:
           font: arimo
           size: 14.9
@@ -439,7 +397,6 @@ sections:
         y: 545.2
         w: 192.8
         h: 65.8
-        decor: false
         style:
           font: arimo
           size: 16.2
@@ -456,7 +413,6 @@ sections:
         y: 175.9
         w: 192.8
         h: 65.8
-        decor: false
         style:
           font: arimo
           size: 16.2
@@ -477,7 +433,6 @@ sections:
         y: 60.9
         w: 197.1
         h: 197.1
-        decor: false
       - kind: image
         label: Image 17
         image: ../../assets/images/pipboy/21-MAFUqPSNORs.webp
@@ -486,7 +441,6 @@ sections:
         y: 71.9
         w: 197.1
         h: 197.1
-        decor: false
       - kind: image
         label: Image 18
         image: ../../assets/images/pipboy/23-MAFUqPSNORs.webp
@@ -495,7 +449,6 @@ sections:
         y: 315.7
         w: 197.1
         h: 197.1
-        decor: false
       - kind: image
         label: Image 19
         image: ../../assets/images/pipboy/24-MAFUqPSNORs.webp
@@ -504,7 +457,6 @@ sections:
         y: 315.7
         w: 197.1
         h: 197.1
-        decor: false
       - kind: image
         label: Image 20
         image: ../../assets/images/pipboy/25-MAHHorfv0Tk.webp
@@ -513,7 +465,6 @@ sections:
         y: 334.2
         w: 230.9
         h: 197.1
-        decor: false
       - kind: image
         label: Image 21
         image: ../../assets/images/pipboy/22-MAHXuIWCfiI.webp
@@ -522,7 +473,6 @@ sections:
         y: 170.5
         w: 272.7
         h: 363.6
-        decor: false
       - kind: image
         label: Image 22
         image: ../../assets/images/pipboy/26-MAHW3yblEr0.webp
@@ -531,7 +481,6 @@ sections:
         y: 496.8
         w: 224.6
         h: 299.5
-        decor: false
       - kind: image
         label: Image 23
         image: ../../assets/images/pipboy/19-MAFUqPSNORs.webp
@@ -540,7 +489,6 @@ sections:
         y: 30.5
         w: 251
         h: 251
-        decor: false
       - kind: image
         label: Image 24
         image: ../../assets/images/pipboy/18-MAHHoiONCgs.webp
@@ -549,7 +497,6 @@ sections:
         y: 11.8
         w: 222.7
         h: 259.4
-        decor: false
       - kind: text
         label: TROUBLESHOOTING CODE AFTER SOLDERING DIFFERENT C
         text: TROUBLESHOOTING CODE AFTER SOLDERING DIFFERENT COMPONENTS TOGETHER
@@ -558,7 +505,6 @@ sections:
         y: 141.5
         w: 245.6
         h: 77.7
-        decor: false
         style:
           font: arimo
           size: 18.6
@@ -575,7 +521,6 @@ sections:
         y: 343.7
         w: 254.1
         h: 80.6
-        decor: false
         style:
           font: arimo
           size: 19.3
@@ -592,7 +537,6 @@ sections:
         y: 709.9
         w: 331.8
         h: 331.8
-        decor: false
   - background: ../../assets/images/pipboy/decor-07.webp
     color: "#ffffff"
     height: 768
@@ -605,7 +549,6 @@ sections:
         y: 218.4
         w: 414.9
         h: 542.4
-        decor: false
       - kind: text
         label: demo
         text: demo
@@ -614,7 +557,6 @@ sections:
         y: 160.9
         w: 133.3
         h: 72.3
-        decor: false
         style:
           font: arimo
           size: 60.7
@@ -631,7 +573,6 @@ sections:
         y: 4.5
         w: 114
         h: 72.3
-        decor: false
         style:
           font: arimo
           size: 60.7
@@ -652,7 +593,6 @@ sections:
         y: 76.9
         w: 1277.4
         h: 115.4
-        decor: false
         style:
           font: futura
           size: 96.6
@@ -669,7 +609,6 @@ sections:
         y: 362.2
         w: 184.6
         h: 249.4
-        decor: false
       - kind: image
         label: Image 28
         image: ../../assets/images/pipboy/30-MAHXuILuZ6M.webp
@@ -678,7 +617,6 @@ sections:
         y: 362.2
         w: 202.3
         h: 249.4
-        decor: false
       - kind: image
         label: Image 29
         image: ../../assets/images/pipboy/31-MAHXuILuZ6M.webp
@@ -687,7 +625,6 @@ sections:
         y: 362.2
         w: 184.6
         h: 249.4
-        decor: false
       - kind: image
         label: Image 30
         image: ../../assets/images/pipboy/32-MAHXuILuZ6M.webp
@@ -696,7 +633,6 @@ sections:
         y: 362.2
         w: 184.6
         h: 249.4
-        decor: false
       - kind: image
         label: Image 31
         image: ../../assets/images/pipboy/33-MAHXuILuZ6M.webp
@@ -705,7 +641,6 @@ sections:
         y: 362.2
         w: 184.6
         h: 249.4
-        decor: false
       - kind: image
         label: Image 32
         image: ../../assets/images/pipboy/34-MAHXuILuZ6M.webp
@@ -714,7 +649,6 @@ sections:
         y: 362.2
         w: 184.6
         h: 249.4
-        decor: false
       - kind: text
         label: ROTARY KNOB TO SCROLL DIFFERENT FUNCTIONS
         text: ROTARY KNOB TO SCROLL  DIFFERENT FUNCTIONS
@@ -723,7 +657,6 @@ sections:
         y: 629.3
         w: 220.2
         h: 63.5
-        decor: false
         style:
           font: futura
           size: 20.3
@@ -740,7 +673,6 @@ sections:
         y: 629.3
         w: 184.6
         h: 43.7
-        decor: false
         style:
           font: futura
           size: 20.3
@@ -759,7 +691,6 @@ sections:
         y: 629.3
         w: 184.6
         h: 43.7
-        decor: false
         style:
           font: futura
           size: 20.3
@@ -776,7 +707,6 @@ sections:
         y: 629.3
         w: 184.6
         h: 43.7
-        decor: false
         style:
           font: futura
           size: 20.3
@@ -795,7 +725,6 @@ sections:
         y: 627.3
         w: 184.6
         h: 43.7
-        decor: false
         style:
           font: futura
           size: 20.3
@@ -812,7 +741,6 @@ sections:
         y: 627.3
         w: 184.6
         h: 23.9
-        decor: false
         style:
           font: futura
           size: 20.3
@@ -833,7 +761,6 @@ sections:
         y: 76.9
         w: 1277.4
         h: 115.4
-        decor: false
         style:
           font: futura
           size: 96.6
@@ -850,7 +777,6 @@ sections:
         y: 225.7
         w: 559.9
         h: 381.1
-        decor: false
       - kind: image
         label: Image 34
         image: ../../assets/images/pipboy/36-MAHW3yblEr0.webp
@@ -859,21 +785,14 @@ sections:
         y: 225.7
         w: 559.9
         h: 381.1
-        decor: false
       - kind: text
         label: The redesigned Pip-Boy transforms the iconic wea
-        text: The redesigned Pip-Boy transforms the iconic wearable device from the
-          Fallout universe into a multifunctional desktop clock. Designed for
-          everyday use, it allows users to check the time while incorporating
-          additional features into a single, compact product, bringing the
-          game's recognizable retro-futuristic interface into their living
-          space.
+        text: The redesigned Pip-Boy transforms the iconic wearable device from the Fallout universe into a multifunctional desktop clock. Designed for everyday use, it allows users to check the time while incorporating additional features into a single, compact product, bringing the game's recognizable retro-futuristic interface into their living space.
         as: p
         x: 105.7
         y: 624.1
         w: 560.1
         h: 101.6
-        decor: false
         style:
           font: futura
           size: 17.1
@@ -884,17 +803,12 @@ sections:
           ls: -0.02
       - kind: text
         label: By reimagining a fictional wearable prop as a fu
-        text: By reimagining a fictional wearable prop as a functional desktop
-          accessory, the product bridges pop-culture nostalgia and practical
-          utility. It serves not only as a timekeeping device but also as a
-          display piece that celebrates the Fallout universe, offering fans a
-          product that is both useful and visually distinctive.
+        text: By reimagining a fictional wearable prop as a functional desktop accessory, the product bridges pop-culture nostalgia and practical utility. It serves not only as a timekeeping device but also as a display piece that celebrates the Fallout universe, offering fans a product that is both useful and visually distinctive.
         as: p
         x: 729
         y: 624.1
         w: 560.1
         h: 85.2
-        decor: false
         style:
           font: futura
           size: 17.1
@@ -911,7 +825,6 @@ sections:
         y: 728.1
         w: 235.1
         h: 23
-        decor: false
         style:
           font: futura
           size: 19.9
@@ -923,6 +836,7 @@ sections:
       - kind: image
         label: Decoration
         image: ../../assets/images/pipboy/37-MADgjVqX00o.webp
+        alt: ""
         x: 1112.4
         y: 728.1
         w: 9.5
