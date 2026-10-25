@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest';
-import { canvaFit, fitsWithoutWrapping, phoneColor, phoneOrder, renderInline } from '../../src/lib/blocks';
+import { canvaFit, fitsWithoutWrapping, webWeight, phoneColor, phoneOrder, renderInline } from '../../src/lib/blocks';
 
 describe('renderInline', () => {
 	test('turns markers into bold, accent and links, escaping HTML', () => {
@@ -64,17 +64,17 @@ describe('fitsWithoutWrapping', () => {
 describe('canvaFit', () => {
 	// Measured on the Canva export of the home page: Canva puts the first baseline at a
 	// fixed depth below the box top whatever the line height, and its headline font has
-	// capitals about 1.1x taller than League Spartan at the same width.
-	test('League Spartan is drawn 1.1x taller and squeezed back to its width', () => {
-		expect(canvaFit('spartan', 0.8).k).toBeCloseTo(1.1, 2);
+	// capitals 1.146x taller than Adobe's Futura PT at the same width.
+	test('Futura PT is drawn 1.146x taller and squeezed back to its width', () => {
+		expect(canvaFit('futura', 0.8).k).toBeCloseTo(1.146, 3);
 		expect(canvaFit('arimo', 0.8).k).toBe(1);
 		expect(canvaFit('montserrat', 1.2).k).toBe(1);
 	});
 
 	test('shifts text down so its first baseline sits where Canva drew it', () => {
-		// PORTFOLIO (spartan, line height 0.8): baseline 0.918em below the box top in
-		// Canva, 0.638em on the web before the fit.
-		expect(canvaFit('spartan', 0.8).dy).toBeCloseTo(0.918 - 0.638 - 0.1 * 0.698 + 0.05 * 0.92, 2);
+		// PORTFOLIO (futura, line height 0.8): baseline 0.938em below the box top in
+		// Canva; drawn 1.146x with ascent 0.96 and descent 0.27 it lands at 0.795em.
+		expect(canvaFit('futura', 0.8).dy).toBeCloseTo(0.143, 2);
 		// MY DESIGN PROCESS (arimo, 0.8): 0.827em in Canva, 0.749em on the web.
 		expect(canvaFit('arimo', 0.8).dy).toBeCloseTo(0.078, 2);
 		// EDUCATION (montserrat, 1): 0.92em in Canva, 0.859em on the web.
@@ -83,5 +83,33 @@ describe('canvaFit', () => {
 
 	test('a taller line height moves web text down, so the shift shrinks', () => {
 		expect(canvaFit('arimo', 1.4).dy).toBeCloseTo(canvaFit('arimo', 0.8).dy - 0.3, 5);
+	});
+});
+
+describe('canvaFit widths', () => {
+	// Canva's regular Futura is 8% wider than Futura PT Book; its Bold 2% narrower than Demi.
+	test("Futura PT is stretched to Canva's width per weight", () => {
+		expect(canvaFit('futura', 1, 400).sx).toBeCloseTo(1.08, 2);
+		expect(canvaFit('futura', 1, 700).sx).toBeCloseTo(0.98, 2);
+		// Extra Bold words run 0.5–5.5% narrow (PROBLEM, PIP-BOY 3000 … OUTCOME, MY ROLE): split it.
+		expect(canvaFit('futura', 1, 800).sx).toBeCloseTo(1.03, 2);
+	});
+
+	test('Arimo and Montserrat keep their width', () => {
+		expect(canvaFit('arimo', 1, 400).sx).toBe(1);
+		expect(canvaFit('montserrat', 1, 700).sx).toBe(1);
+	});
+});
+
+describe('webWeight', () => {
+	test("Canva's Futura Bold is Futura PT Demi; Book and Extra Bold keep their weight", () => {
+		expect(webWeight('futura', 400)).toBe(400);
+		expect(webWeight('futura', 700)).toBe(600);
+		expect(webWeight('futura', 800)).toBe(800);
+	});
+
+	test("other fonts keep Canva's weight", () => {
+		expect(webWeight('arimo', 700)).toBe(700);
+		expect(webWeight('montserrat', 700)).toBe(700);
 	});
 });

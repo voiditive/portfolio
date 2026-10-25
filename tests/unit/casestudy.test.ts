@@ -2,7 +2,7 @@ import { experimental_AstroContainer as AstroContainer } from 'astro/container';
 import { describe, expect, test } from 'vitest';
 import CanvaSection from '../../src/components/CanvaSection.astro';
 
-const style = { font: 'spartan', size: 40, weight: 700, color: '#1e1e1e', align: 'start', lh: 1, ls: 0 } as const;
+const style = { font: 'futura', size: 40, weight: 700, color: '#1e1e1e', align: 'start', lh: 1, ls: 0 } as const;
 const text = (label: string, value: string, as: 'h1' | 'h2' | 'p' = 'p') => ({
 	kind: 'text' as const,
 	label,

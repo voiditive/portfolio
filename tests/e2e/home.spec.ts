@@ -1,26 +1,5 @@
-import { test, expect, type Page } from '@playwright/test';
-import sharp from 'sharp';
-
-/** Extent of the white text ink in a clip: rows with at least `min` white pixels, and the columns they cover. */
-async function ink(page: Page, clip: { x: number; y: number; width: number; height: number }, min = 300) {
-	const png = await page.screenshot({ clip, fullPage: true });
-	const { data, info } = await sharp(png).resize({ width: clip.width }).raw().toBuffer({ resolveWithObject: true });
-	const rows: number[] = [];
-	let left = Infinity;
-	let right = -Infinity;
-	for (let y = 0; y < info.height; y++) {
-		const xs: number[] = [];
-		for (let x = 0; x < info.width; x++) {
-			const i = (y * info.width + x) * info.channels;
-			if (data[i] > 235 && data[i + 1] > 235 && data[i + 2] > 235) xs.push(x);
-		}
-		if (xs.length < min) continue;
-		rows.push(clip.y + y);
-		left = Math.min(left, clip.x + xs[0]);
-		right = Math.max(right, clip.x + xs.at(-1)!);
-	}
-	return { top: rows[0], bottom: rows.at(-1), left, right };
-}
+import { test, expect } from '@playwright/test';
+import { ink } from './ink';
 
 test('the cover shows the portfolio title', async ({ page }) => {
 	await page.goto('/');
@@ -78,9 +57,18 @@ test('on desktop, blocks sit at their Canva position', async ({ page }) => {
 	// to 368, columns 352 to 1019), centred on the same column.
 	const text = await ink(page, { x: 320, y: 242, width: 740, height: 135 });
 	expect(Math.abs(text.top! - 248)).toBeLessThanOrEqual(3);
-	// Within the plan's 4 px: League Spartan's side bearings differ a little from Canva's font.
+	// Within the plan's 4 px.
 	expect(Math.abs((text.left + text.right) / 2 - (352 + 1019) / 2)).toBeLessThanOrEqual(4);
 	expect(Math.abs(text.bottom! - 368)).toBeLessThanOrEqual(3);
+});
+
+test('on desktop, small captions are as wide as in Canva', async ({ page }) => {
+	test.skip(page.viewportSize()!.width !== 1366, 'measured at the Canva width');
+	await page.goto('/');
+	await page.evaluate(() => document.fonts.ready);
+	// Canva export at 1366: the WIDW card caption (Futura regular, 13.7 px) inks columns 372 to 629.
+	const caption = await ink(page, { x: 365, y: 2796, width: 320, height: 22 }, { min: 1, dark: true });
+	expect(Math.abs(caption.right - caption.left - 257) / 257).toBeLessThanOrEqual(0.03);
 });
 
 test('on phones, body text is at least 16px', async ({ page }) => {

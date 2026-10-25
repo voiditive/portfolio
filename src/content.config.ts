@@ -15,7 +15,7 @@ function sectionSchema(image: ImageFunction) {
 		as: z.enum(['h1', 'h2', 'p']).default('p'),
 		rot: z.number().optional(),
 		style: z.object({
-			font: z.enum(['spartan', 'arimo', 'montserrat']),
+			font: z.enum(['futura', 'arimo', 'montserrat']),
 			size: z.number(),
 			weight: z.number(),
 			color: z.string(),

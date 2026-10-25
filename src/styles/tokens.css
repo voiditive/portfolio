@@ -7,7 +7,8 @@
 	--paper: #fafafa;
 	--nav-height: 56px;
 
-	--font-spartan: 'League Spartan Variable', 'League Spartan', sans-serif;
+	/* Futura PT from Adobe Fonts (Base.astro); League Spartan if the kit can't load. */
+	--font-futura: 'futura-pt', 'League Spartan Variable', sans-serif;
 	--font-arimo: 'Arimo', Arial, sans-serif;
 	--font-montserrat: 'Montserrat Variable', 'Montserrat', sans-serif;
 
@@ -33,7 +34,7 @@ body {
 	margin: 0;
 	background: var(--white);
 	color: var(--ink);
-	font-family: var(--font-spartan);
+	font-family: var(--font-futura);
 	font-size: 16px;
 	line-height: 1.4;
 }

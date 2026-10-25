@@ -44,7 +44,7 @@ describe('mapLink', () => {
 
 describe('fontKey', () => {
 	test('maps Canva font refs to the three web fonts', () => {
-		expect(fontKey('YAFcfgcNhWk,3')).toBe('spartan');
+		expect(fontKey('YAFcfgcNhWk,3')).toBe('futura');
 		expect(fontKey('YAFcf7zkXN0,0')).toBe('arimo');
 		expect(fontKey('YAFanRK9Tic,0')).toBe('arimo');
 		expect(fontKey('YAFdtQi73Xs,0')).toBe('montserrat');

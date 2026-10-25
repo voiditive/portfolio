@@ -20,7 +20,7 @@ sections:
         w: 235.1
         h: 23
         style:
-          font: spartan
+          font: futura
           size: 19.9
           weight: 700
           color: "#1e1e1e"
@@ -97,7 +97,7 @@ sections:
         w: 370
         h: 183.4
         style:
-          font: spartan
+          font: futura
           size: 17.1
           weight: 400
           color: "#1e1e1e"
@@ -113,7 +113,7 @@ sections:
         w: 542.5
         h: 100.3
         style:
-          font: spartan
+          font: futura
           size: 83.7
           weight: 800
           color: "#1e1e1e"
@@ -566,7 +566,7 @@ sections:
         w: 641.5
         h: 78
         style:
-          font: spartan
+          font: futura
           size: 15.2
           weight: 400
           color: "#242424"
@@ -582,7 +582,7 @@ sections:
         w: 423.7
         h: 108.9
         style:
-          font: spartan
+          font: futura
           size: 91
           weight: 800
           color: "#242424"
@@ -598,7 +598,7 @@ sections:
         w: 198.9
         h: 18
         style:
-          font: spartan
+          font: futura
           size: 15.2
           weight: 400
           color: "#242424"
@@ -615,7 +615,7 @@ sections:
         w: 321.7
         h: 23.2
         style:
-          font: spartan
+          font: futura
           size: 19.9
           weight: 700
           color: "#242424"
@@ -631,7 +631,7 @@ sections:
         w: 321.7
         h: 18
         style:
-          font: spartan
+          font: futura
           size: 15.2
           weight: 400
           color: "#242424"

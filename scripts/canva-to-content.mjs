@@ -10,7 +10,7 @@ import YAML from 'yaml';
 
 const HEADER = 56;
 const FONTS = {
-	YAFcfgcNhWk: 'spartan',
+	YAFcfgcNhWk: 'futura',
 	YAFcf7zkXN0: 'arimo',
 	YAFanRK9Tic: 'arimo',
 	YAFancOAWqc: 'arimo',
@@ -19,7 +19,7 @@ const FONTS = {
 const WEIGHTS = { normal: 400, bold: 700, ultrabold: 800 };
 
 export function fontKey(ref) {
-	return FONTS[ref.split(',')[0]] ?? 'spartan';
+	return FONTS[ref.split(',')[0]] ?? 'futura';
 }
 
 /** Canva links between website pages become "next" (resolved at build) or #top. */

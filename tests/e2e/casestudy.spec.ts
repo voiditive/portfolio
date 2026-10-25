@@ -1,4 +1,5 @@
 import { test, expect, type Page } from '@playwright/test';
+import { ink } from './ink';
 
 /** Visible heading texts of the page, whitespace collapsed. */
 async function headings(page: Page) {
@@ -22,6 +23,18 @@ test.describe('/pipboy', () => {
 		expect(inOrder(list, wanted), list.join(' | ')).toBe(true);
 		// Timeline labels are not headings.
 		expect(list).not.toContain('start');
+	});
+
+	test('on desktop the title is drawn as wide and tall as in Canva', async ({ page }) => {
+		test.skip(page.viewportSize()!.width !== 1366, 'measured at the Canva width');
+		await page.goto('/pipboy');
+		await page.evaluate(() => document.fonts.ready);
+		// Canva export at 1366: PIP-BOY 3000 (Futura Extra Bold) inks columns 83 to 601, rows 982 to 1049.
+		const title = await ink(page, { x: 60, y: 960, width: 595, height: 110 }, { min: 8, dark: true });
+		expect(Math.abs(title.right - title.left - 518) / 518).toBeLessThanOrEqual(0.03);
+		expect(Math.abs(title.left - 83)).toBeLessThanOrEqual(4);
+		expect(Math.abs(title.top! - 982)).toBeLessThanOrEqual(3);
+		expect(Math.abs(title.bottom! - 1049)).toBeLessThanOrEqual(3);
 	});
 
 	test('continues to /widw', async ({ page }) => {
