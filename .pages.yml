@@ -1,0 +1,107 @@
+# Pages CMS (app.pagescms.org) editor for the portfolio content.
+# Pages are Canva frames ("sections") of text and image blocks placed at their Canva
+# position. The editor shows what Drew changes (text, images, alt text, page order);
+# positions and type styles are hidden but declared, so saving keeps them.
+media:
+  input: src/assets/images
+  # Written into content relative to the content file, which Astro's image() resolves.
+  output: ../../assets/images
+
+components:
+  section:
+    type: object
+    label: Section
+    fields:
+      - { name: anchor, type: string, hidden: true }
+      - { name: background, label: Background image, type: image, hidden: true }
+      - { name: color, type: string, hidden: true }
+      - { name: height, type: number, hidden: true }
+      - name: blocks
+        label: Blocks
+        type: block
+        list: true
+        blockKey: kind
+        blocks:
+          - name: text
+            label: Text
+            fields:
+              - { name: label, label: Canva name, type: string, readonly: true }
+              - { name: text, label: Text, type: text, description: "Links are written [like this](/pipboy/)." }
+              - { name: as, type: select, hidden: true, options: { values: [h1, h2, p] } }
+              - { name: x, type: number, hidden: true }
+              - { name: y, type: number, hidden: true }
+              - { name: w, type: number, hidden: true }
+              - { name: h, type: number, hidden: true }
+              - { name: rot, type: number, hidden: true }
+              - { name: decor, type: boolean, hidden: true }
+              - { name: link, type: string, hidden: true }
+              - name: style
+                type: object
+                hidden: true
+                fields:
+                  - { name: font, type: select, options: { values: [futura, arimo, montserrat] } }
+                  - { name: size, type: number }
+                  - { name: weight, type: number }
+                  - { name: color, type: string }
+                  - { name: align, type: select, options: { values: [start, center, end, justify] } }
+                  - { name: lh, type: number }
+                  - { name: ls, type: number }
+          - name: image
+            label: Image
+            component: mediaBlock
+          - name: video
+            label: Video poster
+            component: mediaBlock
+
+  mediaBlock:
+    type: object
+    fields:
+      - { name: label, label: Canva name, type: string, readonly: true }
+      - { name: image, label: Image, type: image }
+      - { name: alt, label: Alt text, type: string, description: "What the image shows, for screen readers. Empty for decoration." }
+      - { name: x, type: number, hidden: true }
+      - { name: y, type: number, hidden: true }
+      - { name: w, type: number, hidden: true }
+      - { name: h, type: number, hidden: true }
+      - { name: decor, type: boolean, hidden: true }
+      - { name: link, type: string, hidden: true }
+
+content:
+  - name: site
+    label: Home and contact
+    type: file
+    path: src/content/site/site.yaml
+    format: yaml
+    fields:
+      - { name: name, label: Name, type: string, required: true }
+      - { name: email, label: Email, type: string, required: true }
+      - { name: phone, label: Phone, type: string, required: true }
+      - { name: cvUrl, label: CV link, type: string, required: true }
+      - { name: sections, label: Home page sections, component: section, list: true }
+      - { name: closing, label: Thank-you banner, component: section }
+
+  - name: projects
+    label: Case studies
+    type: collection
+    path: src/content/projects
+    format: yaml-frontmatter
+    filename: "{fields.navLabel}.md"
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: navLabel, label: Menu label and URL, type: string, required: true }
+      - { name: number, label: Project number, type: number, required: true }
+      - { name: order, label: Order in the menu, type: number, required: true }
+      - { name: cardTitle, label: Home card title, type: string, required: true }
+      - { name: designDate, label: Design date, type: string, required: true }
+      - { name: cardImage, label: Home card image, type: image, required: true }
+      - { name: sections, label: Sections, component: section, list: true }
+
+  - name: illustrations
+    label: Illustrations
+    type: file
+    path: src/content/illustrations/illustrations.yaml
+    format: yaml
+    fields:
+      - { name: navLabel, label: Menu label and URL, type: string, required: true }
+      - { name: order, label: Order in the menu, type: number, required: true }
+      - { name: sections, label: Sections, component: section, list: true }
