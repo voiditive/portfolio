@@ -13,7 +13,7 @@ sections:
     blocks:
       - kind: image
         label: Image 1
-        image: ../../assets/images/pipboy/02-MAHW3yblEr0.webp
+        image: ../../assets/images/test-2.png
         alt: Pip-Boy multifunctional clock – image 1
         x: 527
         y: 240
