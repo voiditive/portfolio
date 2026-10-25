@@ -25,7 +25,8 @@ components:
           - name: text
             label: Text
             fields:
-              - { name: label, label: Canva name, type: string, readonly: true }
+              # Hidden: it repeats the text, and a read-only copy looked like the text box.
+              - { name: label, type: string, hidden: true }
               - { name: text, label: Text, type: text, description: "Links are written [like this](/pipboy/)." }
               - { name: as, type: select, hidden: true, options: { values: [h1, h2, p] } }
               - { name: x, type: number, hidden: true }
