@@ -1,0 +1,10 @@
+// Cloudflare Workers serves the static build; there is no Worker code.
+// The name must match the Worker's name in the Cloudflare dashboard.
+{
+	"name": "portfolio",
+	"compatibility_date": "2026-10-25",
+	"assets": {
+		"directory": "./dist",
+		"not_found_handling": "404-page"
+	}
+}
